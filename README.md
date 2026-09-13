@@ -68,6 +68,16 @@ python tools/validate_data.py    # 全量结构校验（答案越界、题型非
 python tools/build_manifest.py   # 重新生成 data/manifest.json（首页统计清单）
 ```
 
+## 题目质量与人工校对
+
+```bash
+python tools/audit_questions.py  # 启发式扫描可疑题（解析与答案矛盾、残留标记等），分级输出 tools/audit_report.json
+```
+
+- **校对工作台**：浏览器打开 `http://localhost:8080/tools/proofread.html`，选行业后逐题核对（高危复核 / 全部可疑 / 随机抽查三种模式），判定结果存本地，可一键导出 JSON 清单
+- **修复管线**：`python tools/fix_question.py --file data/falv.json --cat fkzk --find "题干关键词" --set-answer C --id`，支持改答案/题干/解析/类型、打标签、删题；`--id` 会把当前稳定 ID 写成显式字段，改题干后记录不丢失
+- 当前审计基线（2026-09-13）：26,674 题中可疑 7,304 条，其中**高危 705 条**（法考"解析与答案矛盾"约 440 条为最大簇，多为导入时选项打乱后解析字母未更新，需逐条确认）
+
 ## 发布注意
 
 修改了 HTML/CSS/JS 后，需把 `sw.js` 里的 `VERSION` 递增一位（如 `tiku-v3` → `tiku-v4`），老用户下次访问才会拿到新缓存；只改题库 JSON 不需要（数据走网络优先策略）。

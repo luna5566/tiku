@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>题目校对工作台（内部工具）</title>
+  <style>
+    :root { --bg:#0d0e12; --card:#16181f; --border:#262a35; --text:#e8eaf0; --muted:#8a90a0;
+      --accent:#f59e0b; --green:#22c55e; --red:#ef4444; --blue:#6366f1; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background:var(--bg); color:var(--text); font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif; padding:24px; }
+    .wrap { max-width:860px; margin:0 auto; }
+    h1 { font-size:20px; margin-bottom:6px; }
+    .sub { color:var(--muted); font-size:13px; margin-bottom:18px; }
+    .bar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:16px; }
+    select, input[type=number], button { background:#10121a; color:var(--text); border:1px solid var(--border);
+      border-radius:8px; padding:8px 12px; font-size:14px; cursor:pointer; }
+    button:hover { border-color:var(--accent); }
+    button.primary { background:var(--accent); color:#111; font-weight:600; border:none; }
+    button.ok { border-color:var(--green); color:var(--green); }
+    button.bad { border-color:var(--red); color:var(--red); }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:22px; margin-bottom:14px; }
+    .meta { color:var(--muted); font-size:12px; margin-bottom:10px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    .badge { border:1px solid #4a3a12; color:var(--accent); border-radius:6px; padding:1px 8px; font-size:12px; }
+    .badge.high { border-color:var(--red); color:var(--red); }
+    .issue { background:rgba(239,68,68,.08); border-left:3px solid var(--red); padding:8px 12px;
+      border-radius:6px; font-size:13px; color:var(--muted); margin-bottom:10px; }
+    .material { background:#10121a; border:1px solid var(--border); border-left:3px solid var(--blue);
+      border-radius:8px; padding:10px 14px; margin-bottom:12px; font-size:14px; color:var(--muted); line-height:1.8; }
+    .stem { font-size:16px; line-height:1.7; margin-bottom:14px; }
+    .opt { padding:9px 12px; border:1px solid var(--border); border-radius:8px; margin-bottom:8px;
+      font-size:14px; line-height:1.5; }
+    .opt.correct { border-color:var(--green); background:rgba(34,197,94,.1); }
+    .explain { margin-top:12px; padding-top:10px; border-top:1px dashed var(--border);
+      color:var(--muted); font-size:13px; line-height:1.7; }
+    .verdicts { display:flex; gap:10px; flex-wrap:wrap; margin-top:16px; }
+    .note { width:100%; margin-top:10px; background:#10121a; color:var(--text); border:1px solid var(--border);
+      border-radius:8px; padding:10px; font-size:13px; min-height:60px; display:none; }
+    .progress { color:var(--muted); font-size:13px; margin-left:auto; }
+    .empty { text-align:center; color:var(--muted); padding:60px 0; }
+    a { color:var(--blue); }
+    .log { font-size:12px; color:var(--muted); margin-top:14px; white-space:pre-wrap; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🔎 题目校对工作台</h1>
+    <div class="sub">站长内部工具：逐题人工核对，判定结果保存在浏览器本地，可随时导出为 JSON 修复清单（配合 tools/fix_question.py 应用）。</div>
+    <div class="bar">
+      <select id="ind"></select>
+      <select id="mode">
+        <option value="high">高危复核（审计报告 high）</option>
+        <option value="audit">全部可疑（审计报告）</option>
+        <option value="random">随机抽查</option>
+      </select>
+      <input type="number" id="sample-n" value="20" min="5" max="200" style="width:80px" title="随机抽查数量">
+      <button class="primary" id="start">开始校对</button>
+      <button id="export">导出判定记录</button>
+      <span class="progress" id="progress"></span>
+    </div>
+    <div id="main"><div class="empty">选择行业与模式后点击"开始校对"。</div></div>
+    <div class="log" id="log"></div>
+  </div>
+
+  <script>
+    const $ = id => document.getElementById(id);
+    const LETTERS = "ABCDEFG";
+    // 与 js/app.js questionId 同算法（含材料、显式 id 覆盖）
+    function questionId(ind, cat, q, material) {
+      if (q.id) return String(q.id);
+      const s = `${ind}|${cat}|${(material.trim() ? material.trim() + "|" : "")}${(q.q || "").trim()}`;
+      let h1 = 0x811c9dc5, h2 = 0x1000193;
+      for (let i = 0; i < s.length; i++) {
+        const c = s.charCodeAt(i);
+        h1 = Math.imul(h1 ^ c, 16777619) >>> 0;
+        h2 = Math.imul(h2 ^ (c + i), 2246822519) >>> 0;
+      }
+      return h1.toString(36) + h2.toString(36);
+    }
+    function esc(s) { return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+
+    const Store = {
+      get() { try { return JSON.parse(localStorage.getItem("tiku_proofread")) || {}; } catch { return {}; } },
+      set(v) { localStorage.setItem("tiku_proofread", JSON.stringify(v)); },
+    };
+
+    let queue = [], ptr = 0, indId = "", index = null; // index: qid -> {cat, catName, material, q, stem}
+
+    async function buildIndex(ind) {
+      const d = await (await fetch(`../data/${ind}.json`)).json();
+      const idx = new Map();
+      d.categories.forEach(c => {
+        c.questions.forEach(q => {
+          if (q.type === "group" && Array.isArray(q.questions)) {
+            q.questions.forEach(gq => {
+              const id = questionId(ind, c.id, gq, q.material || "");
+              idx.set(id, { cat: c.id, catName: c.name, material: q.material || "", q: { ...gq, type: gq.type || "single" } });
+            });
+          } else {
+            const id = questionId(ind, c.id, q, "");
+            idx.set(id, { cat: c.id, catName: c.name, material: "", q: { ...q, type: q.type || "single" } });
+          }
+        });
+      });
+      return idx;
+    }
+
+    async function start() {
+      indId = $("ind").value;
+      const mode = $("mode").value;
+      index = await buildIndex(indId);
+      queue = []; ptr = 0;
+
+      if (mode === "high" || mode === "audit") {
+        let report = [];
+        try { report = await (await fetch("../tools/audit_report.json")).json(); } catch { alert("未找到 tools/audit_report.json，请先运行 python tools/audit_questions.py"); return; }
+        const sev = mode === "high" ? "high" : null;
+        for (const r of report) {
+          if (r.industry !== indId) continue;
+          if (sev && r.severity !== sev) continue;
+          if (index.has(r.qid)) queue.push({ qid: r.qid, issues: r.issues });
+        }
+      } else {
+        const n = +$("sample-n").value || 20;
+        const ids = [...index.keys()];
+        for (let i = ids.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [ids[i], ids[j]] = [ids[j], ids[i]];
+        }
+        ids.slice(0, n).forEach(id => queue.push({ qid: id, issues: [] }));
+      }
+      if (!queue.length) { $("main").innerHTML = `<div class="empty">该范围内没有需要复核的题目 🎉</div>`; return; }
+      render();
+    }
+
+    function render() {
+      const item = queue[ptr];
+      const rec = Store.get()[indId + "|" + item.qid];
+      const node = index.get(item.qid);
+      const q = node.q, t = q.type || "single";
+      const optHTML = t === "judge"
+        ? `<div class="opt ${q.answer === true ? "correct" : ""}">√ 正确</div><div class="opt ${q.answer === false ? "correct" : ""}">× 错误</div>`
+        : q.options.map((o, i) => {
+            const isAns = t === "single" ? q.answer === i : (q.answers || []).includes(i);
+            return `<div class="opt ${isAns ? "correct" : ""}">${LETTERS[i]}. ${esc(o)}</div>`;
+          }).join("");
+      const ansText = t === "single" ? LETTERS[q.answer]
+        : t === "judge" ? (q.answer ? "正确" : "错误")
+        : t === "multi" ? (q.answers || []).sort().map(i => LETTERS[i]).join("、")
+        : (q.answers || []).join(" ／ ");
+      const issueHTML = (item.issues || []).map(x => `<div class="issue">⚠ ${esc(x)}</div>`).join("");
+
+      $("main").innerHTML = `
+        <div class="card">
+          <div class="meta">
+            <span class="badge ${queue[ptr].issues.length && queue[ptr].issues[0].includes("解析") ? "high" : ""}">${indId} / ${node.catName}</span>
+            <span class="badge">${t}</span>
+            <span>qid: ${item.qid}</span>
+          </div>
+          ${issueHTML}
+          ${node.material ? `<div class="material">${esc(node.material)}</div>` : ""}
+          <div class="stem">${esc(q.q)}</div>
+          ${t === "blank" ? "" : optHTML}
+          ${t === "blank" ? `<div class="opt correct">参考答案：${esc((q.answers || []).join(" ／ "))}</div>` : ""}
+          <div class="explain"><b>正确答案：${ansText}</b><br>${esc(q.explain || "（无解析）")}</div>
+          <div class="verdicts">
+            <button class="ok" onclick="judge('ok')">✅ 确认无误</button>
+            <button class="bad" onclick="judge('answer')">❌ 答案有误</button>
+            <button onclick="judge('stem')">✏️ 题干/选项有误</button>
+            <button onclick="judge('delete')">🗑 建议删除</button>
+            <button onclick="judge('skip')">⏭ 跳过</button>
+            <span class="progress" id="pg"></span>
+          </div>
+          <textarea class="note" id="note" placeholder="备注（答案有误时请写正确答案，如：应为 B；导出后用 fix_question.py 应用）"></textarea>
+        </div>`;
+      if (rec) { $("note").value = rec.note || ""; $("note").style.display = "block"; }
+      updateProgress();
+    }
+
+    function updateProgress() {
+      const done = queue.filter(it => Store.get()[indId + "|" + it.qid]).length;
+      $("pg").textContent = `${ptr + 1} / ${queue.length}（本组已判 ${done}）`;
+    }
+
+    window.judge = function (verdict) {
+      const item = queue[ptr];
+      const note = $("note").value.trim();
+      if (verdict === "answer" && !note) {
+        $("note").style.display = "block";
+        $("note").placeholder = "请填写正确答案（如：应为 B / 应为 正确 / 删除选项 D 后应为 A,C）再提交";
+        $("note").focus();
+        return;
+      }
+      const all = Store.get();
+      if (verdict === "skip" && !note) delete all[indId + "|" + item.qid];
+      else all[indId + "|" + item.qid] = { qid: item.qid, verdict, note, ts: Date.now() };
+      Store.set(all);
+      if (ptr < queue.length - 1) { ptr++; render(); }
+      else { updateProgress(); $("main").innerHTML = `<div class="empty">本组校对完毕 🎉 共 ${queue.length} 题。可点击"导出判定记录"生成修复清单。</div>`; }
+    };
+
+    $("export").addEventListener("click", () => {
+      const all = Store.get();
+      const rows = Object.entries(all).filter(([k]) => k.startsWith(indId + "|")).map(([k, v]) => ({ industry: indId, ...v }));
+      const blob = new Blob([JSON.stringify(rows, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `proofread-${indId}-${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+    });
+
+    (async () => {
+      const m = await (await fetch("../data/manifest.json")).json();
+      $("ind").innerHTML = Object.entries(m.industries).map(([id, v]) => `<option value="${id}">${v.icon || ""} ${v.name}（${v.total} 题）</option>`).join("");
+    })();
+    $("start").addEventListener("click", start);
+  </script>
+</body>
+</html>
