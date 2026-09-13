@@ -384,6 +384,1160 @@
           "type": "blank"
         }
       ]
+    },
+    {
+      "id": "yyjf",
+      "name": "英语基础·语法词汇",
+      "questions": [
+        {
+          "type": "single",
+          "q": "Before the maths class every Tuesday, our monitor Lily collects the homework, and then she ______ every page before handing it to the teacher.",
+          "explain": "checks 考查一般现在时表示经常性习惯动作，并叠加第三人称单数动词变化。 🔎 every Tuesday（每逢周二）才是全句的定海神针：它把收作业、逐页核对、交给老师这一整串动作锁定为每周循环的习惯。 ⚠️ 别被 before handing it to the teacher 的时间先后骗去选过去时或完成时；也别因为句中提到 now 之类就乱用进行时。真正决定时态的是 every Tuesday 的频率义。 every Tuesday ↓ 每周重复的习惯 ↓ 一般现在时 ↓ 主语 she 为第三人称单数 ↓ check 加 -s ↓ checks 整句描述的是一套按周循环的常规流程：先收作业，再逐页核对，最后上交老师。凡是被 every Tuesday、usually 这类频率词限定的动作，都用一般现在时。句内 already 有 collects 与 hands 两个一般现在时动词并列，空格动词必须保持一致，she 是三单主语，所以用 checks。 A. checks——一般现在时三单形式，与 collects、hands 平行，正确。 B. check——动词原形，但主语 she 是第三人称单数，动词不能裸用，漏掉了 -s。 C. checked——一般过去时，只针对过去某一次；每周重复的习惯不能装进过去时。 D. is checking——现在进行时强调此刻正在做，与 every Tuesday 的反复习惯互相矛盾。 E. has checked——现在完成时强调动作已完成并对现在有影响，习惯性流程不需要完成时。 F. will check——一般将来时指向将来的某一次动作，与每周都发生的常规不符。 看到句子里的先后关系或长句就慌，忘了先找频率词；另一类错误是主谓一致，把 she 的三单 -s 丢掉。 每逢周二反复做，一般现在时没错；she 做主语，动词记得加",
+          "options": [
+            "checks",
+            "check",
+            "is checking",
+            "has checked",
+            "will check",
+            "checked"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Yesterday evening I was washing the dishes in the kitchen when my little brother ______ a cup off the table.",
+          "explain": "knocked 考查过去进行时与一般过去时的分工：背景动作用进行时，突然插入的短动作用一般过去时。 🔎 关键在 when 后面的动作：句首 I was washing 已是正在进行的背景，when 引出的敲落杯子是一个瞬间发生的短动作，它打断了背景。 ⚠️ 很多同学看到 was washing 就认为整句都要用进行时，于是选 was knocking。但 knocking 杯子落地是极短暂的瞬间动作，进行时无法描述这种一闪而过的打断，必须用一般过去时 knocked。 yesterday evening ↓ 过去时间背景 ↓ I was washing 正在进行 ↓ when 插入瞬间动作 ↓ 打断类短动词用一般过去时 ↓ knocked 这是典型的“进行时 + when + 一般过去时”句式：主句 I was washing the dishes 交代当时正在做的事，when 从句里弟弟碰落杯子是瞬间发生并打断背景的事件，这类短暂动作用一般过去时最自然。全句叙述的是昨晚发生的一段往事，时态锚点本来就是过去。 A. knocked——when 从句中的瞬间打断动作，一般过去时，正确。 B. was knocking——碰落是瞬间动作，用进行时会显得杯子一直悬在半空往下掉，语义不成立。 C. knocks——一般现在时，与昨晚的过去叙述框架冲突。 D. has knocked——现在完成时要求与现在有联系，而这里是纯粹的过去回忆。 E. had knocked——过去完成时表示发生在另一过去动作之前，杯子的掉落正发生在洗碗期间，不存在先后差。 F. is knocking——现在进行时，时间完全错位。 把 when 前后两个动作的“背景与打断”关系搞反：背景用进行时，被打断的瞬间动作用一般过去时，二者不是同一种时态。 was washing 做背景，when 一来换频道：瞬间",
+          "options": [
+            "knocks",
+            "is knocking",
+            "knocked",
+            "was knocking",
+            "had knocked",
+            "has knocked"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "Sara has been searching for her passport since this morning, and her flight leaves at nine tomorrow. Unless she finds it tonight, she ______ unable to board the plane.",
+          "explain": "will be 考查主将从现：unless 条件从句用一般现在时，主句谈将来的结果，用一般将来时 will be。 🔎 时间锚点是 tomorrow（明早九点起飞）：主句说的是将来某个时刻的状态。同时 unless she finds it tonight 已经把“今晚找到”设为条件，主句自然是将来结果。 ⚠️ 不要被前半句 has been searching since this morning 带偏去选 has been：那是 Sara 到目前为止的状态；空格讨论的是明天能否登机，属于将来。 flight leaves at nine tomorrow ↓ 将来的事情 ↓ unless 条件从句现在时 ↓ 主句用一般将来时 ↓ will be unable 句子跨了两个时间层：现在（一直找不到护照）和明天早上（能否登机）。unless 引导的条件句相当于 if…not，从句 finds it tonight 用一般现在时表将来，主句则用 will be 表示将来必然出现的结果，这正是“主将从现”的规则。 A. will be——将来结果，符合主将从现，正确。 B. is——一般现在时只能描述规律或既成事实，无法表达明天才见分晓的结果。 C. was——过去时，与明天起飞的时间完全无关。 D. has been——现在完成时讲到目前为止的经历，将来是否登机还没发生。 E. would be——过去将来时，需要过去的时间参照，句中只有现在和明天。 F. is being——现在进行时表暂时状态，且语义也讲不通。 被前面的完成时干扰，忘记真正决定时态的是 tomorrow 与条件句结构；或把 unless 从句里的动词误填成将来时。 unless 也是 if not：从句现在，主句将来。 🧠 看到 tomorrow、next week 等将来时间：主句直接想 will + ",
+          "options": [
+            "will be",
+            "is",
+            "is being",
+            "was",
+            "would be",
+            "has been"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "When the fire alarm suddenly rang at midnight, the students in the dorm ______ soundly and had to rush out in their pyjamas.",
+          "explain": "were sleeping 考查过去进行时表“过去某时刻正在进行的动作”，用来说明被突然事件打断的现场状态。 🔎 关键信息是 when 从句里的 suddenly rang at midnight：警报在半夜突然响起，说明学生们当时正处于熟睡这个进行状态之中，是被打断的一方。 ⚠️ 句中没有 yesterday 之类的词，不代表可以用现在时；也别简单见过去就填一般过去时 slept——slept 只陈述“睡过觉”这一事件，无法表达“警报响的那一刻正在睡”的现场感。 fire alarm rang at midnight ↓ 过去某个时间点发生了突然事件 ↓ 学生们当时正处于睡觉状态 ↓ 用过去进行时 ↓ were sleeping 这是一幅完整的现场画面：半夜警报响起，惊醒了正在沉睡的学生，他们只好穿着睡衣往外冲。“正在沉睡”是警报响起那一刻的进行状态，而 rush out 是他们随后做出的反应。前一个状态用过去进行时 were sleeping，后一个动作才用一般过去时，两个时态配合才符合事件的先后与因果。 A. were sleeping——警报响时正在进行的状态，正确。 B. slept——一般过去时只陈述睡过这一事件，没有“当时正在”的现场感，与突然响起的警报不匹配。 C. have slept——现在完成时与半夜的过去场景无关。 D. had slept——过去完成时表示睡觉先于另一过去动作完成，而这里睡觉正被警报打断。 E. are sleeping——现在进行时，时间点完全错位。 F. would sleep——过去将来时，表达的是将来会睡，逻辑不通。 分不清“状态正在发生”与“事件已经结束”：被响起的警报打断的是进行状态，必须用过去进行时，而不是一般过去时或完成时。 半夜警报一响，正睡得香：被打断的那个瞬间状态，用 were/was doing。 🧠 看到 ",
+          "options": [
+            "had slept",
+            "have slept",
+            "would sleep",
+            "are sleeping",
+            "slept",
+            "were sleeping"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "The manager asked me to email him the final order today, but I ______ the price check yet, so I will probably stay at the office late tonight.",
+          "explain": "haven't finished 考查现在完成时与一般过去时的区分：yet 提示“到现在为止还没完成”，强调对现在的延续，用现在完成时。 🔎 两个信号互为印证：一是 yet（尚未，与现在相连），二是 so I will probably stay late tonight（今晚还要加班，说明眼下仍处于未完成状态）。 ⚠️ 别把 asked me today 当成“今天已经过去”，从而去选 didn't finish。today 还没结束，动作延续到现在，yet 只能搭配现在完成时。 yet ↓ 直到现在还没有 ↓ 动作延续到今天 ↓ 现在完成时 ↓ haven't finished 说话人此刻仍没有完成价格核对，所以才会考虑今晚加班。句子讨论的是“从过去某时一直持续到现在仍未完成”的状态，且 today 尚未结束，这与现在完成时的核心语义完全吻合；一般过去时只陈述过去某个已结束的时间段里的事，无法承接 yet 与今晚加班的逻辑。 A. haven't finished——yet + 持续到现在的未完成状态，正确。 B. didn't finish——一般过去时讲过去某次没做完，与 yet（直到现在）不搭配。 C. don't finish——一般现在时表习惯或规律，不是一次具体任务的状态。 D. won't finish——将来时说自己将来不会完成，与“今晚加班补完”的打算矛盾。 E. am not finishing——现在进行时的否定一般不用来描述这种状态。 F. hadn't finished——过去完成时需要一个过去的参照点，句中参照点是现在。 把 yet 与现在完成时拆开记忆：yet 本身不创造完成时，它提示的是“动作延续到现在”，这才是选完成时的理由。 yet 在手，完成时有：到现在还没做完，就用 have/has done。 🧠 看到 yet、already、",
+          "options": [
+            "am not finishing",
+            "haven't finished",
+            "didn't finish",
+            "hadn't finished",
+            "won't finish",
+            "don't finish"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "Mum usually takes the lift to her office, but right now she ______ the stairs because the lift in her building is being repaired today.",
+          "explain": "is using 考查现在进行时与一般现在时的对比：usually 描述习惯用一般现在时，right now 强调此刻用现在进行时。 🔎 but right now 是决定答案的转折：前半句 usually takes the lift 讲习惯，but 一转，说明此刻的情况不同，正在发生的事用 is using。 ⚠️ 最容易掉进 uses 的陷阱：前半句的 usually 会误导你，让你忽略 but right now 已经把时间切到了现在这一刻。转折词后面的时态往往才是考点。 usually … but ↓ 习惯与此刻的对比 ↓ right now 提示正在进行 ↓ 现在进行时 ↓ is using 句子内部存在一组对比：usually 引导的习惯描写用一般现在时 takes；but right now 把镜头切到当下——电梯今天在检修，妈妈此刻正走楼梯上楼。此刻正在进行、尚未结束的动作必须用现在进行时 is using。后半句 is being repaired 也是进行时，进一步印证场景是“现在进行中”。 A. is using——right now 正在进行的动作，正确。 B. uses——一般现在时只配 usually 这类习惯，与 right now 直接冲突。 C. used——过去时，句中没有任何过去时间标志。 D. was using——过去进行时，需要过去的时间参照。 E. has used——现在完成时强调“已经用过”，与正在走楼梯的现场不符。 F. will use——将来时，说明还没开始走，与 right now 矛盾。 只盯 usually 不看 but，把习惯和此刻混为一谈；记住遇到“平时怎样 + but + 现在怎样”的句式，答案常是进行时。 usually 讲习惯，but right now 看现场：此刻正在做，进行时登场。 🧠 看到 b",
+          "options": [
+            "has used",
+            "uses",
+            "used",
+            "will use",
+            "is using",
+            "was using"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "By the time the museum closed at six yesterday evening, most visitors ______ the exhibition hall, and only two guards were left inside.",
+          "explain": "had left 考查过去完成时：by the time + 过去时间点，表示“到那时为止已完成的动作”，即过去的过去。 🔎 By the time the museum closed 是标准句式：以六点闭馆这个过去动作为参照，游客离开发生在闭馆之前，属于更早的过去，用 had left。 ⚠️ 别把 close 和 leave 看成同时发生的两个动作去选 left。闭馆那一刻大多数游客已经走光了，离开是“先发生”的动作，必须用过去完成时。 museum closed at six ↓ 过去时间参照点 ↓ 游客在此之前已离开 ↓ 过去的过去 ↓ had left 句子以闭馆时刻为观察点：六点闭馆时，馆内只剩两名保安，说明绝大多数游客在六点之前就离开了。离开发生在闭馆这个过去动作之前，构成“过去的过去”，这正是过去完成时的用武之地。by the time 结构本身就把两个动作的先后关系固定下来，先发生的用 had done。 A. had left——闭馆前已完成离开，过去完成时，正确。 B. left——一般过去时只能陈述闭馆时的状态，表达不出“更早之前就已离开”的先后层次。 C. have left——现在完成时与过去语境（six yesterday）不兼容。 D. were leaving——过去进行时表示离开正在进行中，与只剩两名保安的结果矛盾。 E. leave——一般现在时，时间完全错位。 F. would leave——过去将来时表示闭馆后才离开，方向反了。 看到两个过去动作不会排序：先用 by the time 圈定参照动作（过去），早于它的动作用过去完成时，这才是判断的核心。 by the time 一到，先发生的动作就用 had done。 🧠 看到 by the time + 过去时：另一动作只要发生得更早，立刻填 had + 过去分词。 🧠 以后看到 ",
+          "options": [
+            "left",
+            "have left",
+            "had left",
+            "were leaving",
+            "would leave",
+            "leave"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "If the school reopens next Monday as planned, the results of the final exams ______ in each classroom before the first lesson.",
+          "explain": "will be announced 考查主将从现与被动语态的综合：if 从句用一般现在时，主句表将来用 will；成绩是被公布，故为 will be announced。 🔎 两处关键：if 从句的 reopens next Monday 把将来时间定死了，主句要用 will；再看空格前的 the results 与后面的 in each classroom——成绩只能“被公布”，动作的承受者作主语，必须用被动。 ⚠️ 两个坑：一是忽略将来语境选 is announced（像制度性安排），二是只顾将来忘了被动，填 will announce。结果是被校方公布，主语承受动作，被动不能丢。 if … reopens next Monday ↓ 主将从现 ↓ 主句用一般将来时 ↓ results 是承受者 ↓ 被动语态 ↓ will be announced 如果下周一按计划复课，那么第一节课前成绩就会被公布到各班。复课是将来事件，主句的结果自然用一般将来时；同时成绩 announcement 是由学校完成的动作，结果承受动作，因此完整答案是 will be announced。若写成 will announce，则成了“成绩去公布别人”，语态就错了。 A. will be announced——将来 + 被动，正确。 B. will announce——时态对但语态错，成绩不能主动去公布。 C. is announced——一般现在时被动只能描述常规流程，与下周一复课的将来条件不符。 D. was announced——过去时，没有任何过去时间参照。 E. has announced——现在完成时主动语态，语义和语态都错。 F. would be announced——过去将来时，需要过去的时间参照点。 条件句里顾此失彼：要么忘掉主将从现，要么拿到被动句只改时态不改语态。看到主",
+          "options": [
+            "will announce",
+            "was announced",
+            "has announced",
+            "will be announced",
+            "would be announced",
+            "is announced"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "As the train came out of the tunnel, the little girl from the countryside cried with joy. It was the first time that she ______ the sea with her own eyes.",
+          "explain": "had seen 考查固定句式：It was the first time that 从句用过去完成时（若为 is，则用现在完成时）。 🔎 破题点是 It was the first time：这是教材中的固定搭配句，主语用 was（过去）时，that 从句必须用 had done，表达“那是她第一次亲眼看到大海”。 ⚠️ 别被 cried with joy 影响去填 saw。cried 只是她当时激动的反应；真正决定从句时态的是 the first time 这个特殊句式，它要求用完成时而不是一般过去时。 It was the first time ↓ 固定句式 ↓ 参照时间为过去 was ↓ 从句用过去完成时 ↓ had seen 火车驶出隧道，女孩第一次亲眼见到大海，激动得叫起来。It was the first time that…是语法固定结构：以过去时间（was）为参照，从句谈在此之前从未有过、此刻才首次发生的经历，必须用过去完成时 had seen。这一结构不取决于动作本身是否短暂，而是由句式约定俗成地锁定完成时态。 A. had seen——the first time 句式要求的过去完成时，正确。 B. saw——一般过去时不符合 the first time 句式的完成时要求。 C. has seen——现在完成时只能配 It is the first time，与 was 不匹配。 D. was seeing——进行时表示动作正在进行，与“第一次经历”的完成语义矛盾。 E. sees——一般现在时，与整个过去故事框架冲突。 F. would see——过去将来时指当时尚未发生，女孩此刻已经看到了海。 把 the first time 当普通时间状语，按一般叙事填过去时；见到 this/it is + the first time 或 was + the",
+          "options": [
+            "would see",
+            "sees",
+            "had seen",
+            "was seeing",
+            "saw",
+            "has seen"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "Many people believe honey never goes bad. In fact, it ______ so little water that almost no bacteria can survive, which is why ancient jars of honey are still safe to eat today.",
+          "explain": "contains 考查客观事实用一般现在时，并叠加主谓一致：主语 it 指 honey，是单数不可数名词，动词用 contains。 🔎 两句都在陈述科学事实（蜂蜜含水量极低、细菌无法存活），不依附任何具体时间，客观真理用一般现在时；空格主语是 it，回指 honey。 ⚠️ 两个干扰源：句末 today 与 ancient jars 会诱导你往过去或完成时想，但这是客观规律，与时间无关；另外别被后面复数的 bacteria 带偏而漏掉 -s，动词的主语始终是单数的 it。 客观事实 ↓ 与时间无关的真理 ↓ 一般现在时 ↓ 主语 it = honey ↓ 单数加 -s ↓ contains 蜂蜜几乎不含水、细菌无法在其中存活，这是被反复验证的科学事实，描述客观真理时不受时间限制，一律用一般现在时。句首 Many people believe 与句尾 today 都不改变这一属性。空格处主语 it 指代 honey，第三人称单数，所以动词用 contains，不能因附近的 bacteria 是复数就写成 contain。 A. contains——客观真理 + 主语单数，正确。 B. contained——过去时暗示这一规律只属于过去，与科学事实不符。 C. is containing——进行时表示暂时正在发生，事实真理不需要进行时。 D. contain——漏掉三单 -s，主谓不一致。 E. will contain——将来时把规律说成将来的事，逻辑不通。 F. is contained——被动语态改变了原意（不是蜂蜜被包含水分），且语义不通。 把客观真理误当作与 today 有关的事去用时态；或受 nearby 复数名词影响搞错真正的主语，丢掉三单 -s。 科学真理不过期，一般现在时永相随；主语单数别忘 -s。 🧠 考场上发现句子陈述规律、原理、常识：直接锁定一般现在时",
+          "options": [
+            "is containing",
+            "will contain",
+            "is contained",
+            "contained",
+            "contains",
+            "contain"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "Every morning before breakfast, my father ______ the international news section of the newspaper for about ten minutes.",
+          "explain": "reads 习惯性动作 + 第三人称单数：句首 every morning 表示每天重复发生的动作，主语 my father 是第三人称单数，动词要加 -s。 🔎 本题关键线索是句首的 every morning——\"每天早上都看报纸\"，说明这是反复出现的习惯，而不是此刻正在发生或将要做的事。 ⚠️ 不要被 for about ten minutes 骗了：它只说明看报纸持续了大约十分钟，并不表示动作正在进行；决定时态的仍然是 every morning 这个习惯信号。 every morning ↓ 每天重复 ↓ 习惯性动作 ↓ 一般现在时 ↓ 主语 my father 是第三人称单数 ↓ reads 句首 every morning 清楚标明\"读新闻版\"是每天早上都会发生的习惯，故用一般现在时。句子主语 my father 是单数第三人称，一般现在时中动词必须加 -s，因此填 reads，表示\"读、看（报纸内容）\"。 A. read — 丢了三单的 -s：主语是 my father，一般现在时不能裸用动词原形； C. is reading — 现在进行时表示此刻正在读，与 every morning 表达的每天重复冲突； D. will read — 一般将来时表示将来的单次动作，而 every morning 是反复发生的习惯； E. has read — 现在完成时强调\"已经读完了\"的结果，与每天重复的习惯不符； F. was reading — 过去进行时表示过去某刻正在读，句中没有任何过去时间的背景。 最常见的错误有两个：一是看到动作带时长 for ten minutes 就误用进行时；二是记得要填哪个词，却忘了 father 是第三人称单数、动词要加 -s。 every morning → 习惯 → 一般现在时；主语是 father → 动词加 -s → re",
+          "options": [
+            "has read",
+            "will read",
+            "reads",
+            "read",
+            "was reading",
+            "is reading"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "Shanghai ______ on the coast where the Yangtze River flows into the East China Sea, so the city has a busy port.",
+          "explain": "lies 客观事实用一般现在时：上海的地理位置是固定不变的事实，不因\"现在、将来\"而改变，主语 Shanghai 是第三人称单数，动词用 lies。 🔎 本题关键线索是整句谈的\"地理位置\"——一座城市坐落在哪里属于客观事实，不受时间影响，所以句子不需要任何过去或将来时态。 ⚠️ 不要因为句中出现一般现在时的 flows into 和 has 就把注意力全放在\"现在\"上，其实这道题的考点恰恰是：地理事实永远用一般现在时，和 will / is going to 这类\"将来计划\"无关。 城市坐落何处 ↓ 地理事实 ↓ 不随时间改变 ↓ 一般现在时 ↓ 主语 Shanghai 三单 ↓ lies 本句陈述的是\"上海位于长江入海口海岸\"这一地理事实，属于客观规律类，句中没有 also 也没有任何时间变化，因此整句统一用一般现在时。动词 lie 表示\"位于、坐落\"，主语 Shanghai 是单数第三人称，所以用 lies。 A. is lying — 现在进行时表示\"正在躺下/正在躺着\"，而地理位置是静止状态，不能用进行时描述； B. lie — 丢了三单的 -s，主语 Shanghai 要求 lies； C. will lie — 一般将来时暗示\"将来才位于\"，与固定不变的地理事实矛盾； E. has lain — 现在完成时表示\"已经躺过\"，语义不通，位置不是一段完成的过程； F. lay — 过去时 lie 的过去式是 lay，但句中没有过去时间背景，且后句仍是现在事实。 常见错误是把地点类句子硬套进行时或将来时。记住：表示\"位于\"的 lie、stand、sit 等状态动词，讲客观事实时一律用一般现在时。 讲\"事实、位置、规律\" → 永远一般现在时，和 will 说再见。 🧠 考试现场：句意若是科学常识或地理事实，别找时间词了——直接选一般现在时形式。 🧠 以后看到城市、河流、",
+          "options": [
+            "lay",
+            "will lie",
+            "is lying",
+            "lies",
+            "has lain",
+            "lie"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "The high-speed train to Beijing ______ at nine fifty tonight, so we must reach the station at least half an hour earlier.",
+          "explain": "leaves 时刻表与固定安排用一般现在时：火车的发车时间是按时刻表固定好的，即使 tonight 是将来时间，也只用一般现在时 leaves。 🔎 本题关键线索是\"the high-speed train ... at nine fifty tonight\"——火车发车属于公布在时刻表上的固定安排，这是用一般现在时的典型场景。 ⚠️ 最容易上当的是 tonight：看到将来时间词就想用 will leave。但要知道，凡是由列车时刻、航班、商店营业等\"计划表\"决定的事件，英语习惯用一般现在时，不需要 will。 tonight 是将来 ↓ 但发车时间按时刻表定死 ↓ 固定安排 ↓ 一般现在时 ↓ 主语 the train 三单 ↓ leaves 火车几点发车不是说话人临时决定，而是写进时刻表的固定安排，因此即使用 tonight 谈论将来，也照例用一般现在时，这是英语的固定搭配习惯。train 是第三人称单数，leave 要加 -s，即 leaves。后句 we must reach the station ... earlier 进一步说明这一发车时间是既定的，必须赶在它之前到达。 A. will leave — will 表\"说话时的预测或临时决定\"，火车时刻属既定安排，英语习惯不用 will； B. is leaving — 现在进行时可表\"个人安排\"，但火车的固定班次时刻表用一般现在时更规范，二者语气不同； D. has left — 完成时表示\"已经开走\"，与 tonight 的将来背景冲突； E. left — 过去时表示早已开走，句中无过去时间背景； F. leave — 主语 the train 是第三人称单数，动词不能是原形 leave。 看到 tomorrow、tonight 就条件反射用 will，是此题最大坑点。规律要记牢：火车、飞机、船、商店、影",
+          "options": [
+            "leaves",
+            "will leave",
+            "has left",
+            "is leaving",
+            "left",
+            "leave"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "If it ______ tomorrow, the school sports meeting will be put off until next Friday.",
+          "explain": "rains 主将从现：if 引导的条件从句里即使有 tomorrow 表示将来，从句也不用 will，而用一般现在时 rains。 🔎 本题关键线索是句子结构：主句 will be put off 已经用了将来时，if 从句就要用一般现在时来\"表将来\"，这叫主将从现。 ⚠️ 别被 tomorrow 骗了！学生最容易把\"明天会下雨\"直译成 it will rain。记住规则：if/when/as soon as 等从句中永远不出现 will，一律用一般现在时代替将来。 主句有 will be put off ↓ 后面是 if 引导的条件从句 ↓ 条件从句用一般现在时表将来 ↓ 主语 it 三单 ↓ rains 本句是典型的\"主将从现\"结构：主句 the sports meeting will be put off 用 will 表将来结果，条件从句 If it ... tomorrow 虽然谈论明天的事，但英语规定 if 条件从句要用一般现在时代替将来时，所以填 rains 而不是 will rain。这样全句意思为\"如果明天下雨，运动会就推迟到下周五\"。 A. will rain — if 条件从句中不能出现 will，这是主将从现的铁律； B. rained — 过去时构成的是\"虚拟条件\"（if it rained, we would...），与主句 will be put off 搭配矛盾； D. would rain — would 用于虚拟语气或委婉请求，与真实条件句不符； E. is raining — 进行时表示此刻正在下雨，明天的事还没发生，不能用进行时谈论； F. rain — 主语是 it，一般现在时第三人称单数要用 rains。 此题最常见错误就是\"明天 → will rain\"。务必形成条件反射：凡是 if / when / as soon as / ",
+          "options": [
+            "rains",
+            "would rain",
+            "is raining",
+            "rained",
+            "will rain",
+            "rain"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Lucy has just finished her homework now, and as usual she ______ English for about half an hour every night before going to bed.",
+          "explain": "studies 易混辨析：句中同时出现 now 和表示惯常的 as usual，此时应以\"每晚固定复习\"这一习惯为准，用一般现在时，而不是进行时或将来时。 🔎 本题关键线索是 as usual 和 before going to bed——\"像往常一样、睡觉前\"，说明背英语是 Lucy 每晚重复的固定习惯，习惯动作用一般现在时。 ⚠️ 别被两处干扰带偏：now 和 has just finished 让人误以为用现在完成或进行时。其实 \"now\" 修饰的是\"刚写完作业\"这件事，而空格所在的小句由 as usual 管辖，讲的是每晚的习惯，要用一般现在时。 as usual ↓ 像往常一样 ↓ 每晚重复的习惯 ↓ 一般现在时 ↓ 主语 Lucy 三单 ↓ studies 空格所在的句子说她\"像往常一样，睡前学大约半小时英语\"——as usual 表明这是日复一日的习惯，而不是此刻正在发生的动作，因此用一般现在时。主语 Lucy 是第三人称单数，study 变三单要改 y 为 i 加 -es，即 studies。前半句的 has just finished ... now 只是交代当前时间背景，不影响空格时态。 A. is studying — 进行时表示\"此刻正在学\"，与 as usual 代表的每晚重复的习惯相抵触； B. has studied — 现在完成时表示\"已经学完了\"，可句中说的是每晚都要学，尚未发生的例行安排； C. study — 忘了主语 Lucy 是第三人称单数，动词要变成 studies； E. will study — 将来时表示\"今晚将学\"这一单次打算，与 as usual 的惯常语义不符； F. studied — 过去时表示过去某晚学过，但句子描述的是一贯习惯，且有现在时间背景 now。 看到 now 就以为全句进行时，是这道题最典型的失误。要",
+          "options": [
+            "studies",
+            "is studying",
+            "studied",
+            "has studied",
+            "will study",
+            "study"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Kevin celebrates his birthday today, so he is wearing his new jacket; however, on normal school days he ______ casual clothes like jeans and a T-shirt.",
+          "explain": "wears 综合判断：前一分句用 is wearing 描述\"今天此刻\"的穿着，后一分句靠 however 和 on normal school days 把话题转回\"平时的习惯\"，要用一般现在时 wears。 🔎 本题关键线索是 however 和 on normal school days——however 标志转折，normal school days 表示\"平时上学的日子\"，即惯常情况，惯常用一般现在时。 ⚠️ 最大的陷阱是前一分句刚出现过 is wearing：很多学生受句式平行诱惑，直接把空格也填 is wearing。但 however 已经切断话题——前面讲今天，后面讲平时，两句时态可以不同。 however ↓ 话题转折 ↓ 今天穿新外套 vs 平时穿便装 ↓ on normal days 表习惯 ↓ 一般现在时 ↓ 主语 he 三单 ↓ wears 前半句说他今天过生日，所以此刻穿着新夹克，用现在进行时 is wearing 描述正在进行的穿着状态；however 一转，后半句回到\"平时上学的日子\"这一惯常情况——平时穿什么属于日常习惯，用一般现在时。主语 he 是第三人称单数，wear 加 -s 得 wears，全句逻辑为\"今天特殊，平时照旧\"。 A. is wearing — 若选它，后半句变成\"平时也正在穿便装\"，与 normal school days 表达的惯常语义矛盾，且两分句会被误读成同一时刻； C. wore — 过去时需有过去时间背景，句中 however 后谈的是现在的惯常习惯； D. will wear — 将来时表示\"以后才穿\"，而平时穿便装是持续存在的事实； E. has worn — 现在完成时强调\"已经穿过\"，与一般性习惯表达不符； F. wear — 忘了主语 he 是第三人称单数，一般现在时要加 -s。 被前文动词形式\"",
+          "options": [
+            "is wearing",
+            "will wear",
+            "has worn",
+            "wore",
+            "wear",
+            "wears"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "Two hours ago, my cousin in Beijing ______ me a phone call about our summer plan, and we talked until my phone battery died.",
+          "explain": "gave 看到 two hours ago 这类明确的过去时间标志，且动作已结束，用一般过去时。 🔎 本题关键线索：句首的 two hours ago（两小时前）把动作钉死在过去的某个点；后半句 \"we talked until my phone battery died\" 继续讲过去的经过，说明整件事已经结束。 ⚠️ 不要被 has given 骗了：现在完成时强调\"对现在的影响\"，绝不能和 two hours ago 这种具体过去时间连用。定答案的关键信息就是 ago。 two hours ago ↓ 明确的过去时间 ↓ 动作已结束、与现在无关 ↓ 一般过去时 ↓ 不规则过去式 gave 句首 two hours ago 是典型的过去时间标志，句子描述的是两小时前已经发生的具体事件（表哥打来电话、两人一直聊到手机没电），整个过程在过去结束，因此谓语用一般过去时。give 的过去式是不规则变化 gave，不是 gives，也不是 given。 A. \"gives\" 和 B. \"give\" 是一般现在时，与 two hours ago 矛盾； C. \"gave\" 正确； D. \"was giving\" 过去进行时强调\"当时正在打电话\"的持续画面，句中缺少这种正在进行的时间框架，与 \"we talked until...\" 的完成叙述不匹配； E. \"has given\" 现在完成时不能与 ago 连用； F. \"had given\" 过去完成时需要有\"更早的过去动作\"作参照，句中没有。 最常见的错误：看到 ago 仍用现在完成时（has given），或者分不清 give-gave-given 三个形式，把过去式错写成 given。 一句话记忆：ago 一出现，动作锁定在过去，谓语用过去式。 🧠 考试现场：读到 ago / yesterday / last night，第一",
+          "options": [
+            "had given",
+            "was giving",
+            "gave",
+            "gives",
+            "has given",
+            "give"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "When I was five, my grandmother ______ me a red kite on my birthday and taught me how to fly it in the park.",
+          "explain": "made 回忆童年往事：when I was five 明确指向过去，叙述中两个并列动作都用一般过去时。 🔎 本题关键线索：when I was five（我五岁时）与并列谓语 taught me（教我）——整个场景都是对过去的回忆，且后面用一般过去时 taught，前面空格的时态必须与它一致。 ⚠️ 不要被 was making 骗了：做风筝是一个完成的事实，不是\"当时正在做\"的持续画面；也不要看到五岁就说现在完成。这里最关键的是与 taught 并列、同属一段过去的回忆。 When I was five ↓ 回忆过去的语境 ↓ and taught 并列 ↓ 两个过去动作用同一时态 ↓ 一般过去时 made 句子开头 when I was five 把时间定位在\"我五岁时\"，随后奶奶做风筝（made）和教我放风筝（taught）是两个先后发生的过去动作，由 and 连接保持时态一致，都用一般过去时。make 的过去式是不规则变化 made。 A. \"makes\" 和 F. \"is making\" 是一般现在时，与童年的回忆矛盾； B. \"made\" 正确； C. \"was making\" 过去进行时强调做风筝时的持续过程，与 and taught 并列后时态不协调，且句中无\"另一事件打断\"的框架； D. \"has made\" 现在完成时不能用在 when I was five 这种明确结束的过去； E. \"had made\" 过去完成时需要有更早的过去参照点，句中没有。 常见错误：把 when I was five 错当成现在完成时的线索，或受 and 后 taught 影响仍用进行时，导致两个并列谓语时态不一致。 一句话记忆：回忆里的并列动作，一个用过去，另一个也用过去。 🧠 考试现场：看到 when I was …、long ago 这类回忆开头，锁定一般过去时，再",
+          "options": [
+            "makes",
+            "made",
+            "has made",
+            "is making",
+            "had made",
+            "was making"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "After the guests left, Aunt Wang ______ the dirty dishes into the kitchen and washed them one by one in hot water.",
+          "explain": "carried 句中没有一个直接的时间副词，要靠叙事逻辑判断：客人离开后阿姨把碗收进厨房再洗，先后两个动作都用一般过去时。 🔎 本题关键线索：After the guests left（客人离开后）与 and washed them（然后把碗洗了）——left、washed 都是一般过去时，空格是同一段过去叙述中的一环，也必须用过去式。 ⚠️ 不要因为没有 yesterday 就乱选：本句靠\"事件先后 + 前后动词时态一致\"来定答案。had carried 看似高级，但过去完成时要求动作发生在\"另一个过去动作之前\"，此处顺序是离开→收碗→洗碗，没有用完成时的理由。 After the guests left ↓ 过去的先后事件 ↓ 收碗发生在洗碗之前 ↓ 两动作并列同用过去时 ↓ carried 整句话讲的是\"客人离开之后阿姨做家务\"这段过去的连续事件：先收碗进厨房，再一只只洗干净。left 和 washed 都用一般过去时，由 and 连接的空格动作与它们处于同一时间线，因此也用一般过去时 carried。had carried 只有在收碗比 left 更早时才成立，而逻辑上收碗发生在离开之后。 A. \"carries\" 和 F. \"is carrying\" 是现在时，与整段过去叙述矛盾； B. \"carried\" 正确； C. \"was carrying\" 过去进行时强调\"正在收碗\"的背景画面，但句中是用 and washed 连接的两件完成的事，没有进行时的语境； D. \"has carried\" 现在完成时不能用于这种已结束的过去叙述； E. \"had carried\" 过去完成时要求收碗早于 left，而逻辑恰恰相反。 常见错误：看到 and washed 之前不知该用什么时态就选进行时，或者过度使用 had done，忘了过去完成时必须有一个\"更早的过去\"作参照",
+          "options": [
+            "is carrying",
+            "carried",
+            "has carried",
+            "was carrying",
+            "carries",
+            "had carried"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "\"Did you watch the football match between Class Four and Class Five last Friday?\" \"Of course. Our class ______ two goals in the final ten minutes and won the game 4-2.\"",
+          "explain": "scored 对话中回答方叙述上周五比赛里已发生的具体事件，用一般过去时。 🔎 本题关键线索：问句里的 last Friday（上周五）和答句末尾的 won the game（赢了比赛）——对话整段都在回忆一场已经结束的比赛，答句中两次进球、最终获胜都是过去完成的事实。 ⚠️ 问句用 Did you watch… 已经给足信号：这是\"过去时间 + 已结束动作\"的组合，答案必须是过去式。不要被 has scored 吸引，现在完成时不能和 last Friday 这种明确的过去时间连用。 问句 last Friday ↓ 对话回忆过去 ↓ won the game 一般过去 ↓ 进球与赢球同一场比赛 ↓ scored 这是一段关于上周五球赛的对话：问话人以 Did you watch 引出明确的过去时间 last Friday，答话人叙述本班在最后十分钟进了两球并以 4-2 获胜。进两球（scored）和赢得比赛（won）是过去时间线上两件已完成的事，所以空格用一般过去时 scored。 A. \"scores\" 和 F. \"is scoring\" 是现在时，不能叙述上周五的事； B. \"scored\" 正确； C. \"has scored\" 现在完成时不能与 last Friday 连用； D. \"was scoring\" 过去进行时表示\"当时正在进球\"的持续画面，\"进两球\"是可数的完成结果，且与并列的 won 不一致； E. \"had scored\" 过去完成时需要比它更早的过去动作作参照，句中没有。 常见错误：忽略问句中的 last Friday，看到\"刚刚发生\"就用现在完成时 has scored；或把\"当时正在进球\"与\"进了两球\"混为一谈。 一句话记忆：对话里问 last Friday 的事，答话就回到一般过去时。 🧠 考试现场：对话中出现 Did you…? 或 l",
+          "options": [
+            "scores",
+            "was scoring",
+            "has scored",
+            "scored",
+            "is scoring",
+            "had scored"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "When Grandpa was young, he ______ for a walk along the river after supper every evening, a habit he gave up completely after his leg operation last year.",
+          "explain": "used to go 描述\"过去天天做、现在已不做\"的习惯用 used to + 动词原形；本句考点是 used to do 的结构与拼写。 🔎 本题关键线索：every evening（每晚）加 a habit he gave up completely（一个他后来完全放弃的习惯）——反复发生的动作 + 现在已经停止，这正是 used to do 的典型语义。 ⚠️ 不要被 was used to going 骗了：那是 be used to doing（习惯于做某事），表示一种\"习惯了的静态状态\"；而句中强调的是\"每天去做、后来放弃\"的动作习惯，只能用 used to do。也不要写 use to 或 uses to，used to 是固定结构。 every evening ↓ 过去的习惯动作 ↓ gave up completely 说明现已停止 ↓ used to do 表过去习惯 ↓ used to go 句子包含三个关键信息：when Grandpa was young 说明是过去；every evening 说明动作反复发生；gave up completely after his leg operation 说明这个习惯现在已经停止。三点合起来正是 used to do（过去常常做某事，现在不再做）的完整语义，所以填 used to go。结构上 used to 后接动词原形 go，而不是 going。 A. \"use to go\" 拼写错误，used to 是固定形式； B. \"uses to go\" 错误地给 used 加了三单 -s，used to 不需要随人称变化； C. \"used to go\" 正确； D. \"used to going\" 结构错误，used to 后必须接动词原形； E. \"was used to going\" 意为\"过去习惯于",
+          "options": [
+            "used to going",
+            "uses to go",
+            "got used to going",
+            "used to go",
+            "was used to going",
+            "use to go"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "Last night our basketball team ______ the city final by two points after being behind for most of the game, and the gym exploded with joy.",
+          "explain": "won 综合题：明确过去时间（last night）+ 比赛结果（by two points）+ 后文反应（exploded with joy），多线索共同指向一般过去时。 🔎 本题关键线索：Last night 是时间定位，by two points 表明这是最终比分结果，而 and the gym exploded with joy（体育馆爆发出欢呼）用一般过去时交代了结果带来的反应——三个线索都说明夺冠是过去完成的既定事实。 ⚠️ 不要被 was winning 迷惑：那是\"当时正领先\"的进行中状态，而 by two points 是全场最终比分，是完成的结果；也不要看到\"赢了所以现在高兴\"就用 has won，句子有 last night 这一明确过去锚点。 Last night ↓ 明确过去时间 ↓ by two points 是最终结果 ↓ exploded 一般过去呼应 ↓ 过去式 won 句首 Last night 明确把事件放在过去；大比分落后大半场却在最后以两分之差赢下决赛，描述的是一个已经结束的比赛结果；后半句 the gym exploded with joy 用一般过去时写出了赢球后现场的反应。整句是\"过去事件 + 过去反应\"的完整叙述，动词必须用一般过去时。win 的过去式是不规则变化 won。 A. \"wins\" 和 F. \"is winning\" 是现在时，与 last night 矛盾； B. \"won\" 正确； C. \"has won\" 现在完成时不能与 last night 连用，且与并列的 exploded 时态不一致； D. \"was winning\" 表示比赛进行中\"正领先\"，不能表达 by two points 的最终结果； E. \"had won\" 过去完成时要求夺冠发生在另一个过去动作之前，句中缺少这样的参照。 常见错误：把",
+          "options": [
+            "has won",
+            "had won",
+            "won",
+            "was winning",
+            "is winning",
+            "wins"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "Nobody has told us the exact date yet, but I guess the school science festival ______ sometime next month, probably on a Friday.",
+          "explain": "will start 考查 will 表预测：当说话人只是“猜测/估计”一件将来的事，且句中没有任何事先安排时，用 will + 动词原形。 🔎 本题关键线索：I guess 和 probably。I guess 说明这只是说话人此刻的主观推测，probably 进一步强调“不确定”，与“已经定好的安排”无关，所以答案是 will start。 ⚠️ 最容易踩的坑：看到 next month 就按“已安排/时刻表”去选 starts 或 is starting。注意句首 Nobody has told us the exact date yet——连日期都没公布，谈不上安排或时刻表，只能是对未来的推测，用 will。 I guess ↓ 主观推测 ↓ 将来事件（sometime next month）↓ 无任何安排信息 ↓ will + start → will start 句首 Nobody has told us the exact date yet 说明活动日期还没有确定，不存在“已计划好”的前提；I guess…probably 表示说话人依据常识作出的估计。一般将来时中，没有安排痕迹的纯粹预测用 will + 动词原形，will 不随主语变化，所以填 will start。 A. is going to start — be going to 常表示“早有打算/安排或有眼前迹象”，而句中日期还未定，与“已安排”矛盾； B. starts — 一般现在时只用于时刻表或习惯动作，举办日期尚未确定，不能用来表将来的安排； C. will start — 正确：纯主观预测用 will + 动词原形； D. is starting — 现在进行时表将来需要“已经安排好的活动”，此处没有安排信息； E. started — 过去时与 next month 的将来时间直接冲突；",
+          "options": [
+            "is going to start",
+            "starts",
+            "will start",
+            "started",
+            "is starting",
+            "will to start"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "At dinner time the telephone rings while Mum is cooking. 'I ______ it — you keep cooking,' says Lily, jumping up from the sofa.",
+          "explain": "will answer 考查 will 表临时决定：在说话当下、听到或看到新情况后立刻作出的决定，用 will + 动词原形。 🔎 本题关键线索：“电话突然响起”和“从沙发上跳起来”。Lily 是在电话响起的瞬间临时决定去接，不是早就安排好的任务，所以用 will answer。 ⚠️ 别把“接电话”当成早已安排的事：am going to answer 表示“原本就打算接”，可铃声才刚响，Lily 来不及事先计划；am answering 表示“正在接或已安排要接”，都与“听到铃声才起身”的即时反应矛盾。 电话突然响 ↓ 瞬间反应（跳起来）↓ 决定诞生于说话的当下 ↓ 临时决定用 will ↓ will answer 第一句交代场景：晚饭时间电话响起，妈妈正在做饭腾不开手；第二句 Lily 一边说一边从沙发上跳起来，动作与说话同步发生。这种“当下才作出的决定”正是 will 的核心用法；be going to 和现在进行时都要求一个“事先存在”的计划或安排，与突然响铃的语境不符。 A. am going to answer — 表示接电话是早就想好的，与“铃声刚响、当场决定”矛盾； B. am answering — 现在进行时表将来须有明确安排，且她此时还没去接，也不能表示正在接； C. answer — 一般现在时只表习惯或时刻表，表达不了此刻的临时决定； D. will to answer — will 后必须接动词原形，不能加 to； E. answered — 过去时，动作还没有发生； F. will answer — 正确：当场作出的决定用 will。 对话情境题里，学生常把一切“打算做的事”都写成 be going to，却忽略“此刻才决定”这一关键语义——那正是 will 的地盘。 铃声响、当场应：说时迟那时快，will 出手；事先想好才轮到 be goi",
+          "options": [
+            "will to answer",
+            "answered",
+            "am answering",
+            "answer",
+            "will answer",
+            "am going to answer"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "Don't worry, Grandma. I promise I ______ your heavy suitcase all the way down to the taxi while you look for your keys.",
+          "explain": "will carry 考查 will 表意愿与承诺：I promise 引出说话人当场许下的诺言，诺言用 will + 动词原形来表达。 🔎 本题关键线索：I promise。promise（承诺）是说话人此刻向对方作出的保证，英语中“许下承诺”最标准的搭配就是 will，其它表将来的形式都带不出这种承诺的语气。 ⚠️ 陷阱有两个：一是看到 will 就随手写 will carries，忘了 will 后必须接原形；二是选 am going to carry——be going to 表示“本来就这么打算”，而这里是在奶奶找不到钥匙时当场许下的诺，不是早有打算。 I promise ↓ 此刻许下承诺 ↓ 承诺即意愿 ↓ will + 动词原形 ↓ will carry 前文 Don't worry, Grandma 说明说话人是在安慰对方并主动揽下“搬箱子”这件事，属于典型的主动帮助与承诺。承诺、主动提议、表意愿时英语用 will 而不用 be going to——后者描述的是说话前就已存在的打算，与“当场许诺”的语境冲突；同时 will 后接原形 carry，不加 to，也不加三单。 A. am going to carry — 表事先已有打算，与“当场承诺”矛盾； B. will carry — 正确：承诺与主动帮助用 will + 动词原形； C. carry — 一般现在时表达不了将来的承诺； D. will carries — will 后必须接动词原形，不能加 s； E. am carrying — 现在进行时表将来须有安排，承诺场合不适用； F. will to carry — will 后不能加 to。 两个高频错：① will 后加三单（will carries）；② 把承诺句当成普通将来计划句写成 is going to carry，丢了“当场承诺”这一",
+          "options": [
+            "will to carry",
+            "will carry",
+            "carry",
+            "am carrying",
+            "am going to carry",
+            "will carries"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "Some experts predict that the cost of education ______ sharply in the next ten years, and many parents are already saving money for their children.",
+          "explain": "will rise 考查 will 表对未来趋势的预测：experts predict + in the next ten years 指未来的一段时期，宾语从句的谓语用 will rise。 🔎 本题关键线索：experts predict（专家预测）与 in the next ten years（未来十年）。predict 引出的内容是说话人对将来趋势的判断，不是既成事实，也不是某个具体安排，所以用 will + 动词原形。 ⚠️ 小心两处：① is rising 表示“正在上涨”，与 in the next ten years 的未来时段冲突；② is going to rise 常被误选——be going to 表预测需要有“眼前迹象”支撑，而这里只是专家的宏观判断，句中没有任何当前证据，用 will 更准确。 experts predict ↓ 对未来十年的判断 ↓ 是预测而非安排 ↓ will + rise → will rise 主句谓语 predict 的宾语从句说的是“未来十年”里会发生的事，属于专家对趋势的推测。一般将来时中，不带具体安排、仅陈述看法或趋势的预测用 will + 动词原形。后一句 parents are already saving money 只是家长们应对预测的做法，不能证明“涨价”已经安排好，因此不改变主句用 will 的判断。 A. rises — 一般现在时只表习惯或客观规律，句中明确是未来十年的事，不能用一般现在； B. is rising — 现在进行时表示此刻正在上涨，时间状语却是 in the next ten years； C. will rise — 正确：对未来趋势的预测用 will + 动词原形； D. is going to rise — be going to 强调“已有安排或眼前迹象”，专家的宏观预测缺乏",
+          "options": [
+            "will to rise",
+            "rose",
+            "rises",
+            "is rising",
+            "is going to rise",
+            "will rise"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "\"We planned to drive to the seaside tomorrow, but a storm is coming,\" Dad says. \"Well, we ______ to the museum then,\" I reply.",
+          "explain": "will go 考查 will 与 be going to 的区分：原计划被突发情况打乱、说话人当场另作决定时，这个“新决定”用 will；只有早已定好的打算才用 be going to。 🔎 本题关键线索：Dad 说 planned to drive…but a storm is coming——原计划去海边泡汤；I reply 中的 Well…then 表示“那我们就改去博物馆”是对话当下临时拍板，不是事先计划，所以填 will go。 ⚠️ 最大的坑是 are going to go / are going：be going to 描述的是说话前就已形成的打算，而改去博物馆是听完爸爸的话才想出的新方案，属于“此刻决定”，只能用 will。别让 planned 一词误导你——它说的是被放弃的旧计划，空里要填的是新计划。 原计划被打乱 ↓ but 转折 ↓ 当场提出新方案（then）↓ 此刻决定用 will ↓ will go 对话第一句说明原本的计划是开车去海边，但因风暴要来而取消；第二句的 Well…then 是典型的“那好吧，那我们就……”句式，说话人是在对话的当下临时提出替代方案。凡是“说话的这一刻才作出的决定”，英语一律用 will；be going to 只用于早在说话前就定好的打算，与这里的临时应变矛盾，故选 will go。 A. are going to go — 表示早已打算去博物馆，与“听完爸爸的话才临时决定”矛盾； B. go — 一般现在时表达不了这个临时的将来决定； C. would go — 需要过去时间参照或虚拟条件，句中两者都没有； D. will to go — will 后接动词原形，不能加 to； E. will go — 正确：当场作出的新决定用 will； F. are going — be going to 表“已安排好的打算",
+          "options": [
+            "would go",
+            "will go",
+            "are going to go",
+            "go",
+            "will to go",
+            "are going"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "Once the new subway line opens next year, thousands of commuters ______ at least half an hour every morning.",
+          "explain": "will save 考查“主将从现”：once / when / if 等引导的时间或条件状语从句用一般现在时表将来（opens），主句表将来的动作则用 will + 动词原形（save）。 🔎 本题关键线索：Once the new subway line opens——once 从句里 opens 已经是“一般现在时代替将来时”（地铁明年才开通，但从句不用 will）；正因为从句用了现在时，主句才必须用 will save 来呼应“地铁开通后每天能省半小时”这个将来的结果。 ⚠️ 两个陷阱：① 看到 opens 就顺手写 save，忘了主从句要分工——从句已用现在时，主句要用 will；② 选 are going to save——节省时间不是 commuters 事先“安排”的行动，而是地铁开通后的自然结果，用 will。 once 从句用现在时 opens ↓ 主句才表将来 ↓ 将来的结果用 will ↓ will + save → will save once 引导时间状语从句，从句用一般现在时 opens（代替将来时）；主句说的是地铁开通后人们每天早晨能省半小时，这是一个由条件带来的将来结果，不是任何人提前安排的动作，因此主句用 will save。整句体现“主将从现”：从句现在时 + 主句 will。 A. save — 主句也写一般现在时，全句就没有将来的表达了，违背主将从现； B. are saving — 现在进行时表示“正在省时间”，语义不通且无安排； C. will saves — will 后必须接动词原形，不能加 s； D. will save — 正确：从句用现在时，主句用 will + 动词原形； E. are going to save — 省时间是开通后的必然结果而非事先打算，且主句表结果用 will 更标准； F. saved — 过去",
+          "options": [
+            "will save",
+            "are saving",
+            "saved",
+            "are going to save",
+            "will saves",
+            "save"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Look! The children ______ happily on the playground, and their teacher is taking photos of them.",
+          "explain": "are playing 现在进行时表示此刻正在发生的动作，结构为 am/is/are + 动词-ing；主语复数用 are。 🔎 本题关键线索：句首的 Look! ——说话人正看着现场，动作就发生在眼前；这正是“此刻正在发生”的最强信号。 ⚠️ 不要被“孩子们玩得开心”这种概括带偏：句中没有 every day/often 等习惯词，却有 Look! 抓现场，所以不能填一般现在时 play。 Look! ↓ 画面正在进行 ↓ 此刻正在发生 ↓ 现在进行时 ↓ 主语children为复数 ↓ are playing 说话人喊“Look!”，说明孩子们玩闹的动作正发生在说话的这一瞬间，而不是天天重复的习惯，因此要用现在进行时。主语 the children 是复数，be 动词用 are；动词 play 加 -ing 得到 playing，构成 are playing。后文“老师正在拍照”也佐证这是眼前的现场画面。 A. play — 一般现在时表习惯或事实，与“正发生在眼前”矛盾； B. played — 过去时，句中没有过去时间标志，场景是当下； D. is playing — 主语 the children 是复数，be 动词应为 are，is 只用于第三人称单数； E. have played — 现在完成时强调已完成的经历，与正在进行的画面矛盾； F. were playing — 过去进行时，需要有明确的过去时间背景，句中并没有。 很多学生看到动词就惯性填一般现在时 play，忽略了 Look! 这个“现场正在发生”的信号；还有学生忘了 children 是复数，误选 is playing。 看到 Look!/Listen! 就提醒自己：动作正在进行，be 动词别忘、-ing 别丢。 🧠 如果你在考试现场：看到 Look! 开头 → 立即定位“此刻进行”→ 看主语定 ",
+          "options": [
+            "have played",
+            "play",
+            "played",
+            "were playing",
+            "is playing",
+            "are playing"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "Hush! The baby ______ in the next room right now, and she will wake up if we make any noise.",
+          "explain": "is sleeping right now 指明“此刻”，正睡着的动作发生在说话瞬间，用现在进行时 is sleeping。 🔎 本题关键线索：right now（此刻）——它把时间钉死在现在这一秒；再配合 Hush!（嘘！）说明婴儿此刻正在睡觉、不能吵醒。 ⚠️ 别因为“睡着”像状态就以为不能用进行时：sleep 是动态动词，可以说 is sleeping；真正要提防的是无视 right now 而填习惯性的 sleeps。 right now ↓ 此刻这一秒 ↓ 正在睡着 ↓ 现在进行时 ↓ 主语The baby单数 ↓ is sleeping 句首 Hush! 提醒大家安静，right now 又明确是此刻：婴儿正在隔壁房间睡觉，动作正在发生。sleep 表“入睡后的状态延续”时完全可以用于进行时（be sleeping 正睡着），主语 the baby 是第三人称单数，be 动词用 is，构成 is sleeping。 A. sleeps — 一般现在时表示习惯（每天睡在那里），与 right now 的“此刻”矛盾； C. slept — 一般过去时，句中没有任何过去时间； D. has slept — 现在完成时强调“已经睡过”，与“她正在睡”矛盾； E. was sleeping — 过去进行时需要过去时间背景，而句子说的是现在； F. will sleep — 将来时，与 right now 直接冲突。 学生一看到“婴儿睡觉”容易按常识填一般现在时，忽略 right now；或误以为 sleep 是状态动词不能进行，其实 be sleeping 正是地道表达。 right now 一到场，此刻正在做 → be doing。 🧠 如果你在考试现场：圈出 right now / at the moment / now → 直接锁定现在进行时，再核对主语单复数。 ",
+          "options": [
+            "will sleep",
+            "has slept",
+            "sleeps",
+            "is sleeping",
+            "was sleeping",
+            "slept"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "These days my cousin ______ for the national piano contest, so she has little time to hang out with her friends after school.",
+          "explain": "is preparing these days（最近这些天）表示“现阶段正在进行的活动”，属于现在进行时的阶段性用法，用 is preparing。 🔎 本题关键线索：these days——指最近一段时期她正忙着备战比赛，是“阶段性进行”而不是某一秒的画面；后文“没时间出去玩”正好印证备战占据了她现在的时间。 ⚠️ 不要因为句中没有 now / Look! 就把动词改判成一般现在 prepares：备战是一场正在进行、尚未结束的活动；也要当心被 has prepared 骗到——比赛还没比，不可能“已经备完”。 these days ↓ 最近这段时期 ↓ 正在备战比赛 ↓ 阶段性进行 ↓ 现在进行时 ↓ is preparing 句中没有“此刻”类信号，但有 these days，说明动作覆盖的是最近这一整段时期：表姐为了全国钢琴比赛正在积极备战，而且后文“她放学后没时间和朋友玩”表明这项活动正占用着她的时间、尚未结束。阶段性的进行状态与此刻的进行一样用现在进行时，主语 my cousin 为第三人称单数，故填 is preparing。 A. prepares — 一般现在时表示长期习惯，而这里明确是近期为比赛冲刺的阶段活动； B. prepared — 一般过去时无过去标志，且“没时间玩”说明现在仍在忙； D. has prepared — 现在完成时表示备战已完成，与“仍然没时间玩”相矛盾； E. will prepare — 将来才准备，可她现在已经忙得没空玩了； F. was preparing — 过去进行时需要明确的过去时间背景，句中没有。 学生只认 now、Look! 这类“此刻”信号，一旦没有就放弃进行时；其实 these days / this term 同样是现在进行时的标志，表示现阶段在忙。 these days 一出现，先想“最近在忙什么”→ 进",
+          "options": [
+            "prepares",
+            "was preparing",
+            "prepared",
+            "has prepared",
+            "is preparing",
+            "will prepare"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "We ______ my grandparents in the countryside this weekend, and everything is ready for the trip.",
+          "explain": "are visiting 现在进行时可表示“已安排好的近期计划”：this weekend 是将来时间，配合“一切就绪”说明行程早已敲定，用 are visiting。 🔎 本题关键线索：① this weekend（还没到的将来）；② everything is ready（东西都准备好了）——这不是临时起意，而是已经安排妥当的出行，因此用现在进行时表将来安排。 ⚠️ 不要看到将来时间就机械填一般现在时 visit：一般现在时表将来只用于“车船时刻表/课程表”这类固定程序；个人计划并已准备就绪，要用 are visiting。 this weekend ↓ 还没到来的将来 ↓ 一切已准备好 ↓ 已敲定的安排 ↓ 现在进行表将来 ↓ are visiting 这个周末我们去看望乡下的祖父母，且“everything is ready”说明车、礼物、行程都已安排妥当——安排是提前定好的，不是说话时才决定的。现在进行时可以表达这种已安排好的近期计划，主语 we 为复数，be 动词用 are，构成 are visiting。 A. visit — 一般现在表将来仅限固定时刻表（如 The train leaves at six），个人已定计划要用现在进行时； B. is visiting — 主语是 we，be 动词应为 are，is 只用于第三人称单数； D. visited / E. were visiting — 句子讲的是尚未到来的 this weekend，不能用过去时； F. have visited — 现在完成时表示已经去过，与周末才去矛盾。 学生习惯把所有“将来”都写成 will 或一般现在时，不知道已安排好的个人计划要用现在进行时表将来。 安排好的将来，用 be doing：票买好了、时间定了 → are visiting。 🧠 如果你在考试现场：将来时间 +",
+          "options": [
+            "is visiting",
+            "were visiting",
+            "are visiting",
+            "visited",
+            "visit",
+            "have visited"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "\"Don't explain any more; I ______ exactly what you mean,\" Amy said with a smile.",
+          "explain": "know know 是状态动词，表示“知道”这一认知状态，不用于进行时；现在的状态用一般现在时 know。 🔎 本题关键线索：exactly what you mean——Amy 此刻心里明白对方的意思，这是一种持续存在的认知状态，而不是像跑步那样一段段进行的动作。 ⚠️ 中文里“我现在正明白你的意思”听起来合理，学生容易直译成 am knowing；但 know 属于状态动词，英语中永远不进行。 know是状态动词 ↓ 表示认知状态 ↓ 不用于进行时 ↓ 现在明白 ↓ 一般现在时 ↓ know Amy 笑着让对方“别解释了”，因为她此刻心里清楚对方想说什么——这是一种状态（认知的结果），不具备动作进行的过程性。状态动词 know 没有 be knowing 的用法，现在时的状态直接用一般现在时，主语 I 用动词原形 know。 B. am knowing — know 是状态动词，没有进行时形式，这是直译中文造成的错误； C. knew — 一般过去时，而 Amy 正看着对方说话，说明现在仍然明白； D. will know — 将来时才明白，与“别解释了，我现在就懂”矛盾； E. have known — have known 常接“认识某人多年”（I have known him for years），不与 what you mean 搭配； F. knowing — 缺 be 动词，且状态动词本身也不能进行。 把汉语“现在正知道/正明白”直译成进行时；应记住 know、like、belong、understand 等状态动词不用进行时。 know 只会 “know”，永远不会 “be knowing”。 🧠 如果你在考试现场：认出空处要填的是 know/like/belong 这类状态动词 → 直接排除进行时选项，选一般现在时。 🧠 以后看到什么就想到什么：状态动词",
+          "options": [
+            "knew",
+            "know",
+            "will know",
+            "have known",
+            "knowing",
+            "am knowing"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "Although Grandpa usually has a nap after lunch, today he ______ TV in the living room instead because a big match is on.",
+          "explain": "is watching although 转折句中 usually 表习惯（一般现在），today 引导的临时变化要用现在进行时；is on 说明比赛正在播出。 🔎 本题关键线索：usually … but/today 的对照——usually 只管“平时午睡”这个习惯，today 才是空格所在的分句；a big match is on 进一步表明比赛此刻正在播出，爷爷正坐在客厅里看。 ⚠️ 前半句 usually has a nap 是最大陷阱：它会诱导你让整句都用一般现在时填 watches；其实 usually 只修饰习惯分句，today 后的临时改变才是空格要表达的内容。 although ↓ 习惯与现在对照 ↓ usually管习惯用一般现在 ↓ today临时改变 ↓ 比赛正在播出 ↓ is watching 虽然爷爷平时（usually）午饭后睡午觉，但今天（today）情况不同：有一场重要比赛正在播出（is on），他此刻正坐在客厅里看电视，放弃午睡。空格所在分句由 today 引导，说的是眼前正在发生的事，与前面的习惯形成对照，因此用现在进行时 is watching，主语 Grandpa 为第三人称单数。 A. watches — 把它当习惯处理，但 today + a big match is on 表明这是此刻正在发生的临时变化； C. watched / F. had watched — 过去时，而 is on 表示比赛现在正播出； D. has watched — 现在完成时强调“已经看完”，与“正看着”矛盾； E. was watching — 过去进行时需要过去时间背景，句子语境是现在。 看到 usually 就全句用一般现在时，忽略 but today 的转折和 is on 传递的“正在播出”信息；遇到习惯词与变化词并存时，要分清谁修饰空格",
+          "options": [
+            "watched",
+            "is watching",
+            "watches",
+            "has watched",
+            "was watching",
+            "had watched"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "At eight last night, all the students of Class Two ______ English songs for the coming singing contest in the school hall.",
+          "explain": "were practising 考查过去进行时：at eight last night 是过去的具体时刻，那一刻正在发生的动作要用 was/were + doing。 🔎 本题关键线索：at eight last night（昨晚八点）。八点是一个过去的具体时刻，它把动作“钉”在那一刻，表示那一刻正在发生。 ⚠️ 陷阱：看到 last night 就以为要用一般过去时 practised。但 last night 只说明“在过去”，关键是 at eight 这个“点”提示动作当时正在进行，不是已经练完。 at eight last night ↓ 过去具体时刻 ↓ 那一刻正在发生 ↓ 过去进行时 ↓ 主语 students 是复数 ↓ were practising 说话人想表达的是：昨晚八点这个具体时刻，二班全体同学正在大厅里为比赛练歌。练歌是持续的过程，八点只是其中的一个瞬间，所以要用过去进行时 were practising；若用 practised，句子就变成“在八点那一刻歌已经练完了”，与语境矛盾。 A. practised — 一般过去时，把动作说成已完成，与“八点那一刻正在进行”的语境矛盾； B.（正确）were practising； C. was practising — 主语 all the students 是复数，be 动词要用 were，was 造成主谓不一致； D. practise — 一般现在时，与 last night 冲突； E. are practising — 现在进行时，时间不对； F. had practised — 过去完成时，表示八点之前已经练完，语义不合。 很多学生把 at eight last night 只当作“过去”的标志直接套一般过去时；其实 at + 具体时刻更常提示“那一瞬间正在做”。 过去具体时刻正在做 → w",
+          "options": [
+            "are practising",
+            "was practising",
+            "practised",
+            "practise",
+            "had practised",
+            "were practising"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "I ______ a long letter to my pen friend in Australia when the light suddenly went out.",
+          "explain": "was writing when + 一般过去时的短动作打断主句的长动作，主句用过去进行时。 🔎 本题关键线索：when the light suddenly went out（灯突然灭了）。“灯灭”是瞬间发生的短动作，它打断了我正在写信这个长动作。 ⚠️ 陷阱：别因为整句都发生在过去就选 wrote。主句 + when + 突然发生的短动作，是“正做着某事时某事突然发生”，主句必须用进行时。 when the light went out ↓ 突然发生的短动作 ↓ 打断正在进行的写信 ↓ 主句用过去进行时 ↓ 主语 I 用 was ↓ was writing 灯“突然熄灭”是瞬间完成的事件，它发生在我写信写到一半的时候，把写信这个正在持续的过程打断了。这种“被打断”的典型结构就是：主句过去进行（was writing）+ when 从句一般过去时（went out）。 A. wrote — 一般过去时，把写信写成已完成的事实，与“写信中途被断电打断”的语境冲突； C. have written — 现在完成时，与过去场景及 when 从句不搭配； D. write — 一般现在时，与灯灭的过去事件不对应； E. am writing — 现在进行时，时间错误； F. was written — 被动语态，写信是主动动作，不能用被动。 分不清主次动作：把 when 从句当主句，或以为整句都是过去发生的事就全用一般过去时。 正做着 A 时 B 突然发生 → A 用过去进行，B 用一般过去。 🧠 如果你在考试现场：看到 when + 一般过去时的短动作（went out / rang / came in），主句空格马上想过去进行时。 🧠 以后看到什么就想到什么：when + 短动作 → 被打断 → 长动作用过去进行。",
+          "options": [
+            "write",
+            "was writing",
+            "wrote",
+            "am writing",
+            "was written",
+            "have written"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "Last night, my mother ______ a film on her phone while my father was reading the evening newspaper beside her.",
+          "explain": "was watching while 连接两个在同一过去时间同时进行的动作，两边都用过去进行时。 🔎 本题关键线索：while my father was reading（爸爸当时正在看报）。while 从句已经用过去进行时，说明妈妈用手机看电影与爸爸看报是同时持续发生的。 ⚠️ 陷阱：别因为“昨晚妈妈看了部电影”就选 watched。while 强调的是两个动作“同时进行、互相平行”，不是先后完成；既然爸爸是 was reading，妈妈也应填 was watching。 while 从句 was reading ↓ 同时持续的背景动作 ↓ 主句动作与它平行进行 ↓ 过去进行时 ↓ 主语 my mother 用 was ↓ was watching while 常用来连接两个在过去同一时间同时发生的动作。爸爸看报用 was reading，妈妈在旁边用手机看电影，两个动作重叠进行，构成“一边……一边……”的平行画面，所以妈妈这边也要用过去进行时 was watching。 A. watched — 一般过去时，会读成“看完电影之后才发生别的事”，破坏同时进行的语意； C. has watched — 现在完成时，与 last night 及 while 场景不符； D. watches — 一般现在时，时间错误； E. is watching — 现在进行时，与 last night 冲突； F. was watched — 被动语态，看电影是主动动作。 记住了“while 后要用进行时”，却忽略主句与 while 从句同样在强调同时进行，主句也填了完成性的过去式。 while 两边同时做 → 都尽量用进行时。 🧠 如果你在考试现场：看到 while，先找“和谁同时”：另一边是 was doing，这一边也填 was doing。 🧠 以后看到什么就想到什么：while ",
+          "options": [
+            "watches",
+            "watched",
+            "was watching",
+            "is watching",
+            "was watched",
+            "has watched"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "When I looked out of the window last night, I saw nobody in the street. It ______ hard and a strong wind was blowing through the trees.",
+          "explain": "was raining 描写过去某个时刻看到的场景或背景，正在进行的动作用过去进行时。 🔎 本题关键线索：I looked out of the window（我朝窗外看的那一刻）+ was blowing（风正在吹）。整句是“当时现场正在发生什么”的画面描写。 ⚠️ 陷阱：别被 last night 骗到选 rained。这里是“我看出去的那一瞬间雨正在下”的背景描写，后半句 a strong wind was blowing 也用了进行时，提示雨同样正在下。 looked out of the window ↓ 某刻看到的画面 ↓ 雨当时正在下 ↓ 与 was blowing 平行 ↓ 主语 it 用 was ↓ was raining 这句话是典型的“回忆画面”：我向窗外看，看到的是正在进行的情景——雨正下着，风正吹着。描写这种过去时刻的背景状态要用过去进行时；后半句 was blowing 已经给出平行的进行时参照。若用 rained，句子就变成陈述“下过雨”这样一件完成的事，画面感消失，也与 was blowing 不协调。 A. rained — 一般过去时，把下雨说成完成的事实，与“当时正在下”的画面冲突； C. has rained — 现在完成时，时间错误； D. rains — 一般现在时，表示习惯或规律，错误； E. is raining — 现在进行时，与 last night 不符； F. was rained — 被动语态，下雨不能用被动。 看见 last night 就套一般过去时，忘了句子在描写“当时的现场正在进行什么”。 描写“当时正下着雨”的画面 → was/were doing。 🧠 如果你在考试现场：看到 looked out / saw 这类“某刻看见”的动词，后面的场景多半用过去进行时来描写。 🧠 以后看到什么就想到什么：look",
+          "options": [
+            "has rained",
+            "was raining",
+            "is raining",
+            "was rained",
+            "rains",
+            "rained"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "Yesterday afternoon, I passed the gym and looked inside. My classmates ______ a basketball match against Class Two at that moment.",
+          "explain": "were playing 同一句过去时间词下区分过去进行与一般过去：动作当时是否正在进行、是否完成。 🔎 本题关键线索：I looked inside（我往里看的瞬间）+ at that moment（在那一瞬间）。这两个线索说明比赛“正在进行中”，不是已经打完。 ⚠️ 核心陷阱：句首是 Yesterday afternoon，很多学生条件反射般选 played。但你看到的只是“经过体育馆往里看的那一瞬间”，比赛当时正打得火热，所以答案是 were playing。yesterday 只是背景，没有决定权。 Yesterday afternoon ↓ 只是过去背景 ↓ passed and looked 是瞬间动作 ↓ at that moment 比赛正在打 ↓ 过去进行时 ↓ classmates 复数用 were ↓ were playing 我昨天下午经过体育馆往里看，“看见的瞬间”恰好是比赛进行到一半的镜头，所以要用过去进行时描写这个正在进行的过程；played 表示“比赛已经打完”这个完成的事实，与 at that moment 直接矛盾。这正是本专题的灵魂：yesterday 常常只是背景，是否“当时正在做”才是判断时态的关键。 B. played — 一般过去时，受 yesterday 误导，把正在进行的比赛说成已完成； C. have played — 现在完成时，与过去的具体场景不符； D. are playing — 现在进行时，时间不对； E. was playing — 主语 my classmates 是复数，be 动词要用 were； F. had played — 过去完成时，语义变成“在那之前已经比完”，不合语境。 一看到 yesterday / ago 就“条件反射”用一般过去时，不去读动作当时是不是正在进行。 yesterday 只是背",
+          "options": [
+            "were playing",
+            "was playing",
+            "are playing",
+            "have played",
+            "had played",
+            "played"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "When Mum came home at seven last night, she found me in the kitchen. I ______ dinner for the whole family, and the soup was already boiling on the stove.",
+          "explain": "was cooking 综合运用：过去某时刻“撞见 / 发现”某人正在做某事，动作用过去进行时。 🔎 本题关键线索：she found me in the kitchen（她发现我在厨房）+ the soup was already boiling（汤已经在锅里滚着）。两个线索都指向：妈妈进门那一刻，我正在做饭的中途。 ⚠️ 陷阱：别因为“我给全家做了饭”这个大意就选 cooked。found me 是瞬间的“发现”，汤 was already boiling 也是进行时，说明我看到她进门时做饭动作还没有结束，要填 was cooking。 came home at seven ↓ 过去的时刻 ↓ found me 瞬间看见 ↓ 汤 was boiling 正在进行 ↓ 我当时正在做饭 ↓ was cooking 句子描绘的是妈妈七点到家那一刻的场景：发现我在厨房，汤正滚着——也就是我“正在做饭”。这种“某人到某刻发现另一人正做某事”的结构，动作用过去进行时 was cooking；cooked 会读成“饭已经做好了”，与“汤还在滚、我还在厨房忙”的画面矛盾。 A. cooked — 一般过去时，把做饭说成已完成，与汤正在滚矛盾； C. cooks — 一般现在时，与 last night 不符； D. is cooking — 现在进行时，时间错误； E. has cooked — 现在完成时，与过去场景不搭配； F. was cooked — 被动语态，“饭被做”，人做饭要用主动语态。 只抓“我做了饭”的大意，丢掉 found / boiling 这些“当时正在进行”的细节信号，直接写过去式。 撞见某人正在做某事 → 过去进行；看到“已完成”才用过去式。 🧠 如果你在考试现场：见到 found / saw / noticed 加场景细节，别急着写过去式，先判断动作当时是",
+          "options": [
+            "was cooked",
+            "cooked",
+            "has cooked",
+            "was cooking",
+            "cooks",
+            "is cooking"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "Sara is standing at the school gate, looking at her watch, because her little brother ______ yet, and all the other children have already gone home.",
+          "explain": "has not come yet（还、尚未）用于否定句，表示\"到说话时为止还没发生\"，与现在完成时搭配；主语 her little brother 是第三人称单数，助动词用 has。 🔎 本题关键线索是 yet——它把时间从过去一直延伸到说话时（到现在还没出来），这是现在完成时的标志性信号。 ⚠️ 不要被\"放学回家\"的过去感带偏去写 did not come；yet 只和现在完成时搭配。另外注意 come 的过去分词仍是 come，has not came 是错的。 yet ↓ 到现在为止还没有 ↓ 现在完成时 ↓ 主语 brother 三单 ↓ has not come 句意是\"Sara 站在校门口看表，因为弟弟到现在还没出来\"。这一\"还没出来\"的状态一直延续到说话的此刻，正是 yet 加现在完成时的典型用法：has not come。其中助动词的选择看主语，her little brother 是第三人称单数，所以用 has；come 的过去分词与原形相同，仍是 come。 A. has not come — 正确：yet 要求现在完成时，主语三单用 has，come 的过去分词还是 come。 B. did not come — 一般过去只说明过去某个时刻没出来，与 yet（延续到现在）语义冲突。 C. has not came — came 是过去式，has 之后必须接过去分词 come，两者不能连用。 D. had not come — 过去完成时需要有一个过去的参照点，本句没有这样的时间背景。 E. is not coming — 现在进行时描述\"正在发生\"，无法表达 yet 所指的\"到现在为止\"。 F. does not come — 一般现在时表示经常性的习惯，与这次具体的放学等待场景不符。 两类错误最常见：一是看到 yet 仍写一般过去（did not c",
+          "options": [
+            "is not coming",
+            "does not come",
+            "did not come",
+            "had not come",
+            "has not come",
+            "has not came"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "Mum is busy in the kitchen now, because we ______ all the dirty dishes already, and Dad is putting them away in the cupboard.",
+          "explain": "have cleaned already 强调\"已经完成\"，且洗碗的结果（碗已干净、爸爸正在收纳）正影响现在，用现在完成时；主语 we 用 have。 🔎 本题关键线索是 already 和后文现在时的 is busy / is putting——碗在说话前洗完，现在的家里正是\"已洗好、正在收尾\"的状态，动作结果延续到现在。 ⚠️ 不要因为\"碗是刚才洗的\"就顺手写 cleaned；already 把动作的时间钉在\"过去发生、现在完成\"上，必须用 have/has + 过去分词。 already ↓ 动作过去完成 ↓ 结果影响现在（妈妈正忙、爸爸正收碗）↓ 现在完成时 ↓ 主语 we ↓ have cleaned 全句说：妈妈现在正忙，是因为我们（已经）把脏碗全部洗完了，爸爸正在把它们放进橱柜。洗碗发生在说话之前，但它的结果——碗已干净、一家人正在收尾——仍然作用于现在，这正是现在完成时\"结果与影响\"的用法，already 又进一步坐实了完成义。主语 we 是第一人称复数，助动词用 have，clean 的过去分词是规则形式 cleaned。 A. have cleaned — 正确：already 提示完成，主语 we 用 have。 B. has cleaned — 主语是 we，助动词只能用 have，has 只配第三人称单数。 C. cleaned — 一般过去只陈述\"过去洗过碗\"，丢掉了 already 强调的\"已做完、影响现在\"。 D. had cleaned — 过去完成时要有\"过去的过去\"作参照，本句没有过去背景。 E. are cleaning — 现在进行时表示此刻正在洗，与 already 表示的\"已经洗完\"矛盾。 F. have been cleaning — 现在完成进行时强调一直在洗、可能还在洗，与 already 的收尾含义不符。 最常见的失误是",
+          "options": [
+            "are cleaning",
+            "have cleaned",
+            "has cleaned",
+            "cleaned",
+            "have been cleaning",
+            "had cleaned"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "My grandparents ______ in this old house since 1998, and they refuse to move into the modern flat their son bought for them in the city.",
+          "explain": "have lived since 1998 表示从 1998 年一直持续到现在的起点，主句用现在完成时；主语 my grandparents 是复数，助动词用 have。 🔎 本题关键线索是 since 1998 与后文 refuse to move（现在仍不肯搬走）——居住从 1998 年开始延续到今天，属于\"持续到现在\"。 ⚠️ 两处容易错：一是把 since 1998 当成普通过去时间写 lived；二是主语 grandparents 指两个人、是复数，却误用 has lived。 since 1998 ↓ 从过去持续到现在 ↓ 现在完成时 ↓ 主语 grandparents 复数 ↓ have lived 句意是：爷爷奶奶自 1998 年起一直住在这座老房子里，至今仍拒绝搬进儿子在城里买的新公寓。\"自 1998 年至今仍然住着\"是标准的\"从过去持续到现在\"，主句要用现在完成时。主语 my grandparents 指爷爷奶奶两个人，是复数，助动词选 have，live 的过去分词是规则变化 lived。 A. have lived — 正确：since 1998 表持续到现在，复数主语用 have。 B. lived — 一般过去暗示\"住过，现已搬走\"，与 refuse to move（还住着、不肯搬）矛盾。 C. live — 一般现在时只能说明现在住着，无法覆盖 since 1998 以来的持续过程。 D. are living — 现在进行时强调\"此刻正在住\"，不能与 since 引导的持续时间段搭配。 E. have been lived — live 是不及物动词，没有被动语态，been lived 在语法上不成立。 F. had lived — 过去完成时需要过去参照点，本句没有。 since 后接时间点、主句要体现\"从过去持续到现在\"，很多人却写一般过",
+          "options": [
+            "had lived",
+            "lived",
+            "have been lived",
+            "have lived",
+            "are living",
+            "live"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "- Have you ever ______ to the new city library on Huaihai Road, Mike? - Not yet, but I plan to go there with my deskmate this Saturday.",
+          "explain": "been Have you ever been to ... 是询问\"有没有去过的经历\"的固定句式：been to 表示去过且已回来；人正在那儿、还没回来才用 gone。 🔎 本题关键线索是 Have you ever——ever 表明在问\"到现在为止的经历\"；Mike 此刻正和你对话、人不在图书馆，所以只能是\"去过已回\"的 been。 ⚠️ 不要看到\"去图书馆\"就选 gone：have gone to 表示\"去了、人还没回来\"，而 Mike 正在回答你的问题，显然不在图书馆，只能用 been。 Have you ever ↓ 询问去过的经历 ↓ 答话人就在现场、尚未出发 ↓ been（去过已回）↓ 而不是 gone 这是典型的\"询问经历\"句式：Have you ever been to ...（你曾经去过……吗？）。been to 强调\"去过某地并且已经回来\"，ever 加强了\"至今为止的经历\"这层含义。Mike 答\"还没有，打算这周六去\"，说明他从未去过、此刻正在原地和你说话，绝不能理解成\"人正在图书馆\"的 gone。 A. been — 正确：have been to 询问去过的经历，符合\"还没去、打算去\"的语境。 B. gone — have gone to 表示去了没回来，Mike 正在和你对话，语义矛盾。 C. went — have 之后只能接过去分词，went 是过去式，属形式错误。 D. go — have 后接原形 go，语法不成立。 E. being — have being 不是完成时的合法结构，应使用过去分词。 F. had been — 过去完成时需过去的参照点，此处是与现在相关的一般疑问，用不上。 been 与 gone 的核心区别记不住：been 是\"去过并已回来\"（谈经历），gone 是\"去了还没回来\"（人不在场）。问 ever 的经历一律",
+          "options": [
+            "go",
+            "had been",
+            "been",
+            "gone",
+            "being",
+            "went"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "Tom ______ three letters to his pen friend last month, and he says he is going to write a fourth one this weekend.",
+          "explain": "wrote last month 是明确的过去时间词，把动作限定在已经结束的过去时间段里 → 用一般过去时 wrote；现在完成时不能与明确过去时间词连用。 🔎 本题关键线索是 last month——\"上个月写了三封信\"是发生在已结束时间段里的事；后面的 this weekend 谈的是将来的第四封，与空格无关。 ⚠️ \"三封信 + 还要写第四封\"很像在数\"到现在为止的总数\"，会诱人写 has written。但 last month 已经把写信的时间框死在过去，有明确过去时间词时必须让位给一般过去。 last month ↓ 明确的过去时间词 ↓ 过去发生、与现在时间轴无关 ↓ 一般过去时 ↓ write 的过去式 wrote 全句说：Tom 上个月给笔友写了三封信，还说这个周末要写第四封。写信的动作有 last month 这个确切的过去时间点，属于\"已经结束的过去事件\"，英语里凡是带 yesterday / last month / in 2019 这类明确过去时间词的句子，一律用一般过去时，哪怕后文还在继续写。write 的过去式是不规则变化 wrote。 A. wrote — 正确：last month 是明确过去时间词，用一般过去时。 B. has written — 现在完成时不能与 last month 这类已结束的过去时间词连用；\"已写三封\"的统计义被 last month 切断。 C. had written — 过去完成时需要\"过去的过去\"参照点，本句无过去背景。 D. writes — 一般现在时表示习惯或规律，与一次性写信事件不符。 E. was writing — 过去进行时表示过去某刻正在写信，与\"上月写了三封\"的数量矛盾。 F. has wrote — wrote 是过去式，have/has 之后必须用过去分词 written。 把\"数量 ",
+          "options": [
+            "had written",
+            "writes",
+            "wrote",
+            "has wrote",
+            "has written",
+            "was writing"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "I sent an e-mail to the manager at eight this morning, but he ______ to me yet, so I am getting more and more worried about the job interview next week.",
+          "explain": "has not replied yet 提示\"到现在为止还没回复\"，且\"我现在越来越担心\"正是这个未回复的结果 → 用现在完成时 has not replied；yet 不能与一般过去连用。 🔎 本题关键线索有两个：yet（到现在为止）和后半句 so I am getting worried（担心现在仍在继续）——邮件是早上发的，但\"没回\"的状态延续到了现在。 ⚠️ 句首的 at eight this morning 是精心设计的陷阱：它只说明发邮件的时间，空格讲的却是\"从早上到现在一直没回\"，所以不能因为它是过去就写过去时。 早上八点发的邮件(过去背景) ↓ yet ↓ 没回复的状态延续到现在 ↓ 担心仍在继续 ↓ 现在完成时 ↓ 主语 he 三单 ↓ has not replied 句意是：我今早八点给经理发了邮件，但他到现在还没回复，所以我越来越担心下周的面试。\"还没回复\"不是一个定格在过去的事件，而是从发信起一直延续到说话时的状态，yet 正是为它服务的；这个未回复又直接造成现在的心烦。句中有明确的\"影响现在\"链条，所以用现在完成时。主语 he 是第三人称单数，助动词 has，reply 的过去分词为 replied。 A. has not replied — 正确：yet 要求现在完成时，未回复状态延续到现在。 B. did not reply — 一般过去把\"没回\"说成过去定格的事，与 yet 及\"现在还在担心\"矛盾。 C. had not replied — 过去完成时要有过去参照点，本句没有\"过去的过去\"。 D. is not replying — 现在进行时只描述此刻，无法覆盖从早上到现在的整段时间。 E. was not replying — 过去进行时需要过去时间背景，且与 yet 不搭配。 F. does not reply — 一般现在时表示\"一贯",
+          "options": [
+            "did not reply",
+            "does not reply",
+            "was not replying",
+            "has not replied",
+            "had not replied",
+            "is not replying"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "By the time Sam finally pushed open the door of the gym, the coach ______ the starting lineup on the whiteboard.",
+          "explain": "had written 考查 by the time + 一般过去时句式：主句动作发生在从句动作之前，要用过去完成时（had + 过去分词）。 🔎 本题关键线索是 by the time Sam finally pushed open the door of the gym——\"到萨姆推门进馆时为止\"，基点落在过去的进门动作上，而教练写名单发生在这之前。 ⚠️ 别看到 pushed open 是过去时就顺手填 wrote。句子要表达的是\"在他进门之前名单就已经写好\"，属于过去的过去，必须先 had 再写过去分词 written。 by the time ↓ 到…为止（基点在过去）↓ 从句用一般过去 pushed ↓ 写名单在这之前完成 ↓ 过去的过去用过去完成时 ↓ had + written 句子讲两件事：教练先把首发名单写在白板上，萨姆随后才推门进来。叙述时以\"推门进来\"这个过去的动作为参照点，写名单发生在它之前，属于\"过去的过去\"，所以谓语要用 had written，表示在他进门那一刻名单已经写好。 A. has written — 现在完成时以现在为基点，与 by the time 所在的过去场景不符； C. writes — 一般现在时，整句明显是过去语境； D. wrote — 一般过去时只能叙述\"进门之后写\"，无法表示先于进门完成； E. had wrote — 把过去式 wrote 错当成过去分词，write 的过去分词是 written； F. written — 丢掉助动词 had，句子缺少完整的谓语。 两个高频错误：一是看到过去时间就随手写一般过去时 wrote；二是把过去完成写成 had + 过去式（had wrote），忘了过去分词 written。 by the time + 过去时 → 主句一步到位用 had done。 🧠 考试现场看到 b",
+          "options": [
+            "had wrote",
+            "writes",
+            "written",
+            "wrote",
+            "had written",
+            "has written"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "When Grandma came back from the morning market, she found that the cat ______ all the fish she had left on the kitchen table while she was away.",
+          "explain": "had eaten 两个过去的动作排先后：猫吃鱼发生在奶奶从市场回来（过去基点）之前，先发生的动作用过去完成时 had eaten。 🔎 本题关键线索是 when Grandma came back 与 while she was away——奶奶外出期间猫把鱼吃了，吃鱼这个动作发生在\"回来发现\"这个过去点之前。 ⚠️ 句子后半句 she had left 已经给出了参照：留在桌上的鱼是奶奶出门前放的，而猫吃鱼在奶奶回来前就完成了。别把 ate 和 came back 看成同时发生，顺序是先吃鱼、后回家。 奶奶去市场(过去) ↓ 猫吃鱼发生在她离开期间 ↓ 奶奶回来发现(过去基点) ↓ 吃鱼在基点之前完成 ↓ 过去的过去用 had done ↓ had + eaten 全句有三个动作：奶奶把鱼留在桌上、猫吃掉鱼、奶奶回来发现。以\"奶奶回来\"这个过去的发现动作为基点，猫吃鱼发生在此之前，是\"过去的过去\"，所以用 had eaten。后句 she had left on the table 同样用过去完成，与空格形成同一条时间链。 A. has eaten — 现在完成时以现在为基点，但整句故事发生在过去某天； B. ate — 一般过去时把吃鱼与回家并列叙述，无法突出\"在她回来之前已吃完\"的先后关系； D. eats — 一般现在时，与全句过去叙事矛盾； E. had ate — eat 的过去分词是 eaten，不能用过去式 ate； F. eaten — 丢掉助动词 had，缺少谓语动词。 看到 when 就以为主从句都是同一时间层。其实 when 从句是\"发现\"的基点，动作若在它之前发生，要用过去完成时。 先吃鱼、后回家：先发生的动作给 had。 🧠 考试现场先排先后：奶奶回家(基点)，吃鱼在这之前 → had eaten。 🧠 以后看到 when + 过去时 + \"发",
+          "options": [
+            "eats",
+            "eaten",
+            "had eaten",
+            "had ate",
+            "has eaten",
+            "ate"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "When the two hikers returned to their tent the next morning, they discovered that some wild animals ______ a big hole in the back wall during the night.",
+          "explain": "had torn 靠上下文推断先后：夜里野兽撕破帐篷，次日早上徒步者返回才发现，先发生的动作（夜里）用过去完成时。 🔎 本题关键线索是 the next morning 与 during the night 的对照：撕洞发生在夜里，发现发生在第二天早上，两个过去动作一先一后，先者用过去完成。 ⚠️ 句中没有 by the time 这类直接标志，需要自己从叙事里排出先后。别把\"撕破\"和\"返回发现\"当成同时发生——正是夜里先被撕破，早上回来才会\"发现\"。 夜里野兽撕帐篷(先) ↓ 次日早上返回(后，过去基点) ↓ discovered 是过去时 ↓ 撕洞在这之前完成 ↓ 过去的过去用 had done ↓ had + torn 徒步者早上回来才\"发现\"帐篷被撕破，说明撕破这个动作在前一晚就已经完成，属于过去某点（早上返回）之前发生的事。动词 tear 是\"撕破\"，其过去分词是 torn（不是 tore），与 had 搭配成 had torn。 A. tore — 一般过去时把撕破推迟到\"回来之后\"叙述，与发现结果（已经破了个洞）矛盾； B. has torn — 现在完成时基点落在现在，而故事发生在过去； D. tears — 一般现在时，与整段过去叙事冲突； E. had tore — 过去式 tore 冒充过去分词，应为 torn； F. torn — 单独出现缺少 had，不能构成谓语。 无标志词的题最怕\"拿到就写过去式\"。正确做法是先在心里把动作排成时间线：谁先发生，谁才配得上过去完成。 夜里先撕、早上后见：先发生的动词请带上 had。 🧠 考试现场：没有 by the time 也别慌，用\"动作顺序\"代替信号词——先发生者 had done。 🧠 以后读到 find/discover + 过去时 → 向前追一个更早的动作 → had done。",
+          "options": [
+            "tore",
+            "torn",
+            "has torn",
+            "had tore",
+            "tears",
+            "had torn"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "By the end of last year, the young runner ______ more than two thousand kilometers during her daily training.",
+          "explain": "had covered 考查 by the end of last year + 过去完成时：by the end of…表示\"到…结束时为止\"，且去年底是过去的界点，主句用 had + 过去分词。 🔎 本题关键线索是 by the end of last year——\"到去年年底为止\"是个已经过去的截止点，跑完两千公里这个累计结果要在这个点之前达成。 ⚠️ 别被 last year 骗去填 covered，也别把 has covered 当成正确答案。基点不是\"现在\"而是\"去年年底\"这一过去界点，所以既不是现在完成，也不是简单过去。 by the end of last year ↓ 到去年底为止 ↓ 过去的时间界点 ↓ 累计里程在这之前完成 ↓ 过去的过去用过去完成时 ↓ had + covered by the end of last year 是\"到去年年底为止\"，说话时去年已经过去，因此这是一个过去的截止点。跑完两千多公里是在这个界点之前累积完成的结果，要用过去完成时 had covered，表示\"到那时已经跑了…\"。 A. covered — 一般过去时只叙述\"跑了\"，没有体现\"到去年底为止已累计…\"的完成意义； B. has covered — 现在完成时以现在为基点，而 last year 早已过去； D. covers — 一般现在时与过去界点冲突； E. had cover — cover 的过去分词是 covered，不是原形； F. have covered — 主语 the young runner 是第三人称单数，助动词应用 has/had，且基点不在现在。 by the end of last year / by then 这类\"过去的界点短语\"常常被忽略，学生直接写过去式或现在完成。记住：by + 过去时间 = 过去完成时。 by the e",
+          "options": [
+            "covers",
+            "had cover",
+            "had covered",
+            "have covered",
+            "covered",
+            "has covered"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "On the morning of the oral test, Leo opened his bag to take out his lucky pen, but it was not there; he realized that the pen ______ on the desk in his study the night before.",
+          "explain": "had been left 易混点辨析：昨晚把笔忘在书桌上，今早考试时才发现，基点落在过去（今早），更早发生的\"遗忘\"用过去完成时的被动式 had been left。 🔎 本题关键线索是 the night before（前一天晚上）与 on the morning of the oral test 的对照：忘笔发生在前一晚，发现发生在次日上午，是典型的\"过去的过去\"。 ⚠️ 最容易错成 had left（主动式）：主语是 the pen（笔），笔不会自己把自己留下，必须用被动 had been left。另一个坑是把基点挪到现在而选 has been left。 前晚笔落在书桌(先) ↓ 次日晨考试找笔(后，基点) ↓ 笔是\"被留下\"的 ↓ 用被动式 ↓ 发生在基点之前 ↓ had been left 利奥早上到考场打开书包才发现幸运笔不见了，而笔是被他前一晚忘在书房书桌上的——\"被留下\"发生在\"发现\"这个过去动作之前，所以用过去完成时；主语 pen 是受动者，还要用被动语态，合起来就是 had been left。 A. was left — 一般过去时被动式只陈述过去事实，没有体现\"到发现时已经…\"的先后层次； B. has been left — 现在完成时基点落在现在，而故事发生在过去的那个早上； D. had left — 主动式：笔不能自己把自己留在桌上，与主语 pen 逻辑不通； E. is left — 一般现在时，与过去叙事冲突； F. will be left — 将来时，动作明明发生在过去。 这道题藏着两个连环坑：一是忘加被动（had left），二是把时间基点搞错（has been left）。先定\"过去的过去\"，再定\"被动\"，两步缺一不可。 笔是\"被留下\"的：had been left，被动加过去完成。 🧠 考试现场：先问\"比哪个过去动作更早\"",
+          "options": [
+            "had been left",
+            "has been left",
+            "is left",
+            "was left",
+            "will be left",
+            "had left"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Last night, I sat down for dinner at eleven thirty and suddenly realized that I ______ nothing but a piece of bread since the simple breakfast that morning.",
+          "explain": "had eaten 综合判断：两个线索合起来——①基点是过去的 realized；②since the simple breakfast that morning 表明从早饭到夜里十一点半之间，动作要用完成时，且基点在过去，所以用过去完成。 🔎 本题关键线索有两条：since（自从）要求完成时态，而 realized 把时间基点钉在\"昨晚\"这个过去点上——since 搭配过去的基点，就是 had eaten。 ⚠️ 别一看到 since 就写 have eaten。since 后面跟\"哪个基点\"决定时态：这里是 realized（过去），不是\"一直到现在\"，所以必须是过去完成时。 since 要求完成时 ↓ 基点 realized 在过去 ↓ 不是\"到现在\"而是\"到昨晚\" ↓ 过去的过去用过去完成时 ↓ 主语 I ↓ had eaten 全句意思是：昨晚十一点半坐下来吃晚饭时，我突然意识到，自从那天早上的简单早餐之后，自己几乎没吃什么东西。意识到（realized）发生在过去，而\"没吃东西\"是到那一刻为止一直持续的状态，属于\"到过去某点为止\"，所以用过去完成时 had eaten。 A. have eaten — 现在完成时要求基点落在现在，但句子的基点明明是昨晚的 realized； B. ate — 一般过去时不能与 since 引导的\"从某时起\"结构搭配； D. eat — 一般现在时，与全句过去语境冲突； E. had ate — eat 的过去分词是 eaten，不是 ate； F. has eaten — 主语是 I，助动词应用 have/had，且基点不在现在。 这是\"现在完成 vs 过去完成\"的经典分岔口：since/for 只是要求\"完成时\"，真正决定用哪种完成时的是基点。看到叙事里明确在过去（realized、yesterday），一律用过去完成。 si",
+          "options": [
+            "have eaten",
+            "had eaten",
+            "has eaten",
+            "had ate",
+            "eat",
+            "ate"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "Grandpa usually reads newspapers in the garden after dinner, but yesterday it rained heavily, so he ______ TV at home instead.",
+          "explain": "watched 同一人的日常习惯用一般现在（reads），而“yesterday”那晚的一次性事件要用一般过去时；一句话里两套时间框架并存，空在哪个框架就选哪个时态。 🔎 本题关键线索：but yesterday it rained heavily——转折词 but 之后的 yesterday 把时间基点切到过去，空里的动作（在家看电视）是昨晚已结束的事。 ⚠️ 不要被前半句 Grandpa usually reads newspapers 的习惯性现在时带偏，以为全句都讲现在；真正管住这个空的是 yesterday，它属于过去框架。 usually reads → 前半句是现在习惯框架 ↓ but ↓ 转折切到昨天 ↓ yesterday it rained 是过去基点 ↓ 空与 rained 同属过去框架 ↓ watched 前半句用 reads 描写爷爷每天晚饭后的固定习惯，属于现在框架；but 之后转到昨晚的具体情况：天降大雨，他只好在家看电视。看电视是昨晚发生并已结束的一次性事件，与他的日常习惯无关，因此用一般过去时 watched。 A. watches — 只盯着前半句的习惯，完全忽略 yesterday，时间框架没有切换； B. is watching — 现在进行时描述此刻正在发生，与“昨晚”矛盾； C. 正确； D. has watched — 现在完成表示与现在相连，而 yesterday 是明确结束的过去点，二者不能搭配； E. had watched — 过去完成需要更早的过去基点，本句只有“昨天”一个过去点； F. was watching — 过去进行强调当时正在进行的动作，而这里要陈述昨晚的结果事实，一般过去更自然。 最常见错误：前半句用现在时，后半句就顺手跟着写现在时，没注意到 but yesterday 已把时间基点切到过去。 一句话记忆",
+          "options": [
+            "watches",
+            "had watched",
+            "has watched",
+            "was watching",
+            "is watching",
+            "watched"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "Lucy and I are good friends now, and we first ______ each other at a summer camp five years ago.",
+          "explain": "met “现在还是好朋友”是现在框架的信息，但第一次见面发生在 five years ago 这个已结束的过去点，应使用一般过去时；不能因为“与现在有关”就用现在完成。 🔎 本题关键线索：five years ago——它明确表示相识发生在过去某个已结束的时间点，直接决定空里填 met。 ⚠️ 干扰来自句首 Lucy and I are good friends now：学生容易觉得“现在还是朋友、与现在有关”而误选 have met。记住：现在完成不能与 ago 连用。 are good friends now → 现在状态只是背景 ↓ 但 first meet 发生在过去 ↓ five years ago 锁定过去点 ↓ ago 与现在完成水火不容 ↓ met 这句话把“现在的状态”（are good friends now）与“过去的事件”（第一次见面）并列。第一次见面带明确的过去时间点 five years ago，说明那是一桩早已结束、时间确定的事，与说话时是否仍是朋友无关，标准表达是 first met。 A. have met — 现在完成不能与明确的过去时间点 ago 连用，这是硬规则； B. meet — 一般现在描述习惯或事实，与 five years ago 直接冲突； C. 正确； D. are meeting — 现在进行强调此刻正在发生，明显不符； E. had met — 过去完成需要站在过去某点上回看，本句基点是 now； F. were meeting — 同样缺乏过去基点，且“第一次见面”是瞬间事件，一般不用进行时。 看到“现在还是好朋友”就写 have met，是过去时与现在完成混淆的典型症状；判断标准始终是有没有明确的过去时间点。 一句话记忆：ago 一出现，现在完成靠边站，用一般过去。 🧠 考试现场：圈出 ago/yesterday",
+          "options": [
+            "met",
+            "were meeting",
+            "had met",
+            "have met",
+            "meet",
+            "are meeting"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Since my aunt retired in 2020, she ______ as a volunteer at the city library and enjoys the work very much.",
+          "explain": "has worked since + 过去时间点（retired in 2020）表示“从那时一直延续到现在”，主句要用现在完成时 has worked；而 since 从句本身用一般过去。 🔎 本题关键线索：since my aunt retired in 2020——since 把动作的起点放在过去并延续到说话时，主句动词必须是现在完成。 ⚠️ 陷阱是 retired 和 in 2020 都是过去的词，容易让学生给主句也写 worked；其实 since 结构里只有从句用过去时，主句要用现在完成，二者不可互相传染。 since ↓ 2020 年退休是过去起点 ↓ 做志愿者从起点延续到现在 ↓ 后文 enjoys 印证现在仍在做 ↓ 主句用现在完成 ↓ has worked since 从句用一般过去 retired 交代过去起点，主句说明从那个起点一直持续到现在的状态——阿姨退休后一直在市图书馆做志愿者，并且现在还很享受（enjoys 是现在时佐证）。因此主句用 has worked，强调“从 2020 年至今”。 A. worked — since 结构里主句若用一般过去，会读成“2020 年之后就停止做”的意思，与后文 enjoys 矛盾； B. works — since 表示从过去某点延续至今，与一般现在不搭配； C. 正确； D. had worked — 过去完成要求基点在过去，而本句的基点是说话时的 now； E. is working — 现在进行时不能与 since 直接搭配（要说 has been working）； F. was working — 把整句切到过去基点，与“延续到现在”相矛盾。 把 since 从句与主句的时态搞反，或看到从句的过去时就把主句也写成过去；记住固定搭配：since 从句一般过去、主句现在完成。 一句话记忆：since ",
+          "options": [
+            "had worked",
+            "worked",
+            "is working",
+            "works",
+            "has worked",
+            "was working"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "My cousin wrote that he felt lonely in his new city, but now he tells me he ______ his school life and has already made good friends.",
+          "explain": "loves 句中“过去的旧消息（wrote/felt）”与“现在的实情”并存：空所在分句由 now he tells me 管辖，基点是现在，所以用一般现在时 loves。 🔎 本题关键线索：now he tells me——tells 是现在时，说明后面内容以现在为基点说；wrote 和 felt 只管前半句的过去框架。 ⚠️ 不要看到 wrote、felt 两个过去动词就把全句写过去式 loved；转述内容讲的是他现在的情况，且后文 has already made good friends 是现在完成，也在证明空应取现在框架。 wrote that he felt lonely → 前半句是过去的旧消息 ↓ but now he tells me ↓ tells 是现在基点 ↓ 空与 has made 同属现在框架 ↓ loves 这句话把两段时间信息叠在一起：表哥写信说在新城市很孤单，那是过去的旧消息；但“现在他告诉我”表明以下是当前情况——他喜欢现在的学校生活，并且已经交到了好朋友（has already made 佐证现在基点）。所以空用一般现在 loves。 A. loved — 把整句都当成过去转述，忽略了 now he tells me 的现在基点； B. is loving — love 是状态动词，一般不用进行时； C. would love — 句中没有任何 would 结构，凭空添加情态动词； D. 正确； E. was loving — 状态动词无进行时，且基点完全切错； F. had loved — 过去完成要求更早的过去基点，而这句话正站在 now 上说话。 被前半句的过去信息“绑架”，整句统一写成过去时；正确做法是先把空圈到它自己的分句里，再看该分句的谓语 tells 是现在时。 一句话记忆：谁管这个空？看空所在分句的谓语动词是现在还是过去",
+          "options": [
+            "would love",
+            "is loving",
+            "was loving",
+            "loved",
+            "loves",
+            "had loved"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "Have you finished your homework? Not yet, Mum. I ______ it only ten minutes ago, and it is really a long task.",
+          "explain": "started 妈妈的问句 Have you finished 制造了“现在完成”的氛围，但空后 only ten minutes ago 是明确结束的过去时间点，与现在完成不能共存，必须用一般过去时 started。 🔎 本题关键线索：only ten minutes ago——ago 是现在完成的禁区，也是本题唯一有权裁决时态的词。 ⚠️ 陷阱来自问句的 Have you finished 和孩子的回答 Not yet，学生很容易顺着“还没完成、与现在有关”的思路写 have started；但 ago 一出现就强制切到过去框架。 Have you finished → 现在完成问结果 ↓ Not yet 强化“与现在有关”的错觉 ↓ 但 only ten minutes ago ↓ ago 禁止现在完成 ↓ started 问句确实用现在完成，但它问的是结果状态（作业做完了没有）。孩子的回答是“十分钟前才开始做”，这是带明确过去时间点的一次性事件；现在完成不能与 ago 连用，所以只能用 started。 A. have started — 现在完成与 ago 连用违反硬规则； B. start — 一般现在描述习惯或安排，与“十分钟前”矛盾； C. 正确； D. was starting — 过去进行表示当时“正在开始”的过程，这里要陈述何时开始这一事实； E. had started — 过去完成要求基点在过去，而这段对话站在现在； F. am starting — 现在进行时不能与 ago 搭配。 被上下文里的现在完成时“传染”，无视 ago 的强制力；一看到 ago/yesterday/last week 就应该首先想到一般过去。 一句话记忆：别人用完成时，不代表你也用——ago 说了算。 🧠 考试现场：圈出 ago 并提醒自己“此题必为一般过去”，再用上下文",
+          "options": [
+            "was starting",
+            "am starting",
+            "start",
+            "have started",
+            "had started",
+            "started"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "My neighbour Mrs Green is seventy years old now, but she still remembers clearly how she ______ her childhood during the war.",
+          "explain": "spent 现在信息（is seventy now）只是引出回忆的背景，空在“回忆内容”里，讲述的是战争年代度过童年这一早已结束的往事，用一般过去时 spent。 🔎 本题关键线索：her childhood during the war——童年与战争都属于过去已结束的事实；真正管住这个空的是回忆的内容，而不是句首的 now。 ⚠️ 这里有两个陷阱：一是 now 让学生想写现在时 spends；二是“她现在还记得”让学生误以为与现在有关、该用完成时。实际上“如何度过童年”发生在过去，与她此刻记不记得没有关系。 is seventy now → 现在框架只是背景 ↓ but she still remembers ↓ 回忆的内容是过去的事 ↓ how she spent her childhood ↓ during the war 是过去时间 ↓ spent 整句框架是“现在仍能回忆起过去的往事”。Mrs Green 现在七十岁是背景信息，作用是引出她对童年的记忆；空描述的是童年如何在战争年代度过，那桩事早已结束，与现在无直接关联，因此用一般过去时 spent。 A. spends — 把回忆内容当成现在习惯，但童年不可能发生在现在； B. has spent — 现在完成须与现在相连，童年已完整结束且无 since/for 支撑，无法成立； C. 正确； D. had spent — 需要更早的过去基点，本句只有“现在记得”与“过去童年”两个层次； E. was spending — 进行时强调过程，这里是概括整个童年的度过方式； F. is spending — 现在进行与“战争年代”完全矛盾。 把句首的 now 当成全句时态的开关；其实 now 只管 is seventy 这个分句，回忆内容用什么时态，由内容本身发生的时间决定。 一句话记忆：回忆里的内容，按内容发生的时",
+          "options": [
+            "was spending",
+            "is spending",
+            "has spent",
+            "had spent",
+            "spent",
+            "spends"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "Look! The baby in Mum's arms ______ at the camera, though she usually hides her face whenever a stranger comes near.",
+          "explain": "is smiling 考查\"此刻正在进行（现在进行时）\"与\"习惯性动作（一般现在时）\"的语境分辨。 🔎 本题关键线索：句首的 Look!——它提示说话者正看着当下发生的画面，所以空格动作此刻正在进行，应填 is smiling；句中的 usually 只属于 though 引导的从句，修饰的是 hides，与空格无关。 ⚠️ 别被 usually 骗了：usually 只管 \"she usually hides her face\" 这一半，讲的是\"平时躲脸\"的习惯；主句由 Look! 钉在当下。真正决定答案的是 Look! 这个\"看着正在发生\"的信号。 Look! ↓ 看着此刻的画面 ↓ 动作正在发生 ↓ 用现在进行时 ↓ 主语 the baby 是第三人称单数 ↓ is smiling Look! 放在句首，等于把读者拉到说话的这一秒：婴儿此刻正对着镜头笑，动作正在进行且肉眼可见，所以用现在进行时 is smiling。though 之后只说\"平时\"习惯躲脸，是对比说明，绝不能把 usually 的语义借给空格。 A. smiles — Look! 表明要描述当下正在发生的画面，一般现在时表达不了\"正看着它发生\"； C. smiled / D. was smiling — 过去与过去进行都指向过去，与 Look! 的现在语境冲突； E. has smiled — 现在完成时强调\"已完成且有影响\"，无法满足 Look! 要你看\"正在进行\"的意图； F. will smile — 表示将来，与此刻场景矛盾。 看到 usually 就不假思索选一般现在时，却没看清 usually 在 though 从句里，主句真正的指挥棒是 Look!（此刻）。 Look 在句首 = 请看现在这一刻 → 空格用进行时。 🧠 考试现场：看到句首 Look! / Listen!，空格跟在主语后，马",
+          "options": [
+            "has smiled",
+            "smiles",
+            "was smiling",
+            "smiled",
+            "will smile",
+            "is smiling"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "Just now I rang Tom's doorbell three times, but he ______ a hot shower in the bathroom and could not hear the bell at all.",
+          "explain": "was taking 考查过去某个时刻\"正在进行的动作（过去进行时）\"与\"已完成的事实（一般过去时）\"的区分。 🔎 本题关键线索：第一句 Just now I rang…three times 给出了过去的时间框架；而 he 听不到门铃，说明按门铃的整个过程中他正在洗澡，动作是\"当时正在进行\"，所以用 was taking。 ⚠️ 不要因为 rang 是一般过去时，就把空格也想成一般过去 took。\"他洗了个澡\"是完成的事实，与\"我按了三次门铃他都没听见\"对不上；关键是\"整个按铃期间他一直洗着\"这个持续画面。 rang three times ↓ 过去的时间框架 ↓ he 当时正泡在热水澡里 ↓ 动作跨着整个按铃过程在持续 ↓ 过去进行时 ↓ was taking I rang Tom's doorbell three times 是一般过去，表示三次按铃这个事实发生在过去；但门铃响的那段时间里 Tom 正洗着澡、完全听不见，洗澡这个动作是被按铃\"覆盖\"的进行中背景，必须用过去进行时 was taking。若写成 took，就成了\"他洗完澡\"的完成事实，与\"听不见铃声\"在逻辑上接不上。 A. takes — 一般现在时表习惯，与 Just now（刚才）的过去语境冲突； B. is taking — 现在进行时，时间点对不上； C. took — 一般过去表\"洗完澡\"的完成事实，无法解释为何听不见； E. has taken — 现在完成时与 just now 所指的过去语境不搭配； F. would take — 表示过去将来或过去习惯，这里没有这种含义。 把 when/while 式\"正在做某事时发生另一事\"的语感套用反了：看到一般过去 rang，就误以为空格也应是完成性的过去动作。 他在\"整个过程里\"一直做着某件事 → was/were doing。 🧠 考试现场：动",
+          "options": [
+            "takes",
+            "was taking",
+            "has taken",
+            "took",
+            "is taking",
+            "would take"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "These days the school band ______ hard for the coming art festival, and the whole school is looking forward to their show.",
+          "explain": "is practising 考查\"现阶段正在进行的临时活动（现在进行时）\"与\"常年例行习惯（一般现在时）\"的辨析：these days 提示的是一个临时阶段。 🔎 本题关键线索：These days 与 for the coming art festival——为即将到来的汇演加紧排练是一项\"近期的临时任务\"，不是每学期都有的固定安排，所以用 is practising。 ⚠️ 不要一看到排练就觉得是日常习惯而选 practises。一般现在时描述的是\"长期惯例或客观规律\"；这里排练是为两周后的汇演临时加练，还带上了 for the coming festival 的目的，正处在\"进行中\"的阶段。 These days ↓ 一个临时的近期阶段 ↓ 为汇演加紧排练 ↓ 动作在这个阶段进行中 ↓ 现在进行时 ↓ is practising These days 指\"最近这几天/这一阵子\"，说明乐队为了即将到来的艺术节处于一段临时的加紧排练期，排练还没结束、仍在进行，所以要填现在进行时 is practising。后半句 the whole school is looking forward to their show 也用进行时，描述全校此刻正期待的状态，两半都在\"现在正在\"的框架里。 A. practises — 一般现在时表示长期习惯或固定安排，无法传达\"这个阶段正在加紧\"的临时进行感； C. practised / D. was practising — 过去时与 these days 的现在语境冲突； E. has practised — 现在完成时强调\"已排练出成果\"，与\"仍在为汇演排练\"不符； F. will practise — 将来时，与这些天正在做的事矛盾。 把 these days 当成时间点标志去套一般现在时，忽略了它真正的作用是指向\"现阶段的临时进行\"；",
+          "options": [
+            "will practise",
+            "practises",
+            "is practising",
+            "was practising",
+            "has practised",
+            "practised"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "I ______ my physics homework when the lights suddenly went out and the whole room fell into darkness.",
+          "explain": "was doing 考查\"过去正在进行的动作被 when 从句打断\"的典型结构：主句用过去进行时，when 从句用一般过去时。 🔎 本题关键线索：when the lights suddenly went out——\"灯突然熄灭\"是一个插入的瞬间事件，说明它在主句动作进行到一半时发生，主句动作没有完成，只能用过去进行时 was doing。 ⚠️ 不要因为 went out 是一般过去，就把主句也写成 did。\"我做了作业\"表示作业已经写完；可灯灭时我显然还没写完（后半句说整个房间陷入黑暗），作业被中断，只能是\"正在做\"。 lights suddenly went out ↓ 瞬间插入事件 ↓ 打断主句动作 ↓ 主句动作当时未完成、正在进行 ↓ 过去进行时 ↓ was doing when 在这里引出的是一个瞬间事件：灯突然熄灭。它在我的作业进行到一半时插入，把我\"正在写作业\"的状态打断。描述\"过去某刻正在进行、后被另一动作打断\"，标准结构就是过去进行时 was doing + when + 一般过去时 went out，两个动作一长一短、同时发生。 A. do / B. am doing — 现在时态与 went out 的过去语境冲突； C. did — 一般过去表示\"写完作业\"这个完整事实，与灯灭时仍在写矛盾； E. have done — 现在完成时强调对现在的影响，与过去场景不符； F. had done — 过去完成表示\"灯灭之前作业就已做完\"，句意说不通。 见到 when 从句用一般过去，就机械地把主句也写成一般过去；忘记\"主句进行 + when 一般过去\"正是被打断的标准搭配。 正在做事被 when 打断 → 主句 was/were doing，when 从句 did。 🧠 考试现场：when 从句是瞬间动作、主句是延续动作 → 主句用过去进行时，表示被打断",
+          "options": [
+            "do",
+            "did",
+            "was doing",
+            "have done",
+            "am doing",
+            "had done"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "\"Right now I ______ to ask you an honest question, but I am afraid you may take it the wrong way,\" said Tom to his best friend.",
+          "explain": "want 考查状态动词不用于进行时：want 表示心理状态而非动作过程，即使句中写着 right now，也只能用一般时 want。 🔎 本题关键线索：动词是 want——它属于状态动词（心理状态类），与进行时的\"动作正在发生\"语义不相容；句首的 Right now 是个诱饵，想让你误以为此刻就该用进行。 ⚠️ 最大的陷阱就是 Right now：它只说明\"我现在有这个想法\"，并不表示\"想要\"这个动作正在一步步发生。want 是状态动词，英语中不说 am wanting / was wanting，强行进行时就是病句。 want ↓ 状态动词（心理状态） ↓ 状态动词不用于进行时 ↓ 时间词 Right now 只修饰状态存在的时间 ↓ 保持一般现在时 ↓ want want 描述的是说话人此刻的心理状态——\"我正存有一个请求的念头\"，它不是像 run、write 那样有起止过程的动作，因此属于不用于进行时的状态动词。Right now 只是说明这个想法此刻存在，正确写法仍是一般现在时 want，绝不能写成 am wanting。这也是本题训练点：状态动词即使撞上 now，也要顶住诱惑用一般时。 B. am wanting — want 是状态动词，不用于进行时，此形式不成立； C. wanted — 一般过去时，与 Right now 的现在时间冲突； D. was wanting — 过去进行 + 状态动词，双重错误； E. have wanted — 现在完成时通常需要 for/since 等延续搭配，这里没有，读起来别扭； F. will want — 表示将来，与\"此刻想问你\"矛盾。 被 right now / at the moment 这类词诱导，把状态动词（want、know、belong 等）写成进行时，造出 is wanting、is knowing 的",
+          "options": [
+            "want",
+            "am wanting",
+            "wanted",
+            "have wanted",
+            "was wanting",
+            "will want"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Every Friday Grandma makes noodles for the family. Today, however, she ______ dumplings in the kitchen, and we are all waiting for the first hot bowl.",
+          "explain": "is making 综合考查\"一般 vs 进行\"的跨句对照：前句 every Friday 习惯用一般现在时，后句今天此刻正在做、还没出锅，用现在进行时。 🔎 本题关键线索：第一句 Every Friday…makes 是常年惯例（一般现在时），第二句以 Today, however 转折，配合 and we are all waiting for the first hot bowl——全家还在等第一碗热腾腾的饺子出锅，说明饺子此刻正包着、还没完成，只能填 is making。 ⚠️ 不要只盯着 every Friday 就整段用一般现在时。however 已经把时间轴切到今天：今天不是例行面条日，奶奶此刻正在厨房包饺子，锅里还没熟（我们还在等），所以空格必须是进行时。 Every Friday ↓ 常年惯例 → 前句 makes 用一般现在 ↓ Today, however ↓ 转折到今天 ↓ 全家正等第一碗出锅 → 动作进行中 ↓ 现在进行时 ↓ is making 整段话是一般与进行的对照：Every Friday Grandma makes noodles 讲的是每周五的固定习惯，用一般现在时 makes；第二句用 Today, however 把焦点切到今天这个例外——奶奶正在厨房包饺子，而且一家人正等着第一碗出锅，说明饺子尚在制作过程中，所以用现在进行时 is making。若填 made 或 has made，饺子已经做完，就不会\"还在等第一碗\"了。 A. makes — 一般现在时表每周惯例，today 的例外场景不适用； C. made / D. was making — 过去时与今天正在进行的现在语境不符； E. has made — 现在完成时表示已做完，与\"我们还在等第一碗\"矛盾； F. will make — 将来时，和此刻厨房里飘出的香味场景冲",
+          "options": [
+            "is making",
+            "makes",
+            "will make",
+            "was making",
+            "made",
+            "has made"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "The swimming competition ended late last night, and the tired swimmers ______ straight back to their hotel after the prize-giving ceremony.",
+          "explain": "went 考查明确过去时间词（last night）决定一般过去时：叙述过去已结束的事件，不涉及对现在的影响。 🔎 本题关键线索：第一分句的 ended late last night 把整件事钉在过去——比赛昨晚就结束了，选手们昨晚\"回到酒店\"也是那个晚上发生的动作，所以空格填过去式 went。 ⚠️ 不要被 have gone/has gone 骗了：看到\"回到酒店\"就以为人在那儿用完成时，但句中没有\"现在还在酒店/结果影响现在\"的语境，反而有明确的过去时间点 last night，完成时与它冲突。 ended last night ↓ 事件发生在昨晚 ↓ 与现在无关联 ↓ 一般过去时 ↓ 主语 swimmers 为复数 ↓ went 第一分句用一般过去时 ended，已经交代比赛在昨晚结束；后半句说选手们赛后回酒店，这是同一晚随后发生的动作，属于对过去事实的依次叙述，与现在没有联系，所以用一般过去时 went。若用完成时，句子必须说明动作对现在的影响，而这里显然没有这种需要。 A. has gone — 主谓不一致（swimmers 复数），且完成时不能与昨晚这种明确过去时间相配； C. have gone — 现在完成时表\"去了还没回\"，句中有 last night 明确过去时间，搭配错误； D. had gone — 过去完成时需要一个更早的过去时间作参照，句中只有\"比赛结束\"这同一个时间点； E. goes — 一般现在时表习惯，与昨晚的事实矛盾； F. will go — 将来时，时间完全对不上。 看到现在还在酒店之类的联想就选完成时，忽略句首明确的过去时间词 last night 才是决定时态的第一信号。 last night / yesterday / ago 一出现，先按一般过去时走。 🧠 考试现场：看到 last night/yesterday/ago",
+          "options": [
+            "will go",
+            "went",
+            "had gone",
+            "goes",
+            "has gone",
+            "have gone"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "The delivery man promised to bring my new sports shoes before noon, but the parcel ______ yet, so I have to stay at home and wait for it.",
+          "explain": "has not arrived 考查 yet + 未完成状态持续到现在的现在完成时：到现在为止还没到，并且直接影响现在的安排。 🔎 本题关键线索：句尾的 yet——它表示\"到现在为止（还没有）\"，属于完成时体系词；后面 so I have to stay at home and wait 说明没到这件事正影响着现在，必须用 has not arrived。 ⚠️ 不要看到 promised 是过去式，就把空格也写过去时 did not arrive。promised 只是过去承诺这件事，空格要回答的是\"到现在包裹到了没有\"，重心在现在，要靠 yet 判断用完成时。 yet ↓ 到现在为止仍未发生 ↓ 还影响现在（要在家等）↓ 现在完成时 ↓ 主语 parcel 三单 ↓ has not arrived yet 用在否定句中表示\"到现在为止还没有\"，要求谓语用现在完成时；后半句 so I have to stay at home and wait 说明包裹没到直接决定着我现在的行动，是与现在相联的未完成状态，因此填 has not arrived。若用 did not arrive，只陈述\"刚才没到\"这个过去的动作，无法表达\"一直到现在都没到、还要继续等\"的含义。 A. did not arrive — 一般过去时只表示过去某个时刻没到，接不住 yet 所要求的\"延续到现在\"； B. is not arriving — 现在进行时表正在发生，与 yet 搭配不通； C. does not arrive — 一般现在时表经常性事实，与这一次等包裹的具体语境不符； D. will not arrive — 将来时，与 yet（到现在为止）矛盾； F. had not arrived — 过去完成时需要另一个过去时间作参照，句中并没有。 不知道 yet 是完成时体系的标志词，把它当",
+          "options": [
+            "has not arrived",
+            "had not arrived",
+            "did not arrive",
+            "will not arrive",
+            "is not arriving",
+            "does not arrive"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "q": "Up to now, our table-tennis team ______ every match in the school league, and we need just one more win to take the cup this term.",
+          "explain": "has won 考查 up to now（到目前为止）这一\"从过去延伸到现在的时段\"必须用现在完成时。 🔎 本题关键线索：句首的 Up to now——意思是\"到现在为止\"，时间轴从过去一直划到说话的此刻，是完成时体系的标志；后半句 we need one more win 也说夺冠还差一场，说明赛程没结束，正好与完成时呼应。 ⚠️ 别以为\"比赛已经打过、都赢完了\"就选一般过去时 won。Up to now 不是过去时间点，而是\"到现在都没停\"的时间段，联赛还没打完（还差一场夺冠），必须用完成时。 Up to now ↓ 到现在为止的时间段 ↓ 联赛尚未结束 ↓ 现在完成时 ↓ 主语 team 视为单数 ↓ has won Up to now 划出的是从过去某刻到说话当下的一整段时间，这种\"尚未截止的时段\"里发生的累积动作要用现在完成时；并且后半句说 need one more win to take the cup，证明比赛还在继续，不能用把过去彻底关上的一般过去时。故填 has won。 A. won — 一般过去时表示过去已结束的比赛，与 up to now 表达的\"进行到现在\"冲突； B. had won — 过去完成时需要过去参照点，句中只有现在语境； D. wins — 一般现在时表经常性结果，与 up to now 的时间结构不符； E. will win — 将来的事情还没发生，而我们已经赢了每一场； F. is winning — 现在进行时无法表达\"至今已赢了多少场\"的累积。 把 up to now/so far 误当成\"过去\"的标志，用了一般过去时；其实它们是\"至今未截止\"的完成时信号。 so far / up to now / until now = 到现在为止 → 现在完成时。 🧠 考试现场：句首 up to now / so far 出现，基本可",
+          "options": [
+            "wins",
+            "had won",
+            "will win",
+            "has won",
+            "won",
+            "is winning"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "— Have you handed your lab report to the teacher yet? — Yes, I ______ it to her just now in the corridor after the maths class.",
+          "explain": "handed 考查 just now（刚才）与 just 的区别：just now 是明确的过去时间点，只能用一般过去时。 🔎 本题关键线索：答语中的 just now——它等于 a moment ago（刚才那一刻），属于明确过去时间词，落在完成时\"时间词禁区\"里，所以答案是过去式 handed。 ⚠️ 最容易被问句里的 Have you handed…yet 带偏：对方用完成时提问，不等于答语也要用完成时。答语带着 just now，说明要说的是\"刚才那一会儿交的\"，具体到点，只能用过去时。 just now ↓ 明确过去时间点 ↓ 不可与完成时连用 ↓ 一般过去时 ↓ handed just now 是\"刚刚那一刻\"的意思，是具体的过去时间，属于明确过去时间词，与现在完成时水火不容；答语要说明的是\"刚才在走廊里把报告交给了老师\"这个过去动作，故用 handed。假如要说\"我刚刚交过了\"，会用 have just handed，但 just now 不行。 A. have handed — 现在完成时不能与 just now 连用（just now 是过去时间词禁区）； C. had handed — 过去完成时需更早的过去参照点，句中没有； D. hand — 一般现在时表习惯，与刚才的具体动作矛盾； E. will hand — 将来时，动作已发生； F. am handing — 现在进行时表此刻正在做，与\"刚才已经交了\"不符。 把 just now 误当成 just，看到问句有 yet 就顺手填完成时；记住 just now 是过去时的朋友，just 才是完成时的朋友。 just now = a moment ago = 明确过去 → 过去时；just = 刚刚 → 完成时。 🧠 考试现场：出现 just now 立刻选过去式；出现 just + 完成时可搭配，",
+          "options": [
+            "hand",
+            "will hand",
+            "have handed",
+            "had handed",
+            "am handing",
+            "handed"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "Our monitor is worried right now because he ______ the memory stick that contains the class photos, and he has not found it after checking the lost-and-found box twice.",
+          "explain": "has lost 考查同一事件中\"丢了（过去事实）\"与\"丢了到现在还没找到（完成时）\"的语境分辨：结果延续到现在，必须用现在完成时。 🔎 本题关键线索：is worried right now 和后面的 he has not found it——\"现在正担心\"且\"到现在还没找到\"把丢失这件事和现在紧紧相连，所以空格用 has lost，表示丢失造成的后果一直持续到现在。 ⚠️ 表面看 lost 和 has lost 都能填进句子，好像都通顺——这正是本题的陷阱。区别在于：lost 只陈述\"丢\"这个过去的动作，是关门的叙述；而句子要解释的是\"他为什么此刻正发愁\"，丢失的结果（现在还没有U盘）必须用完成时才能接上 has not found it 这后半句。 is worried right now ↓ 丢失影响此刻 ↓ has not found it ↓ 结果延续到现在 ↓ 现在完成时 ↓ has lost 全句的重心不是\"他什么时候丢了U盘\"，而是\"他此刻正为此着急，因为到现在还没找到\"。现在完成时恰好承担\"过去发生、影响现在\"的语义，与前半句 is worried right now、后半句 has not found it 构成完整链条；若用 lost，就变成单纯叙述丢U盘这个旧动作，与\"现在还发愁\"的话题焦点对不上。 A. lost — 只陈述过去的丢失动作，无法解释\"现在还在找、还在急\"的现状； B. had lost — 过去完成时需要过去参照点，句中时间轴是现在； C. loses — 一般现在时表经常性丢失，不合语境； E. is losing — 现在进行时表正在丢的过程，语义不通； F. will lose — 将来时，丢失已经发生。 看到句子没有时间词，就凭感觉随手选过去时，不会追问\"这个动作的结果现在还成立吗\"；丢东西这种题，只要后面有\"还没找到\"就",
+          "options": [
+            "will lose",
+            "loses",
+            "has lost",
+            "is losing",
+            "lost",
+            "had lost"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "Lucy began learning the violin when she was only seven, and now she ______ the instrument for almost nine years, which is why her teacher says she plays better than ever.",
+          "explain": "has played 考查两重线索综合判断：for almost nine years + 副词 now，表示动作从过去一直持续到现在，用现在完成时。 🔎 本题关键线索有两个：一是 now（现在）提示时间轴落在当下，二是 for almost nine years（将近九年）这种\"到说话时为止的时长\"只能配完成时；再看后半句 says she plays better than ever 印证她至今仍在练琴。 ⚠️ 别被句首 began learning（七岁开始学）这个过去式骗了：它只是交代起点，空格要写的是\"从七岁到现在练了近九年\"，动作没停。for + 一段时间若无 now 可能指过去一段，但这里 now 明明白白把终点接在当下。 began at seven ↓ 起点在过去 ↓ for nine years + now ↓ 持续到现在 ↓ 现在完成时 ↓ has played began learning 给出过去的起点，for almost nine years 给出从起点到现在的时长，now 又明确说话时她仍在学琴、老师夸她现在弹得最好——起点在过去、持续到当下、现状与过去相连，正是现在完成时的典型结构 has played the violin for almost nine years。若填 played，则表示\"练过九年\"已经结束，和 now、plays better than ever 直接矛盾。 A. played — 一般过去时暗示学琴阶段已结束，与 now/plays better 冲突； B. had played — 过去完成时需在过去某时点前结束，句中参照点是现在； C. plays — 一般现在时不能搭配 for nine years 这种累计时长； D. will play — 将来时，与已经练了九年的现状矛盾； F. is playin",
+          "options": [
+            "is playing",
+            "played",
+            "had played",
+            "will play",
+            "plays",
+            "has played"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "No one can be sure of the result, since both teams are strong, but I guess our school ______ the football final on Saturday.",
+          "explain": "will win 考查 will 表“主观预测”：说话人没有任何依据，纯属猜测地预测未来赛果，只能用 will。 🔎 本题关键线索：No one can be sure（没人能确定）+ I guess（我猜）。两处都说明这只是主观猜测，既看不到任何迹象，也不存在既定计划。 ⚠️ 真正的坑是 is going to win：be going to 用于“已有迹象或早有打算”的预测，而本句明确说没人能确定、全靠猜，因此只能选 will。别以为将来时态前面有 I guess 就随便挑一个。 No one can be sure ↓ 无实据 ↓ 纯主观猜测 ↓ 预测未来用 will ↓ will win 句中没有比分领先、黑云压城等任何可见迹象，说话人只是凭感觉猜测本校会赢，属于典型的主观预测。will 正是用于说话时作出的预测、临时决定与意愿；be going to 需要说话时已能看到征兆或早有计划，与 no one can be sure 直接矛盾，所以唯一答案是 will win。 A. will win — 无实据的主观预测用 will，正确； B. is going to win — 需要有迹象或计划作依据，本句明说没人能确定，不能成立； C. wins — 一般现在时只用于习惯、事实或时刻表，比赛结果不属于这些； D. is winning — 现在进行时表示“正在赢”，与 on Saturday 的将来语境冲突； E. won / F. has won — 都表示已发生的过去，与将来的 Saturday 矛盾。 常见错误：一见到“将来的比赛”就在 will 与 is going to 之间乱猜。区分口诀：凭感觉预测→will，看得到苗头→be going to。 一句记忆：凭感觉预测 will，看得到苗头 is going to。 🧠 考试现场：看到 I guess ",
+          "options": [
+            "is going to win",
+            "is winning",
+            "wins",
+            "won",
+            "will win",
+            "has won"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "The sky has turned completely dark and Grandma has already taken the washing in, so it ______ a heavy storm within the hour.",
+          "explain": "is going to be 考查 be going to 表“有迹象的预测”：天变黑、收衣服等眼前迹象说明风暴马上要来，用 be going to。 🔎 本题关键线索：The sky has turned completely dark（天完全变黑）+ Grandma has already taken the washing in（外婆已收衣服）。这两个已完成动作就是判断“即将发生”的可靠迹象。 ⚠️ 不要被“天气是未来的事”骗去选 will be。will 用于没有实据的主观预测；本句黑云满天、外婆急着收衣服，迹象明明白白，属于“迹象型预测”，只能选 is going to be。 天变黑 ↓ 外婆已收衣服 ↓ 眼前有迹象 ↓ 迹象预测用 be going to ↓ is going to be 句子用两个已经完成的动作（天完全变黑、外婆把衣服收进屋）表明一场大风暴迫在眉睫，说话人是从眼前迹象作出的判断，而不是凭空猜测或临时起意。be going to 的核心用法之一正是“根据现在的迹象预测即将发生的事情”，故答案为 is going to be。 A. will be — 无实据的主观预测才用 will，本句迹象非常明确，用它语义不合； B. is — 一般现在时不能表达“即将到来的天气变化”； C. is going to be — 有迹象的预测，正确； D. is being — 现在进行时表安排或正在发生，风暴不是谁的安排； E. was / F. has been — 都是过去时态，与 within the hour（一小时内）冲突。 常见错误：把 will 当成“将来”的万能词，忽略眼前的迹象。看到“迹象 + 马上发生”要条件反射地想到 be going to。 一句记忆：看得到苗头的将来 → is going to。 🧠 考试现场：看到 Look!、天变",
+          "options": [
+            "is being",
+            "has been",
+            "was",
+            "is going to be",
+            "is",
+            "will be"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "Tom and I have already bought the tickets and agreed on the time, so we ______ the new science film at seven tonight.",
+          "explain": "are seeing 考查现在进行时表“已安排好的近期计划”：票已买、时间已约好，这是敲定的安排而非临时决定，用 are doing。 🔎 本题关键线索：have already bought the tickets（已买票）+ agreed on the time（已约好时间）。两条“已定”信息把看电影变成板上钉钉的安排，而不是临时起意。 ⚠️ 别看到“七点今晚”这个将来时间就选 will see。will 表示说话时临时决定或主观预测；票都买好、时间也约定了，只能说明这是提前落实的安排，要用现在进行时 are seeing。 已买票 ↓ 已约好时间 ↓ 安排已成定局 ↓ 安排表将来用现在进行时 ↓ are seeing 说话人强调已经买好票、约好时间，看电影的时间与场次全部落实，属于“已安排好的近期计划”。现在进行时（be + doing）除了表示正在发生，专门用来表达已确定的安排；will 则表达临时起意或预测，与 already bought / agreed 明显矛盾，故答案只能是 are seeing。 A. will see — will 表临时决定或预测，与已买票的既定安排不符； B. are seeing — 已安排好的活动用现在进行时，正确； C. see — 一般现在时表习惯或时刻表，和朋友看电影不是时刻表； D. saw / E. have seen — 都表示已经看过，与 at seven tonight 冲突； F. are seen — 被动语态，语义不通。 常见错误：把“安排好的事”也一律说成 will。记住：安排已落实 → 现在进行时；临时起意 → will。 一句记忆：票一订、约一敲 → doing。 🧠 考试现场：看到 already bought / agreed / booked + 近期具体时间，立即想到现在进行时表安排。 🧠 以",
+          "options": [
+            "are seen",
+            "are seeing",
+            "saw",
+            "have seen",
+            "see",
+            "will see"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "q": "The farewell concert ______ at half past seven on Friday evening, and the tickets were sold out within three days.",
+          "explain": "begins 考查一般现在时表“日历/演出日程”：音乐会这类按日程公布的安排，即使时间在将来也用一般现在时。 🔎 本题关键线索：at half past seven on Friday evening——具体到几点几分的公布时间。演出海报和日程上的时间信息一律用一般现在时表述，不看它是不是还没到。 ⚠️ 时间明明在将来，最容易上当去选 will begin。时刻表、日历、演出日程里的时间已经“定死”，英语用一般现在时描述这种既定日程；will 只用于还没定下来的临时预测。 音乐会 ↓ 海报上定死的时间 ↓ 日程/时刻表 ↓ 一般现在时表日程 ↓ begins 音乐会的开演时间是主办方事先确定并对外公布的日程信息，与列车时刻表一样“板上钉钉”。英语中谈论这类按计划排定的事件时，即使发生在将来，也用一般现在时：the concert begins at half past seven。tickets were sold out 是已经发生的过去事实，两个时间层互不干扰。 A. will begin — will 表临时预测或决定，不能用来陈述已公布的日程； B. is beginning — 现在进行时表安排多用于个人约定，音乐会开演时间习惯用一般现在时； C. is going to begin — 表示打算或迹象预测，不适用于固定日程表； D. begins — 日程类安排用一般现在时，正确； E. began / F. has begun — 都表示已经开始，与 on Friday evening 的将来矛盾。 常见错误：看到“星期五晚上”这种将来的时间状语，第一反应就写 will，忽略了日程类事件永远用一般现在时。 一句记忆：时刻表、节目单上的将来 → 一般现在时。 🧠 考试现场：看到 concert / train / meeting + 具体钟点，秒答一般现在时。 ",
+          "options": [
+            "is beginning",
+            "will begin",
+            "began",
+            "is going to begin",
+            "has begun",
+            "begins"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "According to the notice on the classroom wall, students ______ their mobile phones with them during exams; all phones must be left in their schoolbags.",
+          "explain": "are not to keep be to do 的否定式表规定与禁止：通知、校规里“不得、禁止”用 be not to do；主语 students 是复数，用 are not to，后面接动词原形 keep。 🔎 本题关键线索是 According to the notice on the classroom wall（根据教室墙上的通知）与 must be left（必须放进书包）——整句在宣读一条校规，“不得随身携带”正是 be not to do 表禁止的用法。 ⚠️ 三个坑：① 选 will not keep——will 表将来的预测或意愿，读不出“规定、禁止”；② 选 do not keep——一般现在时只陈述“考试时不带手机”这一习惯或事实，不是通知里的禁止规定；③ 写成 are not to keeping——be to 后面永远接动词原形。 墙上通知(校规) ↓ 考试期间不得随身带手机 ↓ 规定与禁止用 be not to do ↓ 主语 students 复数用 are ↓ are not to keep 句意是：根据教室墙上的通知，考试期间学生不得随身携带手机，所有手机必须在开考前放进书包。通知、校规这类“规定某人不得做某事”的表达，英语用 be to do 的否定式 be not to do，语气相当于 must not；主语 students 是复数，be 动词用 are，to 后接动词原形 keep，故答案是 are not to keep。 A. do not keep — 一般现在时只说明“不带”的习惯性事实，表达不出通知里的“禁止、不得”； B. will not keep — will 表将来的预测或意愿，与“规定”无关； C. are not to keep — 规定、禁止用 be not to do，正确； D. are not k",
+          "options": [
+            "will not keep",
+            "have not kept",
+            "are not keeping",
+            "do not keep",
+            "are not to keep",
+            "did not keep"
+          ],
+          "answer": 4
+        },
+        {
+          "type": "single",
+          "q": "Sarah has booked the eight o'clock show, and the train timetable says the last train ______ at ten forty-five, so she will get home easily.",
+          "explain": "leaves 综合考查“时刻表用一般现在时、推测用 will”的对比：同一句中 will 已用于推测结果，时刻表信息却必须用一般现在时。 🔎 本题关键线索：the train timetable says——列车时刻表是典型的固定日程，其后的发车时间用一般现在时 leaves；句尾 will get home 是说话人对结果的推测，两种将来表达在同一语境里分工不同。 ⚠️ 别因为整句都指向“今晚之后”就把所有动词都处理成 will。timetable says 后面的内容是时刻表信息，要用一般现在时；只有表示推测结果的 get home 才用 will。事情发生在将来 ≠ 全句都用 will，要看信息的性质。 timetable says ↓ 时刻表信息 ↓ 日程既定 ↓ 一般现在时 leaves ↓ 句尾 will get home 作参照 Sarah 已订八点的演出票属于安排，而空格要填的是“时刻表上的末班车发车时间”。列车时刻是客观固定的日程，标准英语用一般现在时表述：the last train leaves at ten forty-five；而 so she will get home easily 是对结果的推测，用 will。两种将来表达并置，正好考查“日程 vs 推测”的区分能力。 A. will leave — will 表临时预测，列车时刻不是主观预测，且与 timetable says 不搭配； B. leaves — 时刻表信息用一般现在时，正确； C. is leaving / D. is going to leave — 分别表个人安排与个人打算，列车按时刻表运行不用这两种； E. left / F. has left — 都表示已经发车，与她还要看完演出赶车回家矛盾。 常见错误：同一语境里出现多种“将来”，被句尾 will get home ",
+          "options": [
+            "will leave",
+            "is leaving",
+            "left",
+            "is going to leave",
+            "has left",
+            "leaves"
+          ],
+          "answer": 5
+        },
+        {
+          "type": "single",
+          "q": "Ever since she joined the school newspaper last term, Vera ______ responsible for the sports page and she clearly enjoys the job.",
+          "explain": "has been 考查现在完成时 has been：ever since 给出过去起点，状态从那时延续到现在。 🔎 本题关键线索：ever since she joined（自从她加入）——它把\"负责任\"这件状态挂在过去的一个起点上，而后面 clearly enjoys 又说明她现在仍在负责，两个时间点之间是连续的一条线。 ⚠️ 不要一看到 last term 就填 was：last term 只是这条线的起点，判断的重点是\"从起点一路延续到今天\"，这才是现在完成时的领地。 ever since she joined ↓ 过去起点持续到现在 ↓ 现在完成时 ↓ Vera 为第三人称单数 ↓ has been 句意：自从上学期加入校报以来，Vera 一直负责体育版，而且她显然喜欢这份工作。joined 是过去发生的动作，但 responsible 这一状态从 joined 之时起保持到现在（现在仍在负责、现在仍 enjoy），中间没有断点，所以用现在完成时 has been。把从句的过去起点和主句的现在情况对照起来看，答案就清楚了。 is：只描述当下状态，回答不了\"ever since 从过去到现在\"这段延续，与 since 类结构搭配不成立； was：把状态锁死在过去，与 clearly enjoys the job 的现在时直接冲突； have been：主语 Vera 是第三人称单数，助动词要用 has 而非 have； had been：过去完成需要另一个过去的参照点（过去的过去），本句没有； will be：把延续到现在的状态推到了将来，与句意不符。 常见错误：读 ever since 却不往\"延续至今\"上想，凭感觉选 is 或 was；也有同学把主语搞混写成 have been。 ever since（自从）＝从过去某点到现在 → 现在完成时 has/have +",
+          "options": [
+            "had been",
+            "was",
+            "will be",
+            "has been",
+            "have been",
+            "is"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "Every day after the second class, our English teacher ______ attendance quickly and then starts the new lesson.",
+          "explain": "takes 考查一般现在时与主谓一致：every day 表习惯，主语 our English teacher 是第三人称单数，动词加 s。 🔎 本题关键线索：Every day 开头的频率状语加 and then starts 这个并列的现在时谓语——starts 已经在用一般现在时，说明整句描述的是每天的例行安排，空格自然也应是一般现在时。 ⚠️ 不要被第二节课后的时间错觉骗到：这里没有\"昨天、上周\"之类过去框架，而是 every day 的规律性动作；同时主语是 teacher（单数），动词不能裸用 take。 Every day ↓ 习惯性动作 ↓ 一般现在时 ↓ 主语 teacher 第三人称单数 ↓ takes 句意：每天第二节课后，我们的英语老师会快速点名，然后开始新课。every day 表明这是每天重复发生的习惯性动作，应该用一般现在时；再和并列谓语 starts 呼应（它也是一般现在时），确认整句都在描述\"每天如此\"的例行程序。主语 our English teacher 是第三人称单数，所以动词要变成 takes。 take：动词裸用，与第三人称单数主语不搭配，属主谓一致错误； took：一般过去时，与 every day 表示的习惯冲突； is taking：现在进行时表达\"此刻正在做\"，不能与 every day 的惯常语义搭配； has taken：现在完成时强调的是到目前的结果，与 every day 例行程序不符； will take：将来时与 every day 的现在习惯矛盾。 常见错误：主语是第三人称单数时忘加 s（take），或把 every day 误当过去标志写成 took。 every day + 第三人称单数 → 动词加 s（takes）。 🧠 考试现场：看到 every day / often / usually 这类频率词",
+          "options": [
+            "take",
+            "will take",
+            "takes",
+            "is taking",
+            "took",
+            "has taken"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "The soup on the stove ______ gently, and the whole kitchen smells of tomatoes and onions, which means dinner is almost ready.",
+          "explain": "is boiling 考查现在进行时表\"此刻正在进行\"：没有时间状语，要靠气味、场景等上下文推断。 🔎 本题关键线索：the whole kitchen smells（现在闻得到味道）和 dinner is almost ready——说话人此刻正身处厨房、观察到汤的状态，这是典型的\"当下正在发生\"语境。 ⚠️ 句中没有 now 这类直白信号，容易让人以为没有进行时标志就选一般现在时 boils；但描述眼前正在发生的事、又没有任何频率状语时，一般现在时无法成立。 闻到西红柿洋葱味 ↓ 此刻正在发生 ↓ 现在进行时 ↓ 主语 the soup 单数 ↓ is boiling 句意：炉子上的汤正轻轻沸腾着，整个厨房都飘着番茄和洋葱的味道，说明晚饭快好了。这里没有频率词，只有说话人当下的感官观察（闻得到味道、判断晚饭快好），说明沸腾这个动作正发生在说话的此刻，因此要用现在进行时 is boiling。若用 boils，就变成陈述一个泛泛的规律，读起来生硬且不合语境。 boils：一般现在时只用于习惯或规律，放在\"正闻着香味判断晚饭好了\"的现场语境里不通； was boiling：过去进行时，与 smells、is almost ready 的现在框架冲突； boiled：一般过去时，把眼前正在发生的事推回过去； has boiled：现在完成时强调\"已经沸腾过\"这一结果，与\"此刻正沸\"不符； will boil：将来时，句意变成\"汤将来才沸腾\"，荒唐。 常见错误：只背信号词、不会看语境——没有 now 就慌神，忘记描述眼前场景就是最强的进行时语境。 闻到、看到、听到的当下场景 → 现在进行时。 🧠 考试现场：先问自己\"说话人是不是正看着、闻着、听着这件事发生\"，是 → 现在进行时。 🧠 以后看到眼前场景描写（气味、声音、画面）就想到：此刻正在发生 → 现在进行时。",
+          "options": [
+            "was boiling",
+            "has boiled",
+            "will boil",
+            "is boiling",
+            "boiled",
+            "boils"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "In the lab, the students ______ their chemistry experiments quietly when a loud fire alarm interrupted them, so they had to rush outside.",
+          "explain": "were doing 考查过去进行时表\"被打断的背景动作\"：when 引导的突然事件插入时，正在进行的动作用过去进行时。 🔎 本题关键线索：when a loud fire alarm interrupted them——interrupted 是过去的突然事件，而学生们正是在它发生时\"处于做实验的过程中\"，前后两个动作一个是背景、一个是打断。 ⚠️ 两个陷阱：一是用 did，把\"正在做\"误写成\"做完了\"的整体事件，与被打断的逻辑矛盾；二是看到时态不明的长句就乱猜，忽视 when 前后\"正在进行 vs 突然插入\"的关系。 fire alarm interrupted（过去突然事件）↓ 学生当时正做实验 ↓ 过去进行时 ↓ 主语复数 the students ↓ were doing 句意：在实验室里，学生们正安静地做着化学实验，这时一声响亮的火警打断他们，所以他们不得不冲到室外。句子要表达的是：报警响起的那一刻，学生们正处在\"做实验的过程中\"，动作没有完成就被打断——这是过去进行时最典型的用法（持续性背景动作 + when + 短暂插入动作）。主语 the students 是复数，所以用 were doing。 do：一般现在时，与 interrupted、had to 的过去框架冲突； did：把\"正在进行、未完成\"写成\"做完的整体事件\"，与\"被打断而冲出室外\"矛盾； had done：过去完成时表示实验在报警前已做完，与被打断的语境相反； have done：现在完成时，无法接过去时间框架； are doing：现在进行时与句中过去的 interrupted 冲突。 常见错误：忽视 when 前后的动作关系，把被打断的进行动作当成完成动作写成 did 或 had done。 when + 突然插入事件 → 之前的持续动作用过去进行时。 🧠 考试现场：看到 when/w",
+          "options": [
+            "had done",
+            "are doing",
+            "were doing",
+            "have done",
+            "do",
+            "did"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "single",
+          "q": "\"Kevin, have you finished the book report?\" \"Yes, I have, but I ______ it to the teacher yet because she was busy in a meeting all afternoon.\"",
+          "explain": "have not handed 考查现在完成时否定式与 yet 的搭配：yet 用于否定句/疑问句，与现在完成时呼应。 🔎 本题关键线索：yet 出现在句尾——yet 是现在完成时的标志词，意思是\"到目前还没有\"；同时上一句问句用 have you finished，答句开头也回应 Yes, I have，整段对话都在现在完成时的框架里。 ⚠️ 最大的坑是 did not hand：很多同学一看到 because she was busy（过去原因）就改写过去时；但 yet 把时间轴拉到\"直到现在\"，过去时不带 yet。 yet（直到现在还没）↓ 与现在有关 ↓ 现在完成时否定 ↓ I 用 have ↓ have not handed 句意：凯文，读书报告写完了吗？——写完了，但我还没把它交给老师，因为她整个下午都在开会。yet 意为\"还、尚（未）\"，典型地与现在完成时的否定句搭配，表示动作到说话的这一刻仍未发生；而问句 have you finished 和答句 Yes, I have 也确认了本句的时态框架是现在完成时。主句时间点是\"现在\"，后面的 was busy 只是对过去原因的解释，不应把主句拉回过去。 did not hand：一般过去时不能与 yet 连用，yet 要求把时间轴延伸到现在； do not hand：一般现在时表示习惯，与\"这一次还没交\"的具体语境不符； had not handed：过去完成时需要过去参照点，而对话发生在现在； was not handing：过去进行时描述过去某刻未进行的动作，与 yet 的现在完成框架冲突； am not handing：现在进行时表\"此刻没在交\"的动作状态，而非\"至今尚未完成\"的结果。 常见错误：看见后面的过去原因就改写过去时，忽略 yet 这个锚在\"现在\"的信号词。 yet = 直到现在还没 → have",
+          "options": [
+            "did not hand",
+            "was not handing",
+            "am not handing",
+            "have not handed",
+            "had not handed",
+            "do not hand"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "single",
+          "q": "The sports meeting that our school ______ every spring is coming next month, and hundreds of students have already signed up for it.",
+          "explain": "holds 考查定语从句中的一般现在时：every spring 表明这是每年重复的惯例，与主句将来安排互不干扰。 🔎 本题关键线索：every spring 在定语从句里修饰 school 的动作，说明\"举办运动会\"是学校每年都做的常规；主句 is coming next month 和 have already signed up 只是另外两层时间信息，不能把从句动词拉走。 ⚠️ 最容易错的是看到 next month 就选 will hold 或 is holding：next month 属于主句\"is coming\"，定语从句描述的是\"每年都办\"这一惯例，两者时间不同、各管各的。 定语从句 every spring ↓ 每年惯例 ↓ 一般现在时 ↓ 主语 our school 三单 ↓ holds 句意：我们学校每年春天举办的那场运动会下个月就要来了，而且已有几百名学生报名。定语从句 that our school ______ every spring 说明的是学校的一种年度安排，只要学校一直办下去，这个从句就永远用一般现在时，与主句动词发生在何时无关。主句 is coming 用现在进行时表示\"即将到来\"的固定安排，have already signed up 表示报名的结果已存在，三个层次的时态各司其职。主语 our school 是第三人称单数，故用 holds。 hold：与单数主语 our school 不搭配，属主谓一致错误； held：把每年惯例写成过去，仿佛学校不再办了，与 is coming next month 冲突； is holding：现在进行时表示此刻正在举办，与 every spring 的惯例语义不合； has held：现在完成时把\"办到目前\"和\"未来下个月要办\"混在一起，读不通； will hold：把每年的惯例误当成将来某一",
+          "options": [
+            "held",
+            "holds",
+            "will hold",
+            "hold",
+            "has held",
+            "is holding"
+          ],
+          "answer": 1
+        }
+      ]
     }
   ]
 }

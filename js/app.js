@@ -62,9 +62,12 @@ async function renderIndustry() {
     <div class="cat-item">
       <div>
         <h3>${c.name}</h3>
-        <div class="info">共 ${c.questions.length} 题 · 每次练习随机排序</div>
+        <div class="info">共 ${c.questions.length} 题 · 每次随机抽题练习</div>
       </div>
-      <a class="btn" href="quiz.html?id=${id}&cat=${idx}">开始刷题</a>
+      <div>
+        <a class="btn" href="quiz.html?id=${id}&cat=${idx}">随机练习</a>
+        ${c.questions.length > 20 ? `<a class="btn ghost" style="margin-left:8px" href="quiz.html?id=${id}&cat=${idx}&n=${c.questions.length}">练全部</a>` : ""}
+      </div>
     </div>`).join("");
 }
 

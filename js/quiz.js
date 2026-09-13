@@ -35,12 +35,14 @@ function answerText(q) {
   return LETTERS[q.answer];
 }
 
-let state = { questions: [], idx: 0, correct: 0, wrongList: [], indId: "", catId: "", indName: "", catName: "", order: [] };
+let state = { questions: [], idx: 0, correct: 0, wrongList: [], indId: "", catId: "", indName: "", catName: "", order: [], fullCount: 0 };
 
 async function initQuiz() {
   const params = new URLSearchParams(location.search);
   const indId = params.get("id"), catIdx = +params.get("cat") || 0;
   const onlyWrong = params.get("wrong") === "1";
+  // 每组抽题数量：默认 20 题，n=0 或超大值表示练全部
+  const sampleN = +params.get("n") || 20;
   let data;
   try { data = await fetchIndustry(indId); } catch (e) {
     document.getElementById("quiz-content").innerHTML = `<p class="empty">${e.message}，请通过本地服务器访问（见 README）。</p>`;
@@ -66,10 +68,15 @@ async function initQuiz() {
       return;
     }
   }
-  // 随机排序（仅练习顺序，不改变题目归属）
+  // 随机排序（仅练习顺序，不改变题目归属），并按 sampleN 抽样
+  state.fullCount = qs.length;
+  qs = qs.slice().sort(() => Math.random() - 0.5);
+  if (sampleN > 0 && qs.length > sampleN) qs = qs.slice(0, sampleN);
   state.questions = qs;
   state.idx = 0; state.correct = 0; state.wrongList = [];
   state.order = qs.map((_, i) => i).sort(() => Math.random() - 0.5);
+  const sub = state.fullCount > qs.length ? `（本组 ${qs.length} 题 / 共 ${state.fullCount} 题）` : "";
+  document.getElementById("crumb").innerHTML += `<span style="color:var(--muted)">${sub}</span>`;
   document.getElementById("quiz-root").classList.remove("hidden");
   renderQuestion();
 }
