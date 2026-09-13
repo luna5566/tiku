@@ -183,6 +183,7 @@ function bindEvents(q, t) {
     if (isWrong) state.wrongList.push(q); else state.correct++;
     recordMark(WRONG_KEY, state.indId, q._qCatId, q._id, isWrong);
     if (typeof statsRecord === "function") statsRecord(state.indId, q._qCatId, q._id, !isWrong);
+    if (typeof trackAnswer === "function") trackAnswer(q._id, !isWrong);
     state.results[state.idx] = { picked, ok: !isWrong };
     state.done[state.idx] = true;
     const explain = document.getElementById("explain");

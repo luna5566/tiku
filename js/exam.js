@@ -212,7 +212,9 @@ function doHandin() {
 
   // 学习统计逐题记账 + 错题记入错题本（稳定题目 ID 格式，与刷题页互通）
   results.forEach(r => {
-    if (typeof statsRecord === "function") statsRecord(exam.indId, r.q._catId, questionId(exam.indId, r.q._catId, r.q), r.ok);
+    const qid = questionId(exam.indId, r.q._catId, r.q);
+    if (typeof statsRecord === "function") statsRecord(exam.indId, r.q._catId, qid, r.ok);
+    if (typeof trackAnswer === "function") trackAnswer(qid, r.ok);
   });
   results.filter(r => !r.ok).forEach(r => {
     recordMark(WRONG_KEY, exam.indId, r.q._catId, questionId(exam.indId, r.q._catId, r.q), true);
