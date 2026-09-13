@@ -3,8 +3,8 @@
 // 合并策略：错题/收藏按题目 ID 取并集；最佳成绩取最大值；学习统计按日求和、进度按 ID 并集
 // REST 地址与令牌填在 SYNC_API；留空时同步功能显示未配置
 const SYNC_API = {
-  url: "",    // 例：https://xxx.upstash.io
-  token: "",  // Upstash REST TOKEN
+  url: "https://assuring-bug-98470.upstash.io",
+  token: "gQAAAAAAAYCmAAIgcDFmYTZmNzYyYjcwYzA0NjI5OGRiMjRlY2Q3NjU2ODg2ZA",
 };
 const SYNC_TTL = 60 * 60 * 24 * 365; // 快照保留 1 年（每次推送刷新）
 const SYNC_SAFE = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"; // 去掉易混的 I O 0 1 L
