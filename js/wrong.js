@@ -1,13 +1,5 @@
 // 全局错题本：汇总所有行业/分类的错题，支持练习、清空、导出/导入备份
-// 兼容两种记录格式：旧版按题目下标（数字）、新版按稳定题目 ID（字符串），仅统计数量时二者一致
-const WRONG_KEY = "tiku_wrong_answers";
-const BEST_KEY = "tiku_best_scores";
-
-function getJSON(key, fallback) {
-  try { return JSON.parse(localStorage.getItem(key)) || fallback; } catch { return fallback; }
-}
-function setJSON(key, val) { localStorage.setItem(key, JSON.stringify(val)); }
-
+// 共享工具（存储键、记录读写等）定义在 js/app.js；记录兼容稳定 ID（字符串）与旧版下标（数字）
 function wrongCount(arr) { return Array.isArray(arr) ? arr.length : 0; }
 
 async function loadManifest() {

@@ -1,26 +1,6 @@
 // 模拟考试：整卷抽题、倒计时、答题卡跳转、交卷统一判分、成绩单与错题回顾
-// 独立于 quiz.js 运行；错题按分类下标记入同一个错题本（localStorage）
+// 共享工具（存储键、题型、稳定 ID、记录读写等）定义在 js/app.js
 const EXAM_ROOT_ID = "exam-root";
-const LETTERS = ["A", "B", "C", "D", "E", "F"];
-const TYPE_LABEL = { single: "单选题", multi: "多选题", judge: "判断题", blank: "填空题" };
-
-function getJSON(key, fallback) {
-  try { return JSON.parse(localStorage.getItem(key)) || fallback; } catch { return fallback; }
-}
-function setJSON(key, val) { localStorage.setItem(key, JSON.stringify(val)); }
-
-function typeOf(q) { return TYPE_LABEL[q.type] ? q.type : "single"; }
-function normBlank(s) {
-  return (s || "").toLowerCase().replace(/\s+/g, "")
-    .replace(/[。，、．,.;；:：!！?？''""（）()·～~—-]/g, "");
-}
-function answerText(q) {
-  const t = typeOf(q);
-  if (t === "multi") return q.answers.slice().sort((a, b) => a - b).map(i => LETTERS[i]).join("、");
-  if (t === "judge") return q.answer ? "正确" : "错误";
-  if (t === "blank") return q.answers.join(" ／ ");
-  return LETTERS[q.answer];
-}
 
 const exam = { ind: null, data: null, questions: [], answers: [], current: 0, minutes: 30, endAt: 0, timer: null, submitted: false };
 
@@ -229,16 +209,11 @@ function doHandin() {
   const correct = results.filter(r => r.ok).length;
   const pct = Math.round(correct / results.length * 100);
 
-  // 错题记入错题本（与 quiz.js 同一存储格式：分类 id → 分类内题目下标数组）
-  const wrong = getJSON("tiku_wrong_answers", {});
+  // 错题记入错题本（稳定题目 ID 格式，与刷题页互通）
+  const wrong = getJSON(WRONG_KEY, {});
   results.filter(r => !r.ok).forEach(r => {
-    const id = exam.indId;
-    wrong[id] = wrong[id] || {};
-    const arr = new Set(wrong[id][r.q._catId] || []);
-    arr.add(r.q._i);
-    wrong[id][r.q._catId] = [...arr];
+    recordMark(WRONG_KEY, exam.indId, r.q._catId, questionId(exam.indId, r.q._catId, r.q), true);
   });
-  if (exam.indId) setJSON("tiku_wrong_answers", wrong);
 
   // 按题型统计
   const byType = {};

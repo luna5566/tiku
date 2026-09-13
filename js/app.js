@@ -21,10 +21,102 @@ async function fetchIndustry(id) {
   return res.json();
 }
 
-// 首页：渲染行业卡片
+// ---- 共享工具（刷题 / 考试 / 错题本页面共用，先于页面脚本加载）----
+
+const WRONG_KEY = "tiku_wrong_answers";   // {industryId: {catId: [题目ID]}}
+const BEST_KEY = "tiku_best_scores";      // {industryId|catId: bestPercent}
+const FAV_KEY = "tiku_fav_questions";     // {industryId: {catId: [题目ID]}}
+const LETTERS = ["A", "B", "C", "D", "E", "F"];
+const TYPE_LABEL = { single: "单选题", multi: "多选题", judge: "判断题", blank: "填空题" };
+
+function getJSON(key, fallback) {
+  try { return JSON.parse(localStorage.getItem(key)) || fallback; } catch { return fallback; }
+}
+function setJSON(key, val) { localStorage.setItem(key, JSON.stringify(val)); }
+
+function typeOf(q) { return TYPE_LABEL[q.type] ? q.type : "single"; }
+
+// 填空判分前的归一化：去空白、转小写、去中英文标点
+function normBlank(s) {
+  return (s || "").toLowerCase().replace(/\s+/g, "")
+    .replace(/[。，、．,.;；:：!！?？''""（）()·～~—-]/g, "");
+}
+
+function answerText(q) {
+  const t = typeOf(q);
+  if (t === "multi") return q.answers.slice().sort((a, b) => a - b).map(i => LETTERS[i]).join("、");
+  if (t === "judge") return q.answer ? "正确" : "错误";
+  if (t === "blank") return q.answers.join(" ／ ");
+  return LETTERS[q.answer];
+}
+
+// 稳定题目 ID：由行业/分类/题干散列生成，与数组位置无关，扩充或重排题库不影响错题本
+function questionId(indId, catId, q) {
+  const s = `${indId}|${catId}|${(q.q || "").trim()}`;
+  let h1 = 0x811c9dc5, h2 = 0x1000193;
+  for (let i = 0; i < s.length; i++) {
+    const c = s.charCodeAt(i);
+    h1 = Math.imul(h1 ^ c, 16777619) >>> 0;
+    h2 = Math.imul(h2 ^ (c + i), 2246822519) >>> 0;
+  }
+  return h1.toString(36) + h2.toString(36);
+}
+
+// 读取记录本；旧版按数组下标（数字）记录的条目在大规模导库后已错位，读取时直接淘汰
+function readBook(key) {
+  const all = getJSON(key, {});
+  let changed = false;
+  for (const ind of Object.values(all)) {
+    for (const [cat, arr] of Object.entries(ind)) {
+      if (!Array.isArray(arr)) { delete ind[cat]; changed = true; continue; }
+      const ids = arr.filter(x => typeof x === "string");
+      if (ids.length !== arr.length) { ind[cat] = ids; changed = true; }
+    }
+  }
+  if (changed) setJSON(key, all);
+  return all;
+}
+
+function recordMark(key, indId, catId, qId, on) {
+  const all = getJSON(key, {});
+  all[indId] = all[indId] || {};
+  const arr = new Set((all[indId][catId] || []).filter(x => typeof x === "string"));
+  if (on) arr.add(qId); else arr.delete(qId);
+  all[indId][catId] = [...arr];
+  setJSON(key, all);
+}
+
+// 轻量统计清单（由 tools/build_manifest.py 生成）；首页只加载它，不再全量拉取行业题库
+let manifestCache = null;
+async function fetchManifest() {
+  if (manifestCache) return manifestCache;
+  try {
+    const res = await fetch("data/manifest.json");
+    if (res.ok) manifestCache = await res.json();
+  } catch (e) { /* 缺失时走兜底 */ }
+  return manifestCache;
+}
+
+// 首页：渲染行业卡片（优先使用 manifest 统计，manifest 缺失时回退为逐行业加载）
 async function renderHome() {
   const grid = document.getElementById("grid");
   if (!grid) return;
+  const manifest = await fetchManifest();
+  if (manifest && manifest.industries) {
+    grid.innerHTML = INDUSTRY_LIST.filter(ind => manifest.industries[ind.id]).map(ind => {
+      const m = manifest.industries[ind.id];
+      const icon = m.icon || ind.icon, desc = m.desc || ind.desc, name = m.name || ind.name;
+      return `
+      <a class="card" href="industry.html?id=${ind.id}">
+        <div class="icon">${icon}</div>
+        <h3>${name}</h3>
+        <p>${desc}</p>
+        <div class="meta">${m.categories.length} 个分类 · ${m.total} 题</div>
+      </a>`;
+    }).join("");
+    return;
+  }
+  // 兜底：逐行业加载统计
   const cards = await Promise.all(INDUSTRY_LIST.map(async ind => {
     let cats = 0, nq = 0;
     try {
@@ -43,7 +135,7 @@ async function renderHome() {
   grid.innerHTML = cards.join("");
 }
 
-// 行业页：渲染分类列表
+// 行业页：渲染分类列表（行业信息优先取 manifest，仅练习时才加载完整题库）
 async function renderIndustry() {
   const list = document.getElementById("cat-list");
   if (!list) return;
@@ -51,8 +143,29 @@ async function renderIndustry() {
   const meta = INDUSTRY_LIST.find(i => i.id === id);
   if (!meta) { list.innerHTML = `<p class="empty">未找到该行业</p>`; return; }
   document.title = `${meta.name} - 免费题库`;
-  document.getElementById("industry-title").innerHTML =
-    `<a class="back" href="index.html">← 返回</a> &nbsp; ${meta.icon} ${meta.name}`;
+
+  const manifest = await fetchManifest();
+  const m = manifest && manifest.industries[id];
+  const headHTML = `
+    <a class="back" href="index.html">← 返回</a> &nbsp; ${m ? (m.icon || meta.icon) : meta.icon} ${m ? (m.name || meta.name) : meta.name}
+    &nbsp; <a class="btn ghost" href="exam.html?id=${id}">📝 行业模拟考</a>`;
+  document.getElementById("industry-title").innerHTML = headHTML;
+
+  if (m) {
+    list.innerHTML = m.categories.map((c, idx) => `
+      <div class="cat-item">
+        <div>
+          <h3>${c.name}</h3>
+          <div class="info">共 ${c.count} 题 · 每次随机抽题练习</div>
+        </div>
+        <div>
+          <a class="btn" href="quiz.html?id=${id}&cat=${idx}">随机练习</a>
+          ${c.count > 20 ? `<a class="btn ghost" style="margin-left:8px" href="quiz.html?id=${id}&cat=${idx}&n=${c.count}">练全部</a>` : ""}
+        </div>
+      </div>`).join("");
+    return;
+  }
+  // 兜底：加载完整行业数据
   let data;
   try { data = await fetchIndustry(id); } catch (e) {
     list.innerHTML = `<p class="empty">${e.message}，请通过本地服务器访问（见 README）。</p>`;

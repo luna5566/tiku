@@ -95,6 +95,14 @@ a { color: inherit; text-decoration: none; }
 .question .q-text { font-size: 17px; line-height: 1.7; margin-bottom: 22px; }
 .q-tag { display: inline-block; font-size: 12px; color: var(--accent); border: 1px solid #4a3a12;
   border-radius: 6px; padding: 2px 10px; margin-bottom: 16px; }
+.fav-btn { background: none; border: 1px solid var(--border); color: var(--muted); border-radius: 6px;
+  font-size: 12px; padding: 3px 10px; margin-left: 8px; cursor: pointer; vertical-align: middle;
+  transition: color .15s, border-color .15s; }
+.fav-btn:hover { color: var(--accent); border-color: var(--accent); }
+.fav-btn.on { color: var(--accent); border-color: #4a3a12; background: rgba(245, 158, 11, .1); }
+.explain .report { display: inline-block; margin-top: 8px; color: var(--muted); font-size: 12px;
+  text-decoration: underline; text-underline-offset: 3px; }
+.explain .report:hover { color: var(--red); }
 .option {
   display: block; width: 100%; text-align: left;
   background: #10121a; border: 1px solid var(--border); color: var(--text);
