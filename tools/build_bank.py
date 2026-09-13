@@ -474,6 +474,136 @@ def parse_jiaozi():
                 yield dict(type="single", q=stem, options=opts, answer=ans, explain=exp, subject=cat)
 
 
+def parse_ntce():
+    """sodalevy/ntce_exam 教师资格证（综合素质）questions.json：{type, question, options{A:..}, answer:'C', explanation}"""
+    p = os.path.join(SRC, "jiaoshi_ntce_questions.json")
+    if not os.path.exists(p):
+        return
+    for q in json.load(open(p, encoding="utf-8")).get("questions", []):
+        t = q.get("type", "")
+        opts = [strip_html(v) for k, v in sorted((q.get("options") or {}).items())]
+        opts = [o for o in opts if o]
+        stem = clean_stem(q.get("question", ""))
+        if len(opts) < 2 or len(stem) < 8:
+            continue
+        ans = str(q.get("answer", "")).strip().upper()
+        idx = [LETTERS.index(c) for c in ans if c in LETTERS[:len(opts)]]
+        if not idx or len(set(idx)) != len(idx):
+            continue
+        if t == "multiple_choice" or len(idx) > 1:
+            yield dict(type="multi", q=stem, options=opts, answer=sorted(set(idx)),
+                       explain=strip_html(q.get("explanation", "")), subject=None)
+        else:
+            yield dict(type="single", q=stem, options=opts, answer=idx[0],
+                       explain=strip_html(q.get("explanation", "")), subject=None)
+
+
+def parse_futures():
+    """zhanghanlun2023/futures-exam-2026 期货从业题库（先经 node 转为 jinrong_futures_all.json）"""
+    p = os.path.join(SRC, "jinrong_futures_all.json")
+    if not os.path.exists(p):
+        return
+    for q in json.load(open(p, encoding="utf-8")):
+        t = q.get("type")
+        stem = clean_stem(q.get("q", ""))
+        opts = [normalize(str(o)) for o in (q.get("options") or [])]
+        opts = [o for o in opts if o]
+        if len(stem) < 8:
+            continue
+        raw = q.get("answer") or []
+        raw = [str(a).strip().upper() for a in raw] if isinstance(raw, list) else [str(raw).strip().upper()]
+        if t == "judge":
+            txt = "".join(raw)
+            # 优先按选项字母映射（选项通常是 [正确, 错误]）
+            if opts and len(opts) >= 2 and raw and raw[0] in LETTERS[:len(opts)]:
+                chosen = opts[LETTERS.index(raw[0])]
+                if chosen in ("正确", "错误", "对", "错"):
+                    yield dict(type="judge", q=stem, options=[], answer=chosen in ("正确", "对"),
+                               explain=normalize(str(q.get("explain", ""))), subject=None)
+                    continue
+            if any(x in txt for x in ("正确", "对", "T")):
+                yield dict(type="judge", q=stem, options=[], answer=True, explain=normalize(str(q.get("explain", ""))), subject=None)
+            elif any(x in txt for x in ("错误", "错", "F")):
+                yield dict(type="judge", q=stem, options=[], answer=False, explain=normalize(str(q.get("explain", ""))), subject=None)
+            continue
+        if len(opts) < 2:
+            continue
+        idx = [LETTERS.index(c) for c in raw if c in LETTERS[:len(opts)]]
+        if not idx or len(set(idx)) != len(idx):
+            continue
+        yield dict(type="multi" if t == "multiple" or len(idx) > 1 else "single", q=stem, options=opts,
+                   answer=idx[0] if len(idx) == 1 else sorted(set(idx)),
+                   explain=normalize(str(q.get("explain", ""))), subject=normalize(str(q.get("chapter", ""))) or None)
+
+
+def html_unescape(s):
+    import html as _h
+    return _h.unescape(str(s))
+
+
+def parse_net_html():
+    """zkjx/computer-network 计算机网络章节题库（THEOL 平台保存的测验结果页，GBK）。
+    每题一个 <table class="infotable">：hidden input `<n>_content` 存题干，radio/checkbox 为选项，
+    “[参考答案]”行为正确答案（选项文本）。"""
+    pat_opt = re.compile(r'<input type="(radio|checkbox)"[^>]*name="answer_\d+"[^>]*>\s*([^<\r\n]+)')
+    for p in sorted(glob.glob(os.path.join(SRC, "jisuanji_net_*.html"))):
+        h = open(p, "rb").read().decode("gbk", errors="replace")
+        for chunk in h.split('<table cellpadding="0" cellspacing="0" class="infotable">')[1:]:
+            mc = re.search(r'name="\d+_content"[^>]*value="([^"]*)"', chunk)
+            if not mc:
+                continue
+            stem = clean_stem(html_unescape(html_unescape(mc.group(1))))
+            opts = [(t, re.sub(r"\s+", " ", html_unescape(html_unescape(txt)).replace("&nbsp;", " ")).strip())
+                    for t, txt in pat_opt.findall(chunk)]
+            opts = [(t, txt) for t, txt in opts if txt]
+            mr = re.search(r"\[参考答案\]\s*([^<]+)", chunk)
+            if len(opts) < 2 or len(stem) < 8 or not mr:
+                continue
+            ref = [x for x in re.split(r"[\s、,，]+", mr.group(1).strip()) if x]
+            idx = []
+            for a in ref:
+                for i, (_, txt) in enumerate(opts):
+                    if a == txt or (len(a) > 1 and a in txt):
+                        if i not in idx:
+                            idx.append(i)
+                        break
+            if not idx:
+                continue
+            multi = any(t == "checkbox" for t, _ in opts) or len(idx) > 1
+            yield dict(type="multi" if multi else "single", q=stem,
+                       options=[txt for _, txt in opts],
+                       answer=idx[0] if len(idx) == 1 else sorted(idx), explain="", subject=None)
+
+
+def parse_ncre_xlsx():
+    """dengcao/ncre 一级 MS Office 选择题 xlsx（“自己打印” sheet：序号/题目/A-D/答案/解析）"""
+    p = os.path.join(SRC, "jisuanji_ncre1_office.xlsx")
+    if not os.path.exists(p):
+        return
+    import openpyxl
+    wb = openpyxl.load_workbook(p, read_only=True)
+    if "自己打印" not in wb.sheetnames:
+        return
+    ws = wb["自己打印"]
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        vals = ["" if v is None else str(v).strip() for v in row]
+        if len(vals) < 8:
+            continue
+        stem, opts, ans, exp = vals[1], vals[2:6], vals[6], vals[7]
+        stem = clean_stem(stem)
+        opts = [re.sub(r"^[A-D][).、．]?\s*", "", normalize(o)) for o in opts]
+        opts = [o for o in opts if o]
+        if len(opts) < 2 or len(stem) < 8:
+            continue
+        ans = ans.upper().replace("，", "").replace(" ", "")
+        idx = [LETTERS.index(c) for c in ans if c in LETTERS[:len(opts)]]
+        if not idx or len(set(idx)) != len(idx):
+            continue
+        yield dict(type="multi" if len(idx) > 1 else "single", q=stem, options=opts,
+                   answer=idx[0] if len(idx) == 1 else sorted(set(idx)),
+                   explain=normalize(exp), subject=None)
+
+
 # ---------------- 行业/分类映射 ----------------
 # 每个源路由到 (行业id, 分类id, 分类名)；按 subject 细分的在名称中体现
 def route(rec):
@@ -502,17 +632,40 @@ def route(rec):
     if src == "jiaozi":
         ids = {"科目一·综合素质": "jz_km1", "科目二·教育知识与能力": "jz_km2", "科目三·学科知识（物理）": "jz_km3"}
         return ("jiaoshi", ids.get(subj, "jz_zh"), subj or "教师资格笔试")
+    if src == "ntce":
+        return ("jiaoshi", "ntce", "教资笔试·综合素质题库")
+    if src == "futures":
+        return ("jinrong", "qhcy", "期货从业题库")
+    if src == "net_html":
+        return ("jisuanji", "netjk", "计算机网络章节题库")
+    if src == "ncre_xlsx":
+        return ("jisuanji", "ncre1", "计算机一级·选择题题库")
     return None
 
 
 def route_kw(rec):
-    """学习强国题目按关键词二次分流：消防/化工安全常识"""
+    """学习强国题目按关键词二次分流到相关行业的常识类分类（按顺序首个命中生效）"""
     q = rec["q"]
     if re.search(r"消防|火灾|灭火|疏散|逃生|救火|防火", q):
         return ("xiaofang", "xfcs", "消防安全常识")
-    if re.search(r"危险化学品|化学品|爆炸极限|粉尘|职业中毒|毒物|泄漏|易燃易爆|化工", q):
+    if re.search(r"危险化学品|化学品|爆炸极限|粉尘|职业中毒|毒物|泄漏|易燃易爆|化工|压力容器|防毒面具|安全生产许可", q):
         return ("huagong", "aqcs", "化工安全常识")
+    if re.search(r"心理|情绪|抑郁|焦虑|催眠|人格障碍|心理咨询|心理健康|性格", q):
+        return ("xinli", "xlcs", "心理健康常识")
+    if re.search(r"计算机|软件|互联网|人工智能|操作系统|CPU|内存", q):
+        return ("jisuanji", "jswk", "信息科技常识")
+    if re.search(r"货币|银行|利率|证券|基金|保险|股票|贷款|汇率|信用卡|存款|金融", q):
+        return ("jinrong", "jrcs", "金融基础常识")
+    if re.search(r"教育|教师|学校|高考|课堂", q):
+        return ("jiaoshi", "jycs", "教育常识")
     return None
+
+
+# build_bank.py 托管的分类 id（--fresh 时先移除再重建，保证可重复全量重建）
+MANAGED_EXACT = {"dgzk", "ejzk", "jzaqzk", "fkzk", "fkfk", "xxqg", "xfcs", "aqcs", "xfczy",
+                 "yyjf", "jz_km1", "jz_km2", "jz_km3", "ntce", "qhcy", "netjk", "ncre1",
+                 "xlcs", "jrcs", "jycs", "jswk"}
+MANAGED_PREFIX = ("zy_", "zjkj_")
 
 
 INDUSTRY_ORDER = None  # 读取现有文件顺序
@@ -532,13 +685,28 @@ def main():
         ("fire", parse_fire),
         ("grammar", parse_grammar),
         ("jiaozi", parse_jiaozi),
+        ("ntce", parse_ntce),
+        ("futures", parse_futures),
+        ("net_html", parse_net_html),
+        ("ncre_xlsx", parse_ncre_xlsx),
     ]
-    # 行业元信息来自现有 data/*.json
+    # 行业元信息来自现有 data/*.json（跳过 manifest.json 等非行业文件）
     industries = {}
     for f in sorted(os.listdir(os.path.join(ROOT, "data"))):
         if f.endswith(".json"):
             d = json.load(open(os.path.join(ROOT, "data", f), encoding="utf-8"))
-            industries[d["id"]] = d
+            if isinstance(d, dict) and "id" in d and "categories" in d:
+                industries[d["id"]] = d
+
+    # --fresh：先移除托管分类，实现全量重建（题目从 sources/ 重新解析）
+    if "--fresh" in sys.argv:
+        n_removed = 0
+        for d in industries.values():
+            before = len(d.get("categories", []))
+            d["categories"] = [c for c in d.get("categories", [])
+                               if not (c["id"] in MANAGED_EXACT or str(c["id"]).startswith(MANAGED_PREFIX))]
+            n_removed += before - len(d["categories"])
+        print("--fresh: 移除托管分类 %d 个，开始全量重建" % n_removed)
 
     # 收集
     bucket = collections.defaultdict(list)  # (indId, catId) -> [rec]

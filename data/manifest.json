@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-13T16:16:00",
- "total": 25647,
+ "generated": "2026-09-13T16:33:03",
+ "total": 26671,
  "industries": {
   "caikuai": {
    "name": "财会",
@@ -128,7 +128,7 @@
    "name": "公务员",
    "icon": "🏛️",
    "desc": "国考、省考、事业单位等",
-   "total": 8658,
+   "total": 7985,
    "categories": [
     {
      "id": "xingce",
@@ -148,7 +148,7 @@
     {
      "id": "xxqg",
      "name": "公共基础·挑战答题",
-     "count": 8626
+     "count": 7953
     }
    ]
   },
@@ -156,7 +156,7 @@
    "name": "化工",
    "icon": "🧪",
    "desc": "化工行业",
-   "total": 50,
+   "total": 53,
    "categories": [
     {
      "id": "jichu",
@@ -176,7 +176,7 @@
     {
      "id": "aqcs",
      "name": "化工安全常识",
-     "count": 16
+     "count": 19
     }
    ]
   },
@@ -217,7 +217,7 @@
    "name": "教师",
    "icon": "👩‍🏫",
    "desc": "教师资格证、教师招聘考试等",
-   "total": 125,
+   "total": 728,
    "categories": [
     {
      "id": "zige_bishi",
@@ -235,6 +235,11 @@
      "count": 10
     },
     {
+     "id": "jycs",
+     "name": "教育常识",
+     "count": 71
+    },
+    {
      "id": "jz_km1",
      "name": "科目一·综合素质",
      "count": 27
@@ -248,6 +253,11 @@
      "id": "jz_km3",
      "name": "科目三·学科知识（物理）",
      "count": 28
+    },
+    {
+     "id": "ntce",
+     "name": "教资笔试·综合素质题库",
+     "count": 532
     }
    ]
   },
@@ -255,7 +265,7 @@
    "name": "金融",
    "icon": "💰",
    "desc": "金融行业",
-   "total": 33,
+   "total": 456,
    "categories": [
     {
      "id": "yinhang",
@@ -271,6 +281,16 @@
      "id": "jijin",
      "name": "基金从业",
      "count": 11
+    },
+    {
+     "id": "jrcs",
+     "name": "金融基础常识",
+     "count": 252
+    },
+    {
+     "id": "qhcy",
+     "name": "期货从业题库",
+     "count": 171
     }
    ]
   },
@@ -278,7 +298,7 @@
    "name": "计算机",
    "icon": "💻",
    "desc": "计算机科学与技术相关考试",
-   "total": 34,
+   "total": 668,
    "categories": [
     {
      "id": "ruankao",
@@ -294,6 +314,21 @@
      "id": "anquan",
      "name": "网络安全",
      "count": 11
+    },
+    {
+     "id": "jswk",
+     "name": "信息科技常识",
+     "count": 49
+    },
+    {
+     "id": "netjk",
+     "name": "计算机网络章节题库",
+     "count": 109
+    },
+    {
+     "id": "ncre1",
+     "name": "计算机一级·选择题题库",
+     "count": 476
     }
    ]
   },
@@ -334,7 +369,7 @@
    "name": "心理咨询师",
    "icon": "🧠",
    "desc": "心理咨询师行业",
-   "total": 34,
+   "total": 68,
    "categories": [
     {
      "id": "jichu",
@@ -350,6 +385,11 @@
      "id": "ceshi",
      "name": "心理测量",
      "count": 11
+    },
+    {
+     "id": "xlcs",
+     "name": "心理健康常识",
+     "count": 34
     }
    ]
   },
