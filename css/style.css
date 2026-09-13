@@ -137,3 +137,45 @@ a { color: inherit; text-decoration: none; }
 .hidden { display: none; }
 .empty { color: var(--muted); text-align: center; padding: 60px 0; }
 footer { text-align: center; color: #4b5563; font-size: 13px; padding: 30px 0 40px; }
+
+/* 全局错题本 */
+.wrong-summary-cards { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
+.wcard { flex: 1; min-width: 120px; background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 18px; text-align: center; }
+.wcard b { display: block; font-size: 30px; color: var(--accent); }
+.wcard span { color: var(--muted); font-size: 13px; }
+.wrong-tools { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 26px; }
+.btn.danger { color: var(--red); border-color: rgba(239, 68, 68, .4); }
+.btn.danger:hover { border-color: var(--red); color: var(--red); }
+.wrong-ind { margin-bottom: 26px; }
+.wrong-ind > h3 { font-size: 17px; margin: 14px 0 10px; }
+
+/* 模拟考试 */
+.exam-start { max-width: 640px; margin: 30px auto; }
+.exam-form { display: flex; flex-direction: column; gap: 16px; background: var(--card);
+  border: 1px solid var(--border); border-radius: 14px; padding: 26px; }
+.exam-form label { display: flex; flex-direction: column; gap: 8px; color: var(--muted); font-size: 14px; }
+.exam-form select { background: #10121a; color: var(--text); border: 1px solid var(--border);
+  border-radius: 8px; padding: 10px 12px; font-size: 15px; outline: none; }
+.exam-form select:focus { border-color: var(--accent2); }
+.exam-form .btn { margin-top: 6px; padding: 12px; font-size: 16px; }
+.exam-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  flex-wrap: wrap; color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+.exam-timer { color: var(--accent); font-weight: 700; font-size: 16px; font-variant-numeric: tabular-nums; }
+.palette { display: grid; grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); gap: 8px;
+  max-width: 760px; margin: 0 auto 18px; }
+.pcell { background: #10121a; border: 1px solid var(--border); color: var(--muted); border-radius: 8px;
+  padding: 8px 0; font-size: 13px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.pcell.done { color: var(--text); border-color: var(--accent2); background: rgba(99, 102, 241, .15); }
+.pcell.current { border-color: var(--accent); color: var(--accent); }
+.quiz-actions .btn:disabled { opacity: .4; cursor: default; }
+.type-stats { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+.tstat { background: #10121a; border: 1px solid var(--border); border-radius: 8px;
+  color: var(--muted); font-size: 13px; padding: 6px 12px; }
+.review-item { background: var(--card); border: 1px solid var(--border); border-left-width: 3px;
+  border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; font-size: 14px;
+  color: var(--muted); line-height: 1.7; }
+.review-item.ok { border-left-color: var(--green); }
+.review-item.bad { border-left-color: var(--red); }
+.review-q { color: var(--text); margin-bottom: 6px; }
+.review-explain { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); }

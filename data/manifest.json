@@ -1,0 +1,450 @@
+{
+ "generated": "2026-09-13T16:12:20",
+ "total": 25647,
+ "industries": {
+  "caikuai": {
+   "name": "财会",
+   "icon": "📊",
+   "desc": "注册会计师、初级/中级会计职称等",
+   "total": 1572,
+   "categories": [
+    {
+     "id": "chuji",
+     "name": "初级会计",
+     "count": 11
+    },
+    {
+     "id": "cpa",
+     "name": "注册会计师（CPA）",
+     "count": 11
+    },
+    {
+     "id": "zhongji",
+     "name": "中级会计",
+     "count": 11
+    },
+    {
+     "id": "zjkj_财管",
+     "name": "中级会计·财管",
+     "count": 733
+    },
+    {
+     "id": "zjkj_实务",
+     "name": "中级会计·实务",
+     "count": 806
+    }
+   ]
+  },
+  "dianqi": {
+   "name": "电气工程",
+   "icon": "⚡",
+   "desc": "电气工程行业",
+   "total": 1480,
+   "categories": [
+    {
+     "id": "jichu",
+     "name": "电气基础",
+     "count": 12
+    },
+    {
+     "id": "gongdian",
+     "name": "注册电气工程师（供配电）",
+     "count": 12
+    },
+    {
+     "id": "fashubian",
+     "name": "注册电气工程师（发输变电）",
+     "count": 11
+    },
+    {
+     "id": "dgzk",
+     "name": "电工进网作业题库",
+     "count": 1445
+    }
+   ]
+  },
+  "falv": {
+   "name": "法律",
+   "icon": "⚖️",
+   "desc": "司法考试、法律职业资格等",
+   "total": 1440,
+   "categories": [
+    {
+     "id": "minfa",
+     "name": "民法",
+     "count": 11
+    },
+    {
+     "id": "xingfa",
+     "name": "刑法",
+     "count": 11
+    },
+    {
+     "id": "xianfa",
+     "name": "宪法与法理",
+     "count": 11
+    },
+    {
+     "id": "fkzk",
+     "name": "法律职业资格考试真题",
+     "count": 35
+    },
+    {
+     "id": "fkfk",
+     "name": "法考分科练习",
+     "count": 1372
+    }
+   ]
+  },
+  "fanyi": {
+   "name": "翻译",
+   "icon": "🌍",
+   "desc": "翻译行业",
+   "total": 114,
+   "categories": [
+    {
+     "id": "catti3",
+     "name": "CATTI 三级笔译",
+     "count": 11
+    },
+    {
+     "id": "jichu",
+     "name": "翻译基础",
+     "count": 11
+    },
+    {
+     "id": "kouyi",
+     "name": "口译基础",
+     "count": 10
+    },
+    {
+     "id": "yyjf",
+     "name": "英语基础·语法词汇",
+     "count": 82
+    }
+   ]
+  },
+  "gongwuyuan": {
+   "name": "公务员",
+   "icon": "🏛️",
+   "desc": "国考、省考、事业单位等",
+   "total": 8658,
+   "categories": [
+    {
+     "id": "xingce",
+     "name": "行测",
+     "count": 11
+    },
+    {
+     "id": "gongji",
+     "name": "公共基础",
+     "count": 11
+    },
+    {
+     "id": "shenlun",
+     "name": "申论",
+     "count": 10
+    },
+    {
+     "id": "xxqg",
+     "name": "公共基础·挑战答题",
+     "count": 8626
+    }
+   ]
+  },
+  "huagong": {
+   "name": "化工",
+   "icon": "🧪",
+   "desc": "化工行业",
+   "total": 50,
+   "categories": [
+    {
+     "id": "jichu",
+     "name": "化工基础",
+     "count": 12
+    },
+    {
+     "id": "anquan",
+     "name": "化工安全",
+     "count": 11
+    },
+    {
+     "id": "gongyi",
+     "name": "化工工艺",
+     "count": 11
+    },
+    {
+     "id": "aqcs",
+     "name": "化工安全常识",
+     "count": 16
+    }
+   ]
+  },
+  "jianzhu": {
+   "name": "建筑",
+   "icon": "🏗️",
+   "desc": "建筑行业",
+   "total": 6675,
+   "categories": [
+    {
+     "id": "yjjzs",
+     "name": "一级建造师",
+     "count": 11
+    },
+    {
+     "id": "ejjzs",
+     "name": "二级建造师",
+     "count": 11
+    },
+    {
+     "id": "zaojia",
+     "name": "造价工程师",
+     "count": 11
+    },
+    {
+     "id": "ejzk",
+     "name": "二级建造师题库",
+     "count": 3690
+    },
+    {
+     "id": "jzaqzk",
+     "name": "建筑施工安全题库",
+     "count": 2952
+    }
+   ]
+  },
+  "jiaoshi": {
+   "name": "教师",
+   "icon": "👩‍🏫",
+   "desc": "教师资格证、教师招聘考试等",
+   "total": 125,
+   "categories": [
+    {
+     "id": "zige_bishi",
+     "name": "教师资格证（笔试）",
+     "count": 12
+    },
+    {
+     "id": "zhaopin",
+     "name": "教师招聘",
+     "count": 11
+    },
+    {
+     "id": "mianshi",
+     "name": "面试结构化",
+     "count": 10
+    },
+    {
+     "id": "jz_km1",
+     "name": "科目一·综合素质",
+     "count": 27
+    },
+    {
+     "id": "jz_km2",
+     "name": "科目二·教育知识与能力",
+     "count": 37
+    },
+    {
+     "id": "jz_km3",
+     "name": "科目三·学科知识（物理）",
+     "count": 28
+    }
+   ]
+  },
+  "jinrong": {
+   "name": "金融",
+   "icon": "💰",
+   "desc": "金融行业",
+   "total": 33,
+   "categories": [
+    {
+     "id": "yinhang",
+     "name": "银行从业",
+     "count": 11
+    },
+    {
+     "id": "zhengquan",
+     "name": "证券从业",
+     "count": 11
+    },
+    {
+     "id": "jijin",
+     "name": "基金从业",
+     "count": 11
+    }
+   ]
+  },
+  "jisuanji": {
+   "name": "计算机",
+   "icon": "💻",
+   "desc": "计算机科学与技术相关考试",
+   "total": 34,
+   "categories": [
+    {
+     "id": "ruankao",
+     "name": "软考（软件设计师）",
+     "count": 12
+    },
+    {
+     "id": "dengji",
+     "name": "计算机等级考试",
+     "count": 11
+    },
+    {
+     "id": "anquan",
+     "name": "网络安全",
+     "count": 11
+    }
+   ]
+  },
+  "xiaofang": {
+   "name": "消防工程师",
+   "icon": "🚒",
+   "desc": "消防工程师行业",
+   "total": 902,
+   "categories": [
+    {
+     "id": "shiwi",
+     "name": "消防安全技术实务",
+     "count": 11
+    },
+    {
+     "id": "zhgnl",
+     "name": "消防安全技术综合能力",
+     "count": 11
+    },
+    {
+     "id": "anli",
+     "name": "消防安全案例分析",
+     "count": 10
+    },
+    {
+     "id": "xfcs",
+     "name": "消防安全常识",
+     "count": 83
+    },
+    {
+     "id": "xfczy",
+     "name": "消防设施操作员（中级）",
+     "count": 787
+    }
+   ]
+  },
+  "xinli": {
+   "name": "心理咨询师",
+   "icon": "🧠",
+   "desc": "心理咨询师行业",
+   "total": 34,
+   "categories": [
+    {
+     "id": "jichu",
+     "name": "基础心理学",
+     "count": 12
+    },
+    {
+     "id": "jineng",
+     "name": "咨询技能",
+     "count": 11
+    },
+    {
+     "id": "ceshi",
+     "name": "心理测量",
+     "count": 11
+    }
+   ]
+  },
+  "yixue": {
+   "name": "医学",
+   "icon": "🏥",
+   "desc": "执业医师、护士资格等医学考试",
+   "total": 4530,
+   "categories": [
+    {
+     "id": "zhiyeyishi",
+     "name": "执业医师",
+     "count": 11
+    },
+    {
+     "id": "hushi",
+     "name": "执业护士",
+     "count": 11
+    },
+    {
+     "id": "yaoshi",
+     "name": "药师",
+     "count": 11
+    },
+    {
+     "id": "zy_中医内科学",
+     "name": "中医内科学",
+     "count": 850
+    },
+    {
+     "id": "zy_中医儿科学",
+     "name": "中医儿科学",
+     "count": 561
+    },
+    {
+     "id": "zy_中药学",
+     "name": "中药学",
+     "count": 182
+    },
+    {
+     "id": "zy_中医基础理论",
+     "name": "中医基础理论",
+     "count": 259
+    },
+    {
+     "id": "zy_中医妇科学",
+     "name": "中医妇科学",
+     "count": 544
+    },
+    {
+     "id": "zy_传染病学",
+     "name": "传染病学",
+     "count": 138
+    },
+    {
+     "id": "zy_西医内科学",
+     "name": "西医内科学",
+     "count": 365
+    },
+    {
+     "id": "zy_中医外科学",
+     "name": "中医外科学",
+     "count": 207
+    },
+    {
+     "id": "zy_诊断学基础",
+     "name": "诊断学基础",
+     "count": 327
+    },
+    {
+     "id": "zy_中医经典",
+     "name": "中医经典",
+     "count": 224
+    },
+    {
+     "id": "zy_中医诊断学",
+     "name": "中医诊断学",
+     "count": 136
+    },
+    {
+     "id": "zy_针灸学",
+     "name": "针灸学",
+     "count": 343
+    },
+    {
+     "id": "zy_方剂学",
+     "name": "方剂学",
+     "count": 249
+    },
+    {
+     "id": "zy_医学伦理学",
+     "name": "医学伦理学",
+     "count": 112
+    }
+   ]
+  }
+ }
+}

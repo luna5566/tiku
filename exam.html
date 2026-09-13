@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>行业分类 - 免费题库</title>
+  <title>模拟考试 - 免费题库</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -13,13 +13,15 @@
   <div class="container">
     <header class="topbar">
       <a class="logo" href="index.html">免费<span>题库</span></a>
-      <nav><a href="index.html">首页</a><a href="exam.html">模拟考试</a><a href="wrong.html">错题本</a></nav>
+      <nav><a href="index.html">首页</a><a href="wrong.html">错题本</a></nav>
     </header>
-    <h2 class="section-title" id="industry-title"></h2>
-    <section id="cat-list"></section>
+
+    <div id="exam-root"><!-- 由 js/exam.js 渲染：开始设置 / 考试中 / 成绩单 --></div>
+
     <footer>免费题库 · 仅供学习交流使用</footer>
   </div>
   <script src="js/app.js"></script>
+  <script src="js/exam.js"></script>
   <script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");</script>
 </body>
 </html>
