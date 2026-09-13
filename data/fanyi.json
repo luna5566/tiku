@@ -263,6 +263,40 @@
           ],
           "explain": "'译事三难：信、达、雅'，出自严复《天演论·译例言》。",
           "type": "blank"
+        },
+        {
+          "type": "group",
+          "material": "原文：The rapid development of artificial intelligence has transformed the way people work, learn, and communicate. While some worry that machines will eventually replace human translators, others argue that technology is merely a tool that amplifies human capability.",
+          "questions": [
+            {
+              "q": "材料中 amplified 最贴切的中文译法是（　）。",
+              "options": [
+                "削弱了",
+                "取代了",
+                "放大、增强了",
+                "忽略了"
+              ],
+              "answer": 2,
+              "explain": "amplify 意为放大、增强；此处指技术放大了人的能力，而非取代。"
+            },
+            {
+              "q": "根据材料，作者转述的另一种观点是（　）。",
+              "options": [
+                "人工智能必将取代人类译者",
+                "技术只是放大人类能力的工具",
+                "翻译行业正在消亡",
+                "机器翻译毫无价值"
+              ],
+              "answer": 1,
+              "explain": "others argue that technology is merely a tool that amplifies human capability，即技术是放大人类能力的工具。"
+            },
+            {
+              "q": "判断：材料提到有人担心机器最终会取代人类译者。（　）",
+              "answer": true,
+              "explain": "原文 While some worry that machines will eventually replace human translators 明确提到这种担忧。",
+              "type": "judge"
+            }
+          ]
         }
       ]
     },

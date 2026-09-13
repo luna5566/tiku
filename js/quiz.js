@@ -9,6 +9,7 @@ async function initQuiz() {
   const indId = params.get("id"), catIdx = +params.get("cat") || 0;
   const onlyWrong = params.get("wrong") === "1";
   const onlyFav = params.get("fav") === "1";
+  const tag = params.get("tag") || "";
   // 每组抽题数量：默认 20 题，n=0 或超大值表示练全部
   const sampleN = +params.get("n") || 20;
   let data;
@@ -17,18 +18,34 @@ async function initQuiz() {
     document.getElementById("quiz-root").classList.remove("hidden");
     return;
   }
-  const cat = data.categories[catIdx];
-  state.indId = indId; state.catId = cat.id;
-  state.indName = data.name; state.catName = cat.name;
-  document.title = `${cat.name} - ${data.name} - 免费题库`;
-  document.getElementById("crumb").innerHTML =
-    `<a class="back" href="index.html">首页</a> › <a class="back" href="industry.html?id=${indId}">${data.name}</a> › ${cat.name}`;
+  state.indId = indId; state.indName = data.name; state.tag = tag;
 
-  let qs = cat.questions.map((q, i) => ({ ...q, _i: i, _id: questionId(indId, cat.id, q) }));
+  let qs, scope;
+  if (tag) {
+    // 按知识点练：跨分类收集带该标签的题（错题/收藏按每题所属分类记录）
+    state.catId = `tag:${tag}`;
+    const all = [];
+    data.categories.forEach(c => expandQuestions(c).forEach(q =>
+      all.push({ ...q, _id: questionId(indId, c.id, q) })));
+    qs = all.filter(q => Array.isArray(q.tags) && q.tags.includes(tag));
+    scope = `知识点：${tag}`;
+    document.getElementById("crumb").innerHTML =
+      `<a class="back" href="index.html">首页</a> › <a class="back" href="industry.html?id=${indId}">${data.name}</a> › ${scope}`;
+  } else {
+    const cat = data.categories[catIdx];
+    state.catId = cat.id;
+    qs = expandQuestions(cat).map(q => ({ ...q, _id: questionId(indId, cat.id, q) }));
+    scope = cat.name;
+    document.getElementById("crumb").innerHTML =
+      `<a class="back" href="index.html">首页</a> › <a class="back" href="industry.html?id=${indId}">${data.name}</a> › ${cat.name}`;
+  }
+  state.catName = scope;
+  document.title = `${scope} - ${data.name} - 免费题库`;
+
   const modeName = onlyWrong ? "错题" : onlyFav ? "收藏" : "";
-  if (onlyWrong || onlyFav) {
+  if (!tag && (onlyWrong || onlyFav)) {
     const key = onlyWrong ? WRONG_KEY : FAV_KEY;
-    const saved = new Set((readBook(key)[indId]?.[cat.id] || []));
+    const saved = new Set((readBook(key)[indId]?.[state.catId] || []));
     qs = qs.filter(q => saved.has(q._id));
     if (!qs.length) {
       document.getElementById("quiz-root").classList.remove("hidden");
@@ -112,14 +129,16 @@ function renderQuestion() {
       <p class="hint">填空题：输入答案后点击"确认答案"判分（判分时忽略大小写和标点）。</p>`;
   }
 
-  const favSet = new Set((readBook(FAV_KEY)[state.indId]?.[state.catId] || []));
+  const favSet = new Set((readBook(FAV_KEY)[state.indId]?.[q._qCatId] || []));
   const faved = favSet.has(q._id);
   const needSubmit = !reviewed && (t === "multi" || t === "blank");
   root.innerHTML = `
     <div class="question">
       <span class="q-tag">${state.indName} · ${state.catName} · ${TYPE_LABEL[t]}</span>
       <button class="fav-btn${faved ? " on" : ""}" id="fav-btn" title="收藏本题">${faved ? "★ 已收藏" : "☆ 收藏"}</button>
+      ${materialHTML(q._material)}
       <div class="q-text">${idx + 1}. ${q.q}</div>
+      ${Array.isArray(q.tags) && q.tags.length ? `<div class="q-tags">${q.tags.map(tg => `<span class="tag-chip">${tg}</span>`).join("")}</div>` : ""}
       ${body}
       <div class="explain${reviewed ? " show" : ""}" id="explain"><b>正确答案：${answerText(q)}</b><br>${q.explain || ""}${reviewed ? reportLinkHTML(q) : ""}</div>
     </div>
@@ -131,7 +150,7 @@ function renderQuestion() {
 
   document.getElementById("fav-btn").addEventListener("click", () => {
     const on = !document.getElementById("fav-btn").classList.contains("on");
-    recordMark(FAV_KEY, state.indId, state.catId, q._id, on);
+    recordMark(FAV_KEY, state.indId, q._qCatId, q._id, on);
     const btn = document.getElementById("fav-btn");
     btn.classList.toggle("on", on);
     btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
@@ -162,8 +181,8 @@ function bindEvents(q, t) {
     if (answered) return;
     answered = true;
     if (isWrong) state.wrongList.push(q); else state.correct++;
-    recordMark(WRONG_KEY, state.indId, state.catId, q._id, isWrong);
-    if (typeof statsRecord === "function") statsRecord(state.indId, state.catId, q._id, !isWrong);
+    recordMark(WRONG_KEY, state.indId, q._qCatId, q._id, isWrong);
+    if (typeof statsRecord === "function") statsRecord(state.indId, q._qCatId, q._id, !isWrong);
     state.results[state.idx] = { picked, ok: !isWrong };
     state.done[state.idx] = true;
     const explain = document.getElementById("explain");
@@ -259,6 +278,9 @@ function showResult() {
   const key = `${state.indId}|${state.catId}`;
   const isNewBest = pct > (best[key] ?? -1);
   if (isNewBest) { best[key] = pct; setJSON(BEST_KEY, best); }
+  const againURL = state.tag
+    ? `quiz.html?id=${state.indId}&tag=${encodeURIComponent(state.tag)}`
+    : `quiz.html?id=${state.indId}&cat=${catIndex()}`;
   document.getElementById("progress").firstElementChild.style.width = "100%";
   document.getElementById("quiz-content").innerHTML = `
     <div class="result">
@@ -266,10 +288,12 @@ function showResult() {
       <div class="score">${correct} / ${questions.length}</div>
       <p style="color:var(--muted)">正确率 ${pct}%${isNewBest ? " · 🏅 新纪录" : ` · 历史最佳 ${best[key]}%`}</p>
       <div style="margin-top:24px">
-        <a class="btn" href="quiz.html?id=${state.indId}&cat=${catIndex()}" style="margin-right:10px">再练一次</a>
+        <a class="btn" href="${againURL}" style="margin-right:10px">再练一次</a>
+        ${state.tag ? "" : `
         <a class="btn ghost" href="quiz.html?id=${state.indId}&cat=${catIndex()}&wrong=1">只练错题</a>
-        <a class="btn ghost" href="quiz.html?id=${state.indId}&cat=${catIndex()}&fav=1">练收藏</a>
+        <a class="btn ghost" href="quiz.html?id=${state.indId}&cat=${catIndex()}&fav=1">练收藏</a>`}
         <a class="btn ghost" href="wrong.html" style="margin-left:10px">错题本</a>
+        <a class="btn ghost" href="industry.html?id=${state.indId}" style="margin-left:10px">返回行业</a>
       </div>
       ${wrongList.length ? `
       <div class="wrong-list">

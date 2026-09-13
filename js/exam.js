@@ -64,8 +64,8 @@ async function startExam(indId, n, minutes) {
     return;
   }
   const pool = [];
-  data.categories.forEach((c, ci) => c.questions.forEach((q, qi) => pool.push({
-    ...q, type: q.type || "single", _catId: c.id, _catName: c.name, _catIdx: ci, _i: qi,
+  data.categories.forEach((c, ci) => expandQuestions(c).forEach(q => pool.push({
+    ...q, _catId: c.id, _catName: c.name, _catIdx: ci,
   })));
   // 洗牌后抽 n 题
   for (let i = pool.length - 1; i > 0; i--) {
@@ -100,6 +100,7 @@ function renderExamQuestion() {
     </div>
     <div class="question">
       <span class="q-tag">第 ${i + 1} 题 · ${TYPE_LABEL[typeOf(q)]} · ${q._catName}</span>
+      ${materialHTML(q._material)}
       <div class="q-text">${q.q}</div>
       ${questionBodyHTML(q, prefix)}
     </div>

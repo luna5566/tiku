@@ -51,10 +51,12 @@ function answerText(q) {
 }
 
 // 稳定题目 ID：由行业/分类/题干散列生成，与数组位置无关，扩充或重排题库不影响错题本
+// 材料题组的题把材料并入散列（避免不同材料下的同题干撞 ID）；无材料时与旧版完全一致
 // 数据里显式写了 "id" 字段的题优先使用（校对修复改题干时可固定 ID，避免记录丢失）
 function questionId(indId, catId, q) {
   if (q.id) return String(q.id);
-  const s = `${indId}|${catId}|${(q.q || "").trim()}`;
+  const stem = (q._material ? q._material.trim() + "|" : "") + (q.q || "").trim();
+  const s = `${indId}|${catId}|${stem}`;
   let h1 = 0x811c9dc5, h2 = 0x1000193;
   for (let i = 0; i < s.length; i++) {
     const c = s.charCodeAt(i);
@@ -86,6 +88,30 @@ function recordMark(key, indId, catId, qId, on) {
   if (on) arr.add(qId); else arr.delete(qId);
   all[indId][catId] = [...arr];
   setJSON(key, all);
+}
+
+// 把分类题目展开为逐题数组：材料题组（type:"group"）拆成组内题并挂 _material，
+// 普通题原样展开；每题附带所属分类 id（_qCatId），供跨分类练习时按题记录错题/收藏
+function expandQuestions(cat) {
+  const out = [];
+  cat.questions.forEach((q, i) => {
+    if (q.type === "group" && Array.isArray(q.questions)) {
+      q.questions.forEach(gq => out.push({ ...gq, type: gq.type || "single", _material: q.material || "", _i: i }));
+    } else {
+      out.push({ ...q, type: q.type || "single", _material: "", _i: i });
+    }
+  });
+  out.forEach(q => { q._qCatId = cat.id; });
+  return out;
+}
+
+// 材料展示：短材料直接显示，长材料折叠
+function materialHTML(text) {
+  if (!text) return "";
+  if (text.length >= 120) {
+    return `<details class="material long"><summary>📋 阅读材料（点击展开/收起）</summary><div class="material-body">${text}</div></details>`;
+  }
+  return `<div class="material">${text}</div>`;
 }
 
 // 轻量统计清单（由 tools/build_manifest.py 生成）；首页只加载它，不再全量拉取行业题库
@@ -154,7 +180,14 @@ async function renderIndustry() {
   document.getElementById("industry-title").innerHTML = headHTML;
 
   if (m) {
-    list.innerHTML = m.categories.map((c, idx) => `
+    let html = "";
+    // 知识点标签云（manifest 聚合，按题数排序取前 15）
+    if (m.tags && Object.keys(m.tags).length) {
+      const tags = Object.entries(m.tags).sort((a, b) => b[1] - a[1]).slice(0, 15);
+      html += `<div class="tag-cloud">${tags.map(([t, n]) =>
+        `<a class="tag-chip" href="quiz.html?id=${id}&tag=${encodeURIComponent(t)}">${t}<span>${n}</span></a>`).join("")}</div>`;
+    }
+    html += m.categories.map((c, idx) => `
       <div class="cat-item">
         <div>
           <h3>${c.name}</h3>
@@ -165,6 +198,7 @@ async function renderIndustry() {
           ${c.count > 20 ? `<a class="btn ghost" style="margin-left:8px" href="quiz.html?id=${id}&cat=${idx}&n=${c.count}">练全部</a>` : ""}
         </div>
       </div>`).join("");
+    list.innerHTML = html;
     return;
   }
   // 兜底：加载完整行业数据
