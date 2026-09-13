@@ -174,6 +174,12 @@ footer { text-align: center; color: #4b5563; font-size: 13px; padding: 30px 0 40
 .btn.danger:hover { border-color: var(--red); color: var(--red); }
 .wrong-ind { margin-bottom: 26px; }
 .wrong-ind > h3 { font-size: 17px; margin: 14px 0 10px; }
+.sync-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 16px 20px; margin-bottom: 24px; }
+.sync-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.sync-row + .sync-row { margin-top: 12px; }
+.sync-code { font-size: 18px; letter-spacing: 3px; color: var(--accent); font-family: monospace; }
+.sync-muted { color: var(--muted); font-size: 13px; }
 
 /* 模拟考试 */
 .exam-start { max-width: 640px; margin: 30px auto; }
