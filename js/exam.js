@@ -209,11 +209,14 @@ function doHandin() {
   const correct = results.filter(r => r.ok).length;
   const pct = Math.round(correct / results.length * 100);
 
-  // 错题记入错题本（稳定题目 ID 格式，与刷题页互通）
-  const wrong = getJSON(WRONG_KEY, {});
+  // 学习统计逐题记账 + 错题记入错题本（稳定题目 ID 格式，与刷题页互通）
+  results.forEach(r => {
+    if (typeof statsRecord === "function") statsRecord(exam.indId, r.q._catId, questionId(exam.indId, r.q._catId, r.q), r.ok);
+  });
   results.filter(r => !r.ok).forEach(r => {
     recordMark(WRONG_KEY, exam.indId, r.q._catId, questionId(exam.indId, r.q._catId, r.q), true);
   });
+  if (typeof statsExamDone === "function") statsExamDone();
 
   // 按题型统计
   const byType = {};

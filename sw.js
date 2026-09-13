@@ -1,9 +1,9 @@
 // Service Worker：静态资源缓存优先，题库数据网络优先（离线时回退缓存）
 // 更新版本号即可让老客户端在下一次访问时替换缓存；发布新版 js/css/页面时务必递增
-const VERSION = "tiku-v3";
+const VERSION = "tiku-v4";
 const CORE = [
   "./", "./index.html", "./industry.html", "./quiz.html", "./exam.html", "./wrong.html",
-  "./css/style.css", "./js/app.js", "./js/quiz.js", "./js/exam.js", "./js/wrong.js",
+  "./css/style.css", "./js/app.js", "./js/quiz.js", "./js/exam.js", "./js/wrong.js", "./js/stats.js",
   "./manifest.webmanifest", "./data/manifest.json", "./icons/icon-192.png", "./icons/icon-512.png",
 ];
 

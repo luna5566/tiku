@@ -163,6 +163,7 @@ function bindEvents(q, t) {
     answered = true;
     if (isWrong) state.wrongList.push(q); else state.correct++;
     recordMark(WRONG_KEY, state.indId, state.catId, q._id, isWrong);
+    if (typeof statsRecord === "function") statsRecord(state.indId, state.catId, q._id, !isWrong);
     state.results[state.idx] = { picked, ok: !isWrong };
     state.done[state.idx] = true;
     const explain = document.getElementById("explain");

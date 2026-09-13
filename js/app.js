@@ -51,7 +51,9 @@ function answerText(q) {
 }
 
 // 稳定题目 ID：由行业/分类/题干散列生成，与数组位置无关，扩充或重排题库不影响错题本
+// 数据里显式写了 "id" 字段的题优先使用（校对修复改题干时可固定 ID，避免记录丢失）
 function questionId(indId, catId, q) {
+  if (q.id) return String(q.id);
   const s = `${indId}|${catId}|${(q.q || "").trim()}`;
   let h1 = 0x811c9dc5, h2 = 0x1000193;
   for (let i = 0; i < s.length; i++) {
