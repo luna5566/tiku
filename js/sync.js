@@ -149,7 +149,7 @@ async function syncPush() {
   syncMsg("推送中…");
   try {
     await redis(["SET", `tiku:sync:${cfg.code}`, JSON.stringify(syncSnapshot()), "EX", SYNC_TTL]);
-    const cfg = syncCfg(); cfg.lastPush = Date.now(); syncSaveCfg(cfg);
+    const c = syncCfg(); c.lastPush = Date.now(); syncSaveCfg(c);
     syncMsg("✅ 已推送到云端");
   } catch (e) { syncMsg("❌ 推送失败：" + e.message); }
 }
